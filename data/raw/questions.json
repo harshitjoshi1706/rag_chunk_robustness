@@ -1,0 +1,10 @@
+[
+  {
+    "question_id": "Q001",
+    "question": "How many books may an undergraduate student borrow at one time?",
+    "relevant_document_id": "DOC_001",
+    "relevant_paragraph_ids": [
+      "P003"
+    ]
+  }
+]

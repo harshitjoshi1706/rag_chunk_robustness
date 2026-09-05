@@ -1,0 +1,26 @@
+{
+  "document_id": "DOC_001",
+  "title": "University Library Services",
+  "paragraphs": [
+    {
+      "paragraph_id": "P001",
+      "text": "The university library provides physical books, electronic books, academic journals, and research databases to students and faculty."
+    },
+    {
+      "paragraph_id": "P002",
+      "text": "The main library is open from 8:00 AM to 10:00 PM on weekdays. Weekend opening hours are shorter than weekday hours."
+    },
+    {
+      "paragraph_id": "P003",
+      "text": "Students may borrow up to five books at a time. The standard borrowing period for undergraduate students is fourteen days."
+    },
+    {
+      "paragraph_id": "P004",
+      "text": "The library provides dedicated group-study rooms. Students can reserve these rooms through the university library portal."
+    },
+    {
+      "paragraph_id": "P005",
+      "text": "Research support is available through librarian consultations. Librarians can help students identify databases, develop search strategies, and locate academic sources."
+    }
+  ]
+}
