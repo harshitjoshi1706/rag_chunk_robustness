@@ -1,0 +1,38 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# macOS files
+.DS_Store
+
+# VS Code local settings
+.vscode/
+
+# Python / package caches
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated FAISS indexes
+indexes/*
+!indexes/.gitkeep
+
+# Generated experiment results
+results/*
+!results/.gitkeep
+
+# Generated plots
+plots/*
+!plots/.gitkeep
+
+# Temporary files
+*.tmp
+*.log
