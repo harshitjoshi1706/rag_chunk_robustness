@@ -36,3 +36,6 @@ plots/*
 # Temporary files
 *.tmp
 *.log
+
+# Large external benchmark datasets
+data/raw/*.parquet
