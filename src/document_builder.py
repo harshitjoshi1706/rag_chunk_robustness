@@ -106,3 +106,18 @@ if __name__ == "__main__":
     )
 
     print("\nTest span belongs to:", detected_ids)
+    
+    # Test a span that crosses from P002 into P003.
+    cross_start = paragraph_spans[1]["end_char"] - 20
+    cross_end = paragraph_spans[2]["start_char"] + 20
+
+    cross_detected_ids = get_paragraph_ids_for_span(
+        cross_start,
+        cross_end,
+        paragraph_spans,
+    )
+
+    print(
+        "Cross-paragraph span belongs to:",
+        cross_detected_ids,
+    )
