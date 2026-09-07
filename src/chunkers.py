@@ -1,3 +1,4 @@
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from typing import Dict, List
 
 from transformers import AutoTokenizer
@@ -161,6 +162,143 @@ def fixed_size_chunk(
 
     return chunks
 
+def recursive_chunk(
+    document: Dict,
+    tokenizer,
+    chunk_size: int = DEFAULT_FIXED_CHUNK_SIZE,
+    overlap: int = DEFAULT_FIXED_CHUNK_OVERLAP,
+) -> List[Dict]:
+    """
+    Split a document recursively using natural text boundaries while
+    enforcing a token-based chunk-size budget.
+
+    Boundary preference:
+    paragraph -> line break -> sentence-like boundary -> space
+    -> character fallback.
+
+    Source paragraph provenance is preserved using character offsets.
+    """
+
+    if chunk_size <= 0:
+        raise ValueError(
+            "chunk_size must be greater than zero."
+        )
+
+    if overlap < 0:
+        raise ValueError(
+            "overlap cannot be negative."
+        )
+
+    if overlap >= chunk_size:
+        raise ValueError(
+            "overlap must be smaller than chunk_size."
+        )
+
+    full_text, paragraph_spans = build_document_text(
+        document
+    )
+
+    splitter = RecursiveCharacterTextSplitter.from_huggingface_tokenizer(
+        tokenizer=tokenizer,
+        chunk_size=chunk_size,
+        chunk_overlap=overlap,
+        separators=[
+            "\n\n",
+            "\n",
+            ". ",
+            " ",
+            "",
+        ],
+        add_start_index=True,
+        strip_whitespace=False,
+    )
+
+    split_documents = splitter.create_documents(
+        [full_text]
+    )
+
+    chunks = []
+
+    for chunk_number, split_document in enumerate(
+        split_documents
+    ):
+        chunk_text = split_document.page_content
+
+        start_char = split_document.metadata[
+            "start_index"
+        ]
+
+        end_char = (
+            start_char
+            + len(chunk_text)
+        )
+
+        source_paragraph_ids = (
+            get_paragraph_ids_for_span(
+                start_char,
+                end_char,
+                paragraph_spans,
+            )
+        )
+
+        token_count = len(
+            tokenizer(
+                chunk_text,
+                add_special_tokens=False,
+            )["input_ids"]
+        )
+
+        chunks.append(
+            {
+                "chunk_id": (
+                    f"{document['document_id']}"
+                    f"_recursive_{chunk_number:04d}"
+                ),
+                "document_id": document[
+                    "document_id"
+                ],
+                "chunker": "recursive",
+                "text": chunk_text,
+                "token_count": token_count,
+                "start_char": start_char,
+                "end_char": end_char,
+                "source_paragraph_ids": (
+                    source_paragraph_ids
+                ),
+            }
+        )
+
+    return chunks
+
+def validate_recursive_chunks(
+    chunks: List[Dict],
+    chunk_size: int,
+) -> bool:
+    """
+    Verify basic correctness of recursively generated chunks.
+    """
+
+    if not chunks:
+        return False
+
+    for chunk in chunks:
+        if not chunk["text"].strip():
+            return False
+
+        if not chunk["source_paragraph_ids"]:
+            return False
+
+        if chunk["token_count"] <= 0:
+            return False
+
+        if chunk["token_count"] > chunk_size:
+            return False
+
+        if chunk["end_char"] <= chunk["start_char"]:
+            return False
+
+    return True
+
 def validate_fixed_chunks(
     chunks: List[Dict],
     chunk_size: int,
@@ -220,17 +358,16 @@ if __name__ == "__main__":
     )
 
     # DEBUG configuration only.
-    #
-    # DOC_001 is too short to meaningfully test the final
-    # 256-token configuration, so we temporarily use smaller
-    # chunks here to verify boundaries and overlap.
-    #
-    # The actual experiment will use:
+    # Final experiment configuration:
     # 256-token chunks with 32-token overlap.
     test_chunk_size = 40
     test_overlap = 8
 
-    chunks = fixed_size_chunk(
+    # ==================================================
+    # FIXED-SIZE CHUNKING TEST
+    # ==================================================
+
+    fixed_chunks = fixed_size_chunk(
         document=document,
         tokenizer=tokenizer,
         chunk_size=test_chunk_size,
@@ -256,10 +393,10 @@ if __name__ == "__main__":
 
     print(
         "Number of chunks:",
-        len(chunks),
+        len(fixed_chunks),
     )
 
-    for chunk in chunks:
+    for chunk in fixed_chunks:
         print("\n------------------------------")
 
         print(
@@ -295,13 +432,91 @@ if __name__ == "__main__":
             "Text:",
             repr(chunk["text"]),
         )
-        validation_passed = validate_fixed_chunks(
-        chunks=chunks,
+
+    fixed_validation_passed = validate_fixed_chunks(
+        chunks=fixed_chunks,
         chunk_size=test_chunk_size,
         overlap=test_overlap,
+    )
+
+    print(
+        "\nFixed-size validation passed:",
+        fixed_validation_passed,
+    )
+
+    # ==================================================
+    # RECURSIVE CHUNKING TEST
+    # ==================================================
+
+    print(
+        "\n\n=== RECURSIVE CHUNKING TEST ==="
+    )
+
+    recursive_chunks = recursive_chunk(
+        document=document,
+        tokenizer=tokenizer,
+        chunk_size=test_chunk_size,
+        overlap=test_overlap,
+    )
+
+    print(
+        "Document:",
+        document["document_id"],
+    )
+
+    print(
+        "Debug chunk size:",
+        test_chunk_size,
+    )
+
+    print(
+        "Debug overlap:",
+        test_overlap,
+    )
+
+    print(
+        "Number of recursive chunks:",
+        len(recursive_chunks),
+    )
+
+    for chunk in recursive_chunks:
+        print("\n------------------------------")
+
+        print(
+            "Chunk ID:",
+            chunk["chunk_id"],
         )
 
         print(
-        "\nFixed-size validation passed:",
-        validation_passed,
+            "Token count:",
+            chunk["token_count"],
         )
+
+        print(
+            "Character range:",
+            chunk["start_char"],
+            "to",
+            chunk["end_char"],
+        )
+
+        print(
+            "Source paragraphs:",
+            chunk["source_paragraph_ids"],
+        )
+
+        print(
+            "Text:",
+            repr(chunk["text"]),
+        )
+
+    recursive_validation_passed = (
+        validate_recursive_chunks(
+            chunks=recursive_chunks,
+            chunk_size=test_chunk_size,
+        )
+    )
+
+    print(
+        "\nRecursive validation passed:",
+        recursive_validation_passed,
+    )
