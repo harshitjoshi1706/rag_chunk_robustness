@@ -6,3 +6,5 @@ matplotlib
 seaborn
 transformers
 langchain-text-splitters
+sentence-transformers
+nltk

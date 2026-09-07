@@ -1,3 +1,8 @@
+import numpy as np
+
+from nltk.tokenize import sent_tokenize
+from sentence_transformers import SentenceTransformer
+
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from typing import Dict, List
 
@@ -14,6 +19,8 @@ MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 
 DEFAULT_FIXED_CHUNK_SIZE = 256
 DEFAULT_FIXED_CHUNK_OVERLAP = 32
+DEFAULT_SEMANTIC_THRESHOLD = 0.50
+DEFAULT_SEMANTIC_MAX_TOKENS = 256
 
 
 def load_tokenizer():
@@ -349,6 +356,359 @@ def validate_fixed_chunks(
 
     return True
 
+def get_sentence_spans(
+    full_text: str,
+) -> List[Dict]:
+    """
+    Split text into sentences while recovering each sentence's
+    character span in the original document.
+    """
+
+    sentences = sent_tokenize(
+        full_text
+    )
+
+    sentence_spans = []
+
+    search_start = 0
+
+    for sentence in sentences:
+        start_char = full_text.find(
+            sentence,
+            search_start,
+        )
+
+        if start_char == -1:
+            raise ValueError(
+                "Could not recover sentence position "
+                "inside the source document."
+            )
+
+        end_char = (
+            start_char
+            + len(sentence)
+        )
+
+        sentence_spans.append(
+            {
+                "text": sentence,
+                "start_char": start_char,
+                "end_char": end_char,
+            }
+        )
+
+        search_start = end_char
+
+    return sentence_spans
+
+def cosine_similarity_pair(
+    vector_a: np.ndarray,
+    vector_b: np.ndarray,
+) -> float:
+    """
+    Compute cosine similarity between two vectors.
+    """
+
+    denominator = (
+        np.linalg.norm(vector_a)
+        * np.linalg.norm(vector_b)
+    )
+
+    if denominator == 0:
+        return 0.0
+
+    return float(
+        np.dot(
+            vector_a,
+            vector_b,
+        )
+        / denominator
+    )
+
+def semantic_chunk(
+    document: Dict,
+    tokenizer,
+    embedding_model,
+    similarity_threshold: float = DEFAULT_SEMANTIC_THRESHOLD,
+    max_tokens: int = DEFAULT_SEMANTIC_MAX_TOKENS,
+) -> List[Dict]:
+    """
+    Create semantic chunks by comparing embeddings of consecutive
+    sentences.
+
+    A new chunk begins when:
+
+    1. cosine similarity between consecutive sentences falls below
+       the fixed threshold, OR
+    2. adding the next sentence would exceed the maximum token budget.
+
+    The same similarity threshold must be used across all formatting
+    noise levels in the final experiment.
+    """
+
+    if not 0.0 <= similarity_threshold <= 1.0:
+        raise ValueError(
+            "similarity_threshold must be between 0 and 1."
+        )
+
+    if max_tokens <= 0:
+        raise ValueError(
+            "max_tokens must be greater than zero."
+        )
+
+    full_text, paragraph_spans = (
+        build_document_text(
+            document
+        )
+    )
+
+    sentence_spans = (
+        get_sentence_spans(
+            full_text
+        )
+    )
+
+    if not sentence_spans:
+        return []
+
+    sentence_texts = [
+        sentence["text"]
+        for sentence in sentence_spans
+    ]
+
+    embeddings = embedding_model.encode(
+        sentence_texts,
+        batch_size=32,
+        convert_to_numpy=True,
+        normalize_embeddings=True,
+        show_progress_bar=False,
+    )
+
+    chunks = []
+
+    current_sentence_indices = [
+        0
+    ]
+
+    chunk_number = 0
+
+    for sentence_index in range(
+        1,
+        len(sentence_spans),
+    ):
+        previous_embedding = (
+            embeddings[
+                sentence_index - 1
+            ]
+        )
+
+        current_embedding = (
+            embeddings[
+                sentence_index
+            ]
+        )
+
+        similarity = (
+            cosine_similarity_pair(
+                previous_embedding,
+                current_embedding,
+            )
+        )
+
+        candidate_indices = (
+            current_sentence_indices
+            + [sentence_index]
+        )
+
+        candidate_start = (
+            sentence_spans[
+                candidate_indices[0]
+            ]["start_char"]
+        )
+
+        candidate_end = (
+            sentence_spans[
+                candidate_indices[-1]
+            ]["end_char"]
+        )
+
+        candidate_text = (
+            full_text[
+                candidate_start:
+                candidate_end
+            ]
+        )
+
+        candidate_token_count = len(
+            tokenizer(
+                candidate_text,
+                add_special_tokens=False,
+            )["input_ids"]
+        )
+
+        semantic_break = (
+            similarity
+            < similarity_threshold
+        )
+
+        token_budget_break = (
+            candidate_token_count
+            > max_tokens
+        )
+
+        if (
+            semantic_break
+            or token_budget_break
+        ):
+            start_char = (
+                sentence_spans[
+                    current_sentence_indices[0]
+                ]["start_char"]
+            )
+
+            end_char = (
+                sentence_spans[
+                    current_sentence_indices[-1]
+                ]["end_char"]
+            )
+
+            chunk_text = (
+                full_text[
+                    start_char:end_char
+                ]
+            )
+
+            token_count = len(
+                tokenizer(
+                    chunk_text,
+                    add_special_tokens=False,
+                )["input_ids"]
+            )
+
+            source_paragraph_ids = (
+                get_paragraph_ids_for_span(
+                    start_char,
+                    end_char,
+                    paragraph_spans,
+                )
+            )
+
+            chunks.append(
+                {
+                    "chunk_id": (
+                        f"{document['document_id']}"
+                        f"_semantic_{chunk_number:04d}"
+                    ),
+                    "document_id": (
+                        document["document_id"]
+                    ),
+                    "chunker": "semantic",
+                    "text": chunk_text,
+                    "token_count": token_count,
+                    "start_char": start_char,
+                    "end_char": end_char,
+                    "source_paragraph_ids": (
+                        source_paragraph_ids
+                    ),
+                }
+            )
+
+            chunk_number += 1
+
+            current_sentence_indices = [
+                sentence_index
+            ]
+
+        else:
+            current_sentence_indices.append(
+                sentence_index
+            )
+
+    # Save the final unfinished group.
+    if current_sentence_indices:
+        start_char = (
+            sentence_spans[
+                current_sentence_indices[0]
+            ]["start_char"]
+        )
+
+        end_char = (
+            sentence_spans[
+                current_sentence_indices[-1]
+            ]["end_char"]
+        )
+
+        chunk_text = (
+            full_text[
+                start_char:end_char
+            ]
+        )
+
+        token_count = len(
+            tokenizer(
+                chunk_text,
+                add_special_tokens=False,
+            )["input_ids"]
+        )
+
+        source_paragraph_ids = (
+            get_paragraph_ids_for_span(
+                start_char,
+                end_char,
+                paragraph_spans,
+            )
+        )
+
+        chunks.append(
+            {
+                "chunk_id": (
+                    f"{document['document_id']}"
+                    f"_semantic_{chunk_number:04d}"
+                ),
+                "document_id": (
+                    document["document_id"]
+                ),
+                "chunker": "semantic",
+                "text": chunk_text,
+                "token_count": token_count,
+                "start_char": start_char,
+                "end_char": end_char,
+                "source_paragraph_ids": (
+                    source_paragraph_ids
+                ),
+            }
+        )
+
+    return chunks
+
+def validate_semantic_chunks(
+    chunks: List[Dict],
+    max_tokens: int,
+) -> bool:
+    """
+    Verify basic semantic-chunk correctness.
+    """
+
+    if not chunks:
+        return False
+
+    for chunk in chunks:
+        if not chunk["text"].strip():
+            return False
+
+        if not chunk["source_paragraph_ids"]:
+            return False
+
+        if chunk["token_count"] <= 0:
+            return False
+
+        if chunk["token_count"] > max_tokens:
+            return False
+
+        if chunk["end_char"] <= chunk["start_char"]:
+            return False
+
+    return True
 
 if __name__ == "__main__":
     tokenizer = load_tokenizer()
@@ -519,4 +879,97 @@ if __name__ == "__main__":
     print(
         "\nRecursive validation passed:",
         recursive_validation_passed,
+    )
+
+    # ==================================================
+    # SEMANTIC CHUNKING TEST
+    # ==================================================
+
+    print(
+        "\n\n=== SEMANTIC CHUNKING TEST ==="
+    )
+
+    embedding_model = SentenceTransformer(
+        MODEL_NAME
+    )
+
+    test_semantic_threshold = 0.50
+    test_semantic_max_tokens = 40
+
+    semantic_chunks = semantic_chunk(
+        document=document,
+        tokenizer=tokenizer,
+        embedding_model=embedding_model,
+        similarity_threshold=(
+            test_semantic_threshold
+        ),
+        max_tokens=(
+            test_semantic_max_tokens
+        ),
+    )
+
+    print(
+        "Document:",
+        document["document_id"],
+    )
+
+    print(
+        "Debug similarity threshold:",
+        test_semantic_threshold,
+    )
+
+    print(
+        "Debug max tokens:",
+        test_semantic_max_tokens,
+    )
+
+    print(
+        "Number of semantic chunks:",
+        len(semantic_chunks),
+    )
+
+    for chunk in semantic_chunks:
+        print(
+            "\n------------------------------"
+        )
+
+        print(
+            "Chunk ID:",
+            chunk["chunk_id"],
+        )
+
+        print(
+            "Token count:",
+            chunk["token_count"],
+        )
+
+        print(
+            "Character range:",
+            chunk["start_char"],
+            "to",
+            chunk["end_char"],
+        )
+
+        print(
+            "Source paragraphs:",
+            chunk["source_paragraph_ids"],
+        )
+
+        print(
+            "Text:",
+            repr(chunk["text"]),
+        )
+
+    semantic_validation_passed = (
+        validate_semantic_chunks(
+            chunks=semantic_chunks,
+            max_tokens=(
+                test_semantic_max_tokens
+            ),
+        )
+    )
+
+    print(
+        "\nSemantic validation passed:",
+        semantic_validation_passed,
     )
