@@ -20,7 +20,8 @@ MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 
 DEFAULT_FIXED_CHUNK_SIZE = 256
 DEFAULT_FIXED_CHUNK_OVERLAP = 32
-DEFAULT_SEMANTIC_THRESHOLD = 0.50
+DEFAULT_SEMANTIC_THRESHOLD = 0.15
+DEFAULT_SEMANTIC_MIN_TOKENS = 64
 DEFAULT_SEMANTIC_MAX_TOKENS = 256
 DEFAULT_STRUCTURE_MAX_TOKENS = 256
 
@@ -427,12 +428,44 @@ def cosine_similarity_pair(
         / denominator
     )
 
+def split_oversized_sentence_spans(full_text, sentence_spans, tokenizer, max_tokens):
+    """Split long sentences at source-character offsets without losing provenance."""
+    units = []
+    for sentence in sentence_spans:
+        start, end = sentence["start_char"], sentence["end_char"]
+        while start < end:
+            remaining = full_text[start:end]
+            if len(tokenizer(remaining, add_special_tokens=False)["input_ids"]) <= max_tokens:
+                boundary = end
+            else:
+                low, high = start + 1, end
+                boundary = start
+                while low <= high:
+                    mid = (low + high) // 2
+                    count = len(tokenizer(full_text[start:mid], add_special_tokens=False)["input_ids"])
+                    if count <= max_tokens:
+                        boundary = mid
+                        low = mid + 1
+                    else:
+                        high = mid - 1
+                if boundary == start:
+                    raise ValueError("A source character exceeds max_tokens.")
+                # Prefer a word boundary when an oversized sentence has one.
+                space = full_text.rfind(" ", start + 1, boundary)
+                if space - start >= (boundary - start) // 2:
+                    boundary = space + 1
+            units.append({"text": full_text[start:boundary], "start_char": start, "end_char": boundary})
+            start = boundary
+    return units
+
+
 def semantic_chunk(
     document: Dict,
     tokenizer,
     embedding_model,
     similarity_threshold: float = DEFAULT_SEMANTIC_THRESHOLD,
     max_tokens: int = DEFAULT_SEMANTIC_MAX_TOKENS,
+    min_tokens: int = DEFAULT_SEMANTIC_MIN_TOKENS,
 ) -> List[Dict]:
     """
     Create semantic chunks by comparing embeddings of consecutive
@@ -441,7 +474,7 @@ def semantic_chunk(
     A new chunk begins when:
 
     1. cosine similarity between consecutive sentences falls below
-       the fixed threshold, OR
+       the fixed threshold after the current chunk reaches min_tokens, OR
     2. adding the next sentence would exceed the maximum token budget.
 
     The same similarity threshold must be used across all formatting
@@ -457,6 +490,8 @@ def semantic_chunk(
         raise ValueError(
             "max_tokens must be greater than zero."
         )
+    if min_tokens <= 0 or min_tokens > max_tokens:
+        raise ValueError("min_tokens must be positive and no greater than max_tokens.")
 
     full_text, paragraph_spans = (
         build_document_text(
@@ -468,6 +503,9 @@ def semantic_chunk(
         get_sentence_spans(
             full_text
         )
+    )
+    sentence_spans = split_oversized_sentence_spans(
+        full_text, sentence_spans, tokenizer, max_tokens
     )
 
     if not sentence_spans:
@@ -548,9 +586,15 @@ def semantic_chunk(
             )["input_ids"]
         )
 
+        current_start = sentence_spans[current_sentence_indices[0]]["start_char"]
+        current_end = sentence_spans[current_sentence_indices[-1]]["end_char"]
+        current_token_count = len(tokenizer(
+            full_text[current_start:current_end], add_special_tokens=False
+        )["input_ids"])
+
         semantic_break = (
-            similarity
-            < similarity_threshold
+            similarity < similarity_threshold
+            and current_token_count >= min_tokens
         )
 
         token_budget_break = (
