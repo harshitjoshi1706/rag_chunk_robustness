@@ -1,4 +1,5 @@
 import numpy as np
+import re
 
 from nltk.tokenize import sent_tokenize
 from sentence_transformers import SentenceTransformer
@@ -21,6 +22,7 @@ DEFAULT_FIXED_CHUNK_SIZE = 256
 DEFAULT_FIXED_CHUNK_OVERLAP = 32
 DEFAULT_SEMANTIC_THRESHOLD = 0.50
 DEFAULT_SEMANTIC_MAX_TOKENS = 256
+DEFAULT_STRUCTURE_MAX_TOKENS = 256
 
 
 def load_tokenizer():
@@ -710,6 +712,615 @@ def validate_semantic_chunks(
 
     return True
 
+def is_markdown_heading(line: str) -> bool:
+    """
+    Detect explicit Markdown headings such as:
+    # Introduction
+    ## Methods
+    """
+
+    return bool(
+        re.match(
+            r"^\s{0,3}#{1,6}\s+\S+",
+            line,
+        )
+    )
+
+
+def is_section_heading(line: str) -> bool:
+    """
+    Detect common explicit section-heading formats.
+
+    Examples:
+        A Details of Datasets
+        A. 1 Collected Data
+        B Implementation Details
+        1 Introduction
+        1.2 Experimental Setup
+
+    This intentionally relies only on visible formatting patterns.
+    It does not semantically reconstruct damaged headings.
+    """
+
+    stripped = line.strip()
+
+    if not stripped:
+        return False
+
+    # Prevent ordinary long body sentences from being
+    # incorrectly treated as headings.
+    if len(stripped) > 100:
+        return False
+
+    if stripped.endswith(
+        (
+            ".",
+            "?",
+            "!",
+            ",",
+            ";",
+            ":",
+        )
+    ):
+        return False
+
+    patterns = [
+        # A Details of Datasets
+        r"^[A-Z]\s+[A-Z][A-Za-z0-9\- ]+$",
+
+        # A. 1 Collected Data
+        r"^[A-Z]\.\s*\d+\s+[A-Z].+$",
+
+        # 1 Introduction
+        r"^\d+(?:\.\d+)*\s+[A-Z].+$",
+
+        # 1. Introduction
+        r"^\d+(?:\.\d+)*\.\s+[A-Z].+$",
+
+        # I Introduction / IV Methodology
+        r"^[IVXLCDM]+\s+[A-Z].+$",
+    ]
+
+    return any(
+        re.match(
+            pattern,
+            stripped,
+        )
+        for pattern in patterns
+    )
+
+
+def is_list_item(line: str) -> bool:
+    """
+    Detect common unordered and ordered list markers.
+    """
+
+    return bool(
+        re.match(
+            r"^\s*(?:[-*+]|\d+[.)])\s+\S+",
+            line,
+        )
+    )
+
+
+def is_table_line(line: str) -> bool:
+    """
+    Detect Markdown-like table rows.
+    """
+
+    stripped = line.strip()
+
+    return (
+        stripped.count("|") >= 2
+    )
+
+
+def is_code_fence(line: str) -> bool:
+    """
+    Detect fenced code blocks.
+    """
+
+    return line.strip().startswith(
+        "```"
+    )
+
+
+def get_structural_units(
+    full_text: str,
+) -> List[Dict]:
+    """
+    Convert document text into explicit structural units.
+
+    Unit types:
+        heading
+        paragraph
+        list
+        table
+        code
+
+    Character offsets remain relative to the original document.
+    """
+
+    units = []
+
+    lines = full_text.splitlines(
+        keepends=True
+    )
+
+    current_text = ""
+    current_start = None
+    current_type = None
+
+    character_position = 0
+
+    in_code_block = False
+
+    def flush_current():
+        nonlocal current_text
+        nonlocal current_start
+        nonlocal current_type
+
+        if (
+            current_text
+            and current_text.strip()
+        ):
+            units.append(
+                {
+                    "type": current_type,
+                    "text": current_text,
+                    "start_char": current_start,
+                    "end_char": (
+                        current_start
+                        + len(current_text)
+                    ),
+                }
+            )
+
+        current_text = ""
+        current_start = None
+        current_type = None
+
+    for line in lines:
+        line_start = character_position
+
+        character_position += len(
+            line
+        )
+
+        stripped = line.strip()
+
+        # ------------------------------------------
+        # CODE BLOCK
+        # ------------------------------------------
+
+        if is_code_fence(line):
+            if not in_code_block:
+                flush_current()
+
+                current_start = line_start
+                current_text = line
+                current_type = "code"
+
+                in_code_block = True
+
+            else:
+                current_text += line
+
+                flush_current()
+
+                in_code_block = False
+
+            continue
+
+        if in_code_block:
+            current_text += line
+            continue
+
+        # ------------------------------------------
+        # BLANK LINE
+        # ------------------------------------------
+
+        if not stripped:
+            flush_current()
+            continue
+
+        # ------------------------------------------
+        # HEADING
+        # ------------------------------------------
+
+        if (
+            is_markdown_heading(line)
+            or is_section_heading(line)
+        ):
+            flush_current()
+
+            units.append(
+                {
+                    "type": "heading",
+                    "text": line,
+                    "start_char": line_start,
+                    "end_char": (
+                        line_start
+                        + len(line)
+                    ),
+                }
+            )
+
+            continue
+
+        # ------------------------------------------
+        # LIST
+        # ------------------------------------------
+
+        if is_list_item(line):
+            if current_type != "list":
+                flush_current()
+
+                current_start = (
+                    line_start
+                )
+
+                current_type = "list"
+
+            current_text += line
+
+            continue
+
+        # ------------------------------------------
+        # TABLE
+        # ------------------------------------------
+
+        if is_table_line(line):
+            if current_type != "table":
+                flush_current()
+
+                current_start = (
+                    line_start
+                )
+
+                current_type = "table"
+
+            current_text += line
+
+            continue
+
+        # ------------------------------------------
+        # NORMAL PARAGRAPH
+        # ------------------------------------------
+
+        if current_type != "paragraph":
+            flush_current()
+
+            current_start = (
+                line_start
+            )
+
+            current_type = "paragraph"
+
+        current_text += line
+
+    flush_current()
+
+    return units
+
+
+def split_oversized_structural_unit(
+    unit: Dict,
+    tokenizer,
+    max_tokens: int,
+) -> List[Dict]:
+    """
+    Split one structural unit if it exceeds the maximum token budget.
+
+    Natural separators are preferred, but no semantic inference
+    is used to repair lost document structure.
+    """
+
+    token_count = len(
+        tokenizer(
+            unit["text"],
+            add_special_tokens=False,
+        )["input_ids"]
+    )
+
+    if token_count <= max_tokens:
+        return [unit]
+
+    splitter = (
+        RecursiveCharacterTextSplitter
+        .from_huggingface_tokenizer(
+            tokenizer=tokenizer,
+            chunk_size=max_tokens,
+            chunk_overlap=0,
+            separators=[
+                "\n\n",
+                "\n",
+                ". ",
+                " ",
+                "",
+            ],
+            add_start_index=True,
+            strip_whitespace=False,
+        )
+    )
+
+    split_documents = (
+        splitter.create_documents(
+            [unit["text"]]
+        )
+    )
+
+    split_units = []
+
+    for split_document in split_documents:
+        local_start = (
+            split_document.metadata[
+                "start_index"
+            ]
+        )
+
+        split_text = (
+            split_document.page_content
+        )
+
+        global_start = (
+            unit["start_char"]
+            + local_start
+        )
+
+        global_end = (
+            global_start
+            + len(split_text)
+        )
+
+        split_units.append(
+            {
+                "type": unit["type"],
+                "text": split_text,
+                "start_char": global_start,
+                "end_char": global_end,
+            }
+        )
+
+    return split_units
+
+
+def structure_aware_chunk(
+    document: Dict,
+    tokenizer,
+    max_tokens: int = DEFAULT_STRUCTURE_MAX_TOKENS,
+) -> List[Dict]:
+    """
+    Chunk a document using explicit structural boundaries.
+
+    Important methodological rule:
+    missing or damaged structure is NOT reconstructed using
+    semantic inference.
+
+    Headings begin new chunks when detected.
+
+    Oversized structural units fall back to recursive splitting
+    while preserving the same maximum token budget.
+    """
+
+    if max_tokens <= 0:
+        raise ValueError(
+            "max_tokens must be greater than zero."
+        )
+
+    full_text, paragraph_spans = (
+        build_document_text(
+            document
+        )
+    )
+
+    raw_units = get_structural_units(
+        full_text
+    )
+
+    units = []
+
+    # Ensure no individual structural unit silently
+    # exceeds the token budget.
+    for unit in raw_units:
+        units.extend(
+            split_oversized_structural_unit(
+                unit=unit,
+                tokenizer=tokenizer,
+                max_tokens=max_tokens,
+            )
+        )
+
+    chunks = []
+
+    current_units = []
+    chunk_number = 0
+
+    def save_chunk(
+        selected_units,
+        number,
+    ):
+        start_char = (
+            selected_units[0][
+                "start_char"
+            ]
+        )
+
+        end_char = (
+            selected_units[-1][
+                "end_char"
+            ]
+        )
+
+        chunk_text = full_text[
+            start_char:end_char
+        ]
+
+        token_count = len(
+            tokenizer(
+                chunk_text,
+                add_special_tokens=False,
+            )["input_ids"]
+        )
+
+        source_paragraph_ids = (
+            get_paragraph_ids_for_span(
+                start_char,
+                end_char,
+                paragraph_spans,
+            )
+        )
+
+        return {
+            "chunk_id": (
+                f"{document['document_id']}"
+                f"_structure_{number:04d}"
+            ),
+            "document_id": (
+                document["document_id"]
+            ),
+            "chunker": "structure",
+            "text": chunk_text,
+            "token_count": token_count,
+            "start_char": start_char,
+            "end_char": end_char,
+            "source_paragraph_ids": (
+                source_paragraph_ids
+            ),
+        }
+
+    for unit in units:
+
+        # A detected heading begins a new structural chunk
+        # only when the current chunk already contains body
+        # content.
+        #
+        # Consecutive hierarchical headings are kept together
+        # so parent headings are not emitted as tiny standalone
+        # chunks.
+        if (
+            unit["type"] == "heading"
+            and current_units
+        ):
+            contains_body_content = any(
+                existing_unit["type"] != "heading"
+                for existing_unit in current_units
+            )
+
+            if contains_body_content:
+                chunks.append(
+                    save_chunk(
+                        current_units,
+                        chunk_number,
+                    )
+                )       
+
+                chunk_number += 1
+                current_units = []
+
+        candidate_units = (
+            current_units
+            + [unit]
+        )
+
+        candidate_start = (
+            candidate_units[0][
+                "start_char"
+            ]
+        )
+
+        candidate_end = (
+            candidate_units[-1][
+                "end_char"
+            ]
+        )
+
+        candidate_text = full_text[
+            candidate_start:
+            candidate_end
+        ]
+
+        candidate_token_count = len(
+            tokenizer(
+                candidate_text,
+                add_special_tokens=False,
+            )["input_ids"]
+        )
+
+        if (
+            current_units
+            and candidate_token_count
+            > max_tokens
+        ):
+            chunks.append(
+                save_chunk(
+                    current_units,
+                    chunk_number,
+                )
+            )
+
+            chunk_number += 1
+
+            current_units = [
+                unit
+            ]
+
+        else:
+            current_units.append(
+                unit
+            )
+
+    if current_units:
+        chunks.append(
+            save_chunk(
+                current_units,
+                chunk_number,
+            )
+        )
+
+    return chunks
+
+
+def validate_structure_chunks(
+    chunks: List[Dict],
+    max_tokens: int,
+) -> bool:
+    """
+    Validate basic structure-aware chunk correctness.
+    """
+
+    if not chunks:
+        return False
+
+    for chunk in chunks:
+        if not chunk[
+            "text"
+        ].strip():
+            return False
+
+        if not chunk[
+            "source_paragraph_ids"
+        ]:
+            return False
+
+        if chunk[
+            "token_count"
+        ] <= 0:
+            return False
+
+        if chunk[
+            "token_count"
+        ] > max_tokens:
+            return False
+
+        if (
+            chunk["end_char"]
+            <= chunk["start_char"]
+        ):
+            return False
+
+    return True
+
 if __name__ == "__main__":
     tokenizer = load_tokenizer()
 
@@ -972,4 +1583,119 @@ if __name__ == "__main__":
     print(
         "\nSemantic validation passed:",
         semantic_validation_passed,
+    )
+
+        # ==================================================
+    # STRUCTURE-AWARE CHUNKING TEST
+    # ==================================================
+
+    print(
+        "\n\n=== STRUCTURE-AWARE CHUNKING TEST ==="
+    )
+
+    structure_test_document = {
+        "document_id": "DOC_STRUCTURE_TEST",
+        "title": "Structure-Aware Test Document",
+        "paragraphs": [
+            {
+                "paragraph_id": "P001",
+                "text": (
+                    "# Library Services\n"
+                    "The university library provides books, journals, "
+                    "databases, and research support."
+                ),
+            },
+            {
+                "paragraph_id": "P002",
+                "text": (
+                    "## Borrowing Rules\n"
+                    "Students may borrow five books for fourteen days."
+                ),
+            },
+            {
+                "paragraph_id": "P003",
+                "text": (
+                    "## Available Facilities\n"
+                    "- Group study rooms\n"
+                    "- Computer workstations\n"
+                    "- Printing services"
+                ),
+            },
+            {
+                "paragraph_id": "P004",
+                "text": (
+                    "## Opening Hours\n"
+                    "| Day | Hours |\n"
+                    "| Weekday | 8 AM - 10 PM |\n"
+                    "| Weekend | 10 AM - 6 PM |"
+                ),
+            },
+        ],
+    }
+
+    test_structure_max_tokens = 35
+
+    structure_chunks = structure_aware_chunk(
+        document=structure_test_document,
+        tokenizer=tokenizer,
+        max_tokens=test_structure_max_tokens,
+    )
+
+    print(
+        "Document:",
+        structure_test_document["document_id"],
+    )
+
+    print(
+        "Debug max tokens:",
+        test_structure_max_tokens,
+    )
+
+    print(
+        "Number of structure-aware chunks:",
+        len(structure_chunks),
+    )
+
+    for chunk in structure_chunks:
+        print(
+            "\n------------------------------"
+        )
+
+        print(
+            "Chunk ID:",
+            chunk["chunk_id"],
+        )
+
+        print(
+            "Token count:",
+            chunk["token_count"],
+        )
+
+        print(
+            "Character range:",
+            chunk["start_char"],
+            "to",
+            chunk["end_char"],
+        )
+
+        print(
+            "Source paragraphs:",
+            chunk["source_paragraph_ids"],
+        )
+
+        print(
+            "Text:",
+            repr(chunk["text"]),
+        )
+
+    structure_validation_passed = (
+        validate_structure_chunks(
+            chunks=structure_chunks,
+            max_tokens=test_structure_max_tokens,
+        )
+    )
+
+    print(
+        "\nStructure-aware validation passed:",
+        structure_validation_passed,
     )
