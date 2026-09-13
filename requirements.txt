@@ -7,4 +7,6 @@ seaborn
 transformers
 langchain-text-splitters
 sentence-transformers
-nltkpytest
+nltk
+pytest
+faiss-cpu==1.13.2
