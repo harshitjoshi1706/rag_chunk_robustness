@@ -6,7 +6,7 @@ import pandas as pd
 from sentence_transformers import SentenceTransformer
 from transformers import AutoTokenizer
 
-from chunkers import MODEL_NAME, semantic_chunk, validate_semantic_chunks
+from chunkers import MODEL_NAME, DEFAULT_SEMANTIC_MAX_TOKENS, semantic_chunk, validate_semantic_chunks
 from profiling import summarize_chunk_lengths
 
 DATASET = Path("data/raw/OHR-Bench_v2.parquet")
@@ -62,8 +62,8 @@ def main():
                 "paragraphs": [{"paragraph_id": f"page:{row['page_idx']}", "text": row["gt_text"]}],
             }
             chunks = semantic_chunk(document, tokenizer, model, similarity_threshold=threshold,
-                                    min_tokens=64, max_tokens=256)
-            if not validate_semantic_chunks(chunks, 256):
+                                    min_tokens=64, max_tokens=DEFAULT_SEMANTIC_MAX_TOKENS)
+            if not validate_semantic_chunks(chunks, DEFAULT_SEMANTIC_MAX_TOKENS):
                 raise AssertionError(f"Invalid chunks for {document['document_id']}")
             all_chunks.extend(chunks)
         stats = summarize_chunk_lengths(all_chunks)

@@ -18,12 +18,12 @@ from document_builder import (
 
 MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 
-DEFAULT_FIXED_CHUNK_SIZE = 256
+DEFAULT_FIXED_CHUNK_SIZE = 254
 DEFAULT_FIXED_CHUNK_OVERLAP = 32
 DEFAULT_SEMANTIC_THRESHOLD = 0.15
 DEFAULT_SEMANTIC_MIN_TOKENS = 64
-DEFAULT_SEMANTIC_MAX_TOKENS = 256
-DEFAULT_STRUCTURE_MAX_TOKENS = 256
+DEFAULT_SEMANTIC_MAX_TOKENS = 254
+DEFAULT_STRUCTURE_MAX_TOKENS = 254
 
 
 def load_tokenizer():
@@ -104,33 +104,31 @@ def fixed_size_chunk(
 
     chunks = []
 
-    step_size = chunk_size - overlap
-
     chunk_number = 0
-
-    for token_start in range(
-        0,
-        len(token_ids),
-        step_size,
-    ):
+    token_start = 0
+    while token_start < len(token_ids):
         token_end = min(
             token_start + chunk_size,
             len(token_ids),
         )
-
-        chunk_offsets = offsets[
-            token_start:token_end
-        ]
-
-        if not chunk_offsets:
-            break
-
-        start_char = chunk_offsets[0][0]
-        end_char = chunk_offsets[-1][1]
-
-        chunk_text = full_text[
-            start_char:end_char
-        ]
+        # Retokenizing a source-character slice can add a token when a
+        # subword boundary becomes the start of an independent chunk.
+        # Shorten the end until the actual text fits the embedding budget.
+        while True:
+            chunk_offsets = offsets[token_start:token_end]
+            if not chunk_offsets:
+                raise ValueError("Could not form a fixed-size chunk")
+            start_char = chunk_offsets[0][0]
+            end_char = chunk_offsets[-1][1]
+            chunk_text = full_text[start_char:end_char]
+            actual_token_count = len(tokenizer(
+                chunk_text, add_special_tokens=False
+            )["input_ids"])
+            if actual_token_count <= chunk_size:
+                break
+            token_end -= 1
+            if token_end <= token_start + overlap:
+                raise ValueError("Cannot fit fixed chunk with requested overlap")
 
         source_paragraph_ids = (
             get_paragraph_ids_for_span(
@@ -152,9 +150,7 @@ def fixed_size_chunk(
             "text": chunk_text,
             "token_start": token_start,
             "token_end": token_end,
-            "token_count": (
-                token_end - token_start
-            ),
+            "token_count": actual_token_count,
             "start_char": start_char,
             "end_char": end_char,
             "source_paragraph_ids": (
@@ -169,6 +165,7 @@ def fixed_size_chunk(
         # Stop once the final token has been included.
         if token_end == len(token_ids):
             break
+        token_start = token_end - overlap
 
     return chunks
 
@@ -219,24 +216,28 @@ def recursive_chunk(
             " ",
             "",
         ],
-        add_start_index=True,
+        # LangChain's start-index heuristic subtracts token overlap from a
+        # character offset and can point repeated OCR text to an earlier page.
+        # Locate the returned chunks in source order below instead.
+        add_start_index=False,
         strip_whitespace=False,
     )
 
-    split_documents = splitter.create_documents(
-        [full_text]
-    )
+    split_texts = splitter.split_text(full_text)
 
     chunks = []
+    previous_start = -1
 
-    for chunk_number, split_document in enumerate(
-        split_documents
-    ):
-        chunk_text = split_document.page_content
+    for chunk_text in split_texts:
+        # With strip_whitespace=False the splitter also returns standalone
+        # delimiters (e.g. "\n\n"). They contain no retrievable content.
+        if not chunk_text.strip():
+            continue
 
-        start_char = split_document.metadata[
-            "start_index"
-        ]
+        start_char = full_text.find(chunk_text, previous_start + 1)
+        if start_char < 0:
+            raise ValueError("Could not align recursive chunk with source document")
+        previous_start = start_char
 
         end_char = (
             start_char
@@ -258,6 +259,7 @@ def recursive_chunk(
             )["input_ids"]
         )
 
+        chunk_number = len(chunks)
         chunks.append(
             {
                 "chunk_id": (
@@ -327,8 +329,6 @@ def validate_fixed_chunks(
     if not chunks:
         return False
 
-    expected_step = chunk_size - overlap
-
     for index, chunk in enumerate(chunks):
         if not chunk["text"].strip():
             return False
@@ -339,22 +339,14 @@ def validate_fixed_chunks(
         if chunk["token_end"] <= chunk["token_start"]:
             return False
 
-        # Every chunk except the final chunk should use
-        # the complete target chunk size.
-        if index < len(chunks) - 1:
-            if chunk["token_count"] != chunk_size:
-                return False
+        if chunk["token_count"] > chunk_size:
+            return False
 
         # Check spacing between consecutive chunk starts.
         if index > 0:
             previous_chunk = chunks[index - 1]
 
-            actual_step = (
-                chunk["token_start"]
-                - previous_chunk["token_start"]
-            )
-
-            if actual_step != expected_step:
+            if chunk["token_start"] != previous_chunk["token_end"] - overlap:
                 return False
 
     return True
@@ -1083,29 +1075,24 @@ def split_oversized_structural_unit(
                 " ",
                 "",
             ],
-            add_start_index=True,
+            # LangChain's start-index heuristic mixes token overlap with
+            # character offsets and can resolve repeated table text to an
+            # earlier occurrence. Align pieces in source order below.
+            add_start_index=False,
             strip_whitespace=False,
         )
     )
 
-    split_documents = (
-        splitter.create_documents(
-            [unit["text"]]
-        )
-    )
-
     split_units = []
+    previous_start = -1
 
-    for split_document in split_documents:
-        local_start = (
-            split_document.metadata[
-                "start_index"
-            ]
-        )
-
-        split_text = (
-            split_document.page_content
-        )
+    for split_text in splitter.split_text(unit["text"]):
+        if not split_text.strip():
+            continue
+        local_start = unit["text"].find(split_text, previous_start + 1)
+        if local_start < 0:
+            raise ValueError("Could not align structural fallback with source unit")
+        previous_start = local_start
 
         global_start = (
             unit["start_char"]
@@ -1117,14 +1104,21 @@ def split_oversized_structural_unit(
             + len(split_text)
         )
 
-        split_units.append(
-            {
-                "type": unit["type"],
-                "text": split_text,
-                "start_char": global_start,
-                "end_char": global_end,
-            }
-        )
+        if len(tokenizer(split_text, add_special_tokens=False)["input_ids"]) > max_tokens:
+            # The character fallback can still yield an oversized piece.
+            # Apply the same exact-offset token budget used by fixed chunks,
+            # with zero overlap, only to this unresolved structural piece.
+            local_document = {"document_id": "structural_fallback", "paragraphs": [
+                {"paragraph_id": "UNIT", "text": split_text}
+            ]}
+            for bounded in fixed_size_chunk(local_document, tokenizer, max_tokens, 0):
+                start = global_start + bounded["start_char"]
+                end = global_start + bounded["end_char"]
+                split_units.append({"type": unit["type"], "text": bounded["text"],
+                                    "start_char": start, "end_char": end})
+        else:
+            split_units.append({"type": unit["type"], "text": split_text,
+                                "start_char": global_start, "end_char": global_end})
 
     return split_units
 

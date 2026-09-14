@@ -39,3 +39,4 @@ plots/*
 
 # Large external benchmark datasets
 data/raw/*.parquet
+data/raw/qas_v2.json
