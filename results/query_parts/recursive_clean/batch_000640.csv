@@ -1,0 +1,129 @@
+run_id,noise_level,chunker,query_id,doc_name,domain,context_verified,hit_at_1,hit_at_5,reciprocal_rank,first_relevant_rank,retrieval_latency_ms
+ohrbench_minilm_254_v1,clean,recursive,1a54b019-4aef-436d-9f0e-b872f6dfafe1,law/ASIANDRAGONGROUPINC_08_11_2005-EX-10.5-Reseller Agreement,law,1,1,1,1.0,1,2.9067919999761216
+ohrbench_minilm_254_v1,clean,recursive,1a608f0d-7e41-42ad-86b0-915a8880f9fd,law/ASIANDRAGONGROUPINC_08_11_2005-EX-10.5-Reseller Agreement,law,1,1,1,1.0,1,2.903500000229542
+ohrbench_minilm_254_v1,clean,recursive,1a6b157e-500e-4d6d-8bc4-9f7f141118b0,law/ASIANDRAGONGROUPINC_08_11_2005-EX-10.5-Reseller Agreement,law,0,1,1,1.0,1,2.926374999788095
+ohrbench_minilm_254_v1,clean,recursive,1a6d21ee-5788-46c6-a214-6c955b175f71,law/ASIANDRAGONGROUPINC_08_11_2005-EX-10.5-Reseller Agreement,law,0,1,1,1.0,1,2.863959000023897
+ohrbench_minilm_254_v1,clean,recursive,1a6e9ef7-5470-4834-8af2-3ed35ee10379,law/ASIANDRAGONGROUPINC_08_11_2005-EX-10.5-Reseller Agreement,law,0,0,1,0.5,2,2.8232500003468886
+ohrbench_minilm_254_v1,clean,recursive,1a77e025-2a7b-4805-a5c5-0188d77a7525,law/ASIANDRAGONGROUPINC_08_11_2005-EX-10.5-Reseller Agreement,law,1,1,1,1.0,1,2.8268339997339353
+ohrbench_minilm_254_v1,clean,recursive,1a7ebc6e-cb13-4fa0-a78b-8f470400fc00,law/ASIANDRAGONGROUPINC_08_11_2005-EX-10.5-Reseller Agreement,law,0,1,1,1.0,1,2.809874999911699
+ohrbench_minilm_254_v1,clean,recursive,1a876490-6bc0-47af-b348-d420b6605c8d,law/ASIANDRAGONGROUPINC_08_11_2005-EX-10.5-Reseller Agreement,law,1,0,1,0.5,2,2.8530419999697187
+ohrbench_minilm_254_v1,clean,recursive,1a8e75a0-d905-4a48-a7f0-398110237a0f,law/ASIANDRAGONGROUPINC_08_11_2005-EX-10.5-Reseller Agreement,law,1,0,1,0.5,2,2.874125000289496
+ohrbench_minilm_254_v1,clean,recursive,1a8fbfdb-a941-404b-bb42-a6d69ecc67c8,law/ASIANDRAGONGROUPINC_08_11_2005-EX-10.5-Reseller Agreement,law,1,1,1,1.0,1,2.894291999837151
+ohrbench_minilm_254_v1,clean,recursive,1a9374b1-16e1-4094-9f33-775310bbcbdb,law/ASIANDRAGONGROUPINC_08_11_2005-EX-10.5-Reseller Agreement,law,0,0,1,0.5,2,2.8581249998751446
+ohrbench_minilm_254_v1,clean,recursive,1a98d8ed-0829-4d09-b449-70bb40532330,law/ASIANDRAGONGROUPINC_08_11_2005-EX-10.5-Reseller Agreement,law,0,1,1,1.0,1,2.8492920000644517
+ohrbench_minilm_254_v1,clean,recursive,1a994e6d-089d-4c39-a1f5-7fd1394e01df,law/ASIANDRAGONGROUPINC_08_11_2005-EX-10.5-Reseller Agreement,law,0,0,0,0.02631578947368421,38,2.8842500000791915
+ohrbench_minilm_254_v1,clean,recursive,1a9e8547-147a-48ac-865d-8e4ed01e488b,law/TRICITYBANKSHARESCORP_05_15_1998-EX-10-OUTSOURCING AGREEMENT,law,0,1,1,1.0,1,3.2552919997215213
+ohrbench_minilm_254_v1,clean,recursive,1abb2b4b-be99-4695-871d-7732882fb74a,law/TRICITYBANKSHARESCORP_05_15_1998-EX-10-OUTSOURCING AGREEMENT,law,1,0,0,0.0,,3.3148329998766712
+ohrbench_minilm_254_v1,clean,recursive,1acc2106-eafb-41d5-816d-758de359e6a8,law/TRICITYBANKSHARESCORP_05_15_1998-EX-10-OUTSOURCING AGREEMENT,law,0,1,1,1.0,1,3.265374999955384
+ohrbench_minilm_254_v1,clean,recursive,1ad566c3-ecb0-4f48-aed6-3ea464a2bc48,law/TRICITYBANKSHARESCORP_05_15_1998-EX-10-OUTSOURCING AGREEMENT,law,0,0,1,0.5,2,3.2992080000440183
+ohrbench_minilm_254_v1,clean,recursive,1ad8ff4f-5ff8-4b57-9279-1bf84a9007ca,law/TRICITYBANKSHARESCORP_05_15_1998-EX-10-OUTSOURCING AGREEMENT,law,1,0,1,0.25,4,3.314958999908413
+ohrbench_minilm_254_v1,clean,recursive,1b03812d-e0e7-4e67-ab68-400f5699f506,law/TRICITYBANKSHARESCORP_05_15_1998-EX-10-OUTSOURCING AGREEMENT,law,1,0,1,0.3333333333333333,3,3.3045830000446585
+ohrbench_minilm_254_v1,clean,recursive,1b03cd1b-188c-4e5d-bd28-e00b0633b759,law/TRICITYBANKSHARESCORP_05_15_1998-EX-10-OUTSOURCING AGREEMENT,law,0,1,1,1.0,1,3.3048330001292925
+ohrbench_minilm_254_v1,clean,recursive,1b1ab9d8-ea62-4d1c-9f4f-db4cebf1aa33,law/TRICITYBANKSHARESCORP_05_15_1998-EX-10-OUTSOURCING AGREEMENT,law,0,1,1,1.0,1,3.0279170000540034
+ohrbench_minilm_254_v1,clean,recursive,1b1b928a-8650-42fa-96d6-7cf421acdfef,law/TRICITYBANKSHARESCORP_05_15_1998-EX-10-OUTSOURCING AGREEMENT,law,0,1,1,1.0,1,3.7213750001683366
+ohrbench_minilm_254_v1,clean,recursive,1b3346eb-50ac-40b4-b2ba-09da3d2e1f14,law/TRICITYBANKSHARESCORP_05_15_1998-EX-10-OUTSOURCING AGREEMENT,law,0,1,1,1.0,1,2.865666000161582
+ohrbench_minilm_254_v1,clean,recursive,1b336fb9-bf99-4495-8137-4836c2dfa93b,law/TRICITYBANKSHARESCORP_05_15_1998-EX-10-OUTSOURCING AGREEMENT,law,0,0,1,0.5,2,2.8595829999176203
+ohrbench_minilm_254_v1,clean,recursive,1b36d3c4-f313-4ddb-90a4-584e12974919,law/TRICITYBANKSHARESCORP_05_15_1998-EX-10-OUTSOURCING AGREEMENT,law,0,1,1,1.0,1,2.850082999884762
+ohrbench_minilm_254_v1,clean,recursive,1b3d0270-1d60-4e66-9540-e2f14f22070d,law/TRICITYBANKSHARESCORP_05_15_1998-EX-10-OUTSOURCING AGREEMENT,law,1,1,1,1.0,1,2.821542000219779
+ohrbench_minilm_254_v1,clean,recursive,1b6043ff-8cb8-4bd1-b9d0-6ea37ab395cc,law/TRICITYBANKSHARESCORP_05_15_1998-EX-10-OUTSOURCING AGREEMENT,law,0,0,1,0.25,4,2.845500000148604
+ohrbench_minilm_254_v1,clean,recursive,1b61be5b-6d86-4b33-808c-d7aa0166b0b7,law/TRICITYBANKSHARESCORP_05_15_1998-EX-10-OUTSOURCING AGREEMENT,law,1,0,1,0.25,4,2.8351669998301077
+ohrbench_minilm_254_v1,clean,recursive,1b99c695-8e12-4681-a7c2-3431fec62869,law/TRICITYBANKSHARESCORP_05_15_1998-EX-10-OUTSOURCING AGREEMENT,law,1,1,1,1.0,1,2.8619580002668954
+ohrbench_minilm_254_v1,clean,recursive,1bb55717-cc4e-4bba-bd0d-57f799de79df,law/TRICITYBANKSHARESCORP_05_15_1998-EX-10-OUTSOURCING AGREEMENT,law,0,0,1,0.25,4,2.867124999738735
+ohrbench_minilm_254_v1,clean,recursive,1bbc4328-c53e-4873-94db-705df2032b43,law/TRICITYBANKSHARESCORP_05_15_1998-EX-10-OUTSOURCING AGREEMENT,law,0,1,1,1.0,1,2.8553330002978328
+ohrbench_minilm_254_v1,clean,recursive,1bc238a3-cf34-4b3d-81bf-23f5be3bcc64,law/TRICITYBANKSHARESCORP_05_15_1998-EX-10-OUTSOURCING AGREEMENT,law,1,1,1,1.0,1,2.8913749997627747
+ohrbench_minilm_254_v1,clean,recursive,1bca6d0c-f0f5-432e-a218-160c34f33a4e,law/KitovPharmaLtd_20190326_20-F_EX-4.15_11584449_EX-4.15_Manufacturing Agreement,law,0,1,1,1.0,1,2.853125000001455
+ohrbench_minilm_254_v1,clean,recursive,1be62446-6f87-4645-9455-ac24347a5655,law/KitovPharmaLtd_20190326_20-F_EX-4.15_11584449_EX-4.15_Manufacturing Agreement,law,1,0,1,0.5,2,2.850958000180981
+ohrbench_minilm_254_v1,clean,recursive,1c029e94-042f-4b60-806d-8d65cd5bcd62,law/KitovPharmaLtd_20190326_20-F_EX-4.15_11584449_EX-4.15_Manufacturing Agreement,law,1,0,1,0.5,2,2.8350000002319575
+ohrbench_minilm_254_v1,clean,recursive,1c170895-4895-44ed-88dc-3d4aad92540e,law/KitovPharmaLtd_20190326_20-F_EX-4.15_11584449_EX-4.15_Manufacturing Agreement,law,1,1,1,1.0,1,2.836832999946637
+ohrbench_minilm_254_v1,clean,recursive,1c216ff0-4cad-465b-a3b2-17d1b64b9c77,law/KitovPharmaLtd_20190326_20-F_EX-4.15_11584449_EX-4.15_Manufacturing Agreement,law,1,0,1,0.3333333333333333,3,2.85058300005403
+ohrbench_minilm_254_v1,clean,recursive,1c28d995-a180-41c2-b756-9b04d5bd5a0b,law/KitovPharmaLtd_20190326_20-F_EX-4.15_11584449_EX-4.15_Manufacturing Agreement,law,1,0,1,0.5,2,2.8302909995545633
+ohrbench_minilm_254_v1,clean,recursive,1c32a1de-d54f-48b7-b589-931f8c662964,law/KitovPharmaLtd_20190326_20-F_EX-4.15_11584449_EX-4.15_Manufacturing Agreement,law,1,1,1,1.0,1,2.8624159999708354
+ohrbench_minilm_254_v1,clean,recursive,1c38b00d-96b6-47fe-99f3-b2f0f189d067,law/KitovPharmaLtd_20190326_20-F_EX-4.15_11584449_EX-4.15_Manufacturing Agreement,law,0,0,1,0.5,2,2.8333330001260038
+ohrbench_minilm_254_v1,clean,recursive,1c3bc04f-6ace-423b-a64f-5e71f4abf9d5,law/KitovPharmaLtd_20190326_20-F_EX-4.15_11584449_EX-4.15_Manufacturing Agreement,law,1,1,1,1.0,1,2.8474169998844445
+ohrbench_minilm_254_v1,clean,recursive,1c4a7916-cebf-422d-8c35-eb9161f1325b,law/KitovPharmaLtd_20190326_20-F_EX-4.15_11584449_EX-4.15_Manufacturing Agreement,law,1,1,1,1.0,1,2.8700420002678584
+ohrbench_minilm_254_v1,clean,recursive,1c5f5b7a-7ce7-494b-a9f2-a42b8cee48d6,law/KitovPharmaLtd_20190326_20-F_EX-4.15_11584449_EX-4.15_Manufacturing Agreement,law,1,0,0,0.1,10,2.869291000024532
+ohrbench_minilm_254_v1,clean,recursive,1c62bb4f-1db4-4978-a9ca-8e12332a8f85,law/KitovPharmaLtd_20190326_20-F_EX-4.15_11584449_EX-4.15_Manufacturing Agreement,law,1,0,0,0.045454545454545456,22,2.8590000001713634
+ohrbench_minilm_254_v1,clean,recursive,1c638f11-b8b0-4524-befe-2773c02bae0c,law/KitovPharmaLtd_20190326_20-F_EX-4.15_11584449_EX-4.15_Manufacturing Agreement,law,1,1,1,1.0,1,2.8330000000096334
+ohrbench_minilm_254_v1,clean,recursive,1c7e7395-440b-4549-b7eb-f8cd7ff2fd90,law/KitovPharmaLtd_20190326_20-F_EX-4.15_11584449_EX-4.15_Manufacturing Agreement,law,1,1,1,1.0,1,3.014833000179351
+ohrbench_minilm_254_v1,clean,recursive,1c9c6f09-33c7-4c2c-a9bc-0aad0c703c63,law/KitovPharmaLtd_20190326_20-F_EX-4.15_11584449_EX-4.15_Manufacturing Agreement,law,1,1,1,1.0,1,3.290249999736261
+ohrbench_minilm_254_v1,clean,recursive,1cc99fcc-1ddb-4059-bfb9-c71bb69d0fae,law/KitovPharmaLtd_20190326_20-F_EX-4.15_11584449_EX-4.15_Manufacturing Agreement,law,0,1,1,1.0,1,3.284541000084573
+ohrbench_minilm_254_v1,clean,recursive,1cd0a2e8-ec46-4a3a-ba00-ea4959853c7c,law/KitovPharmaLtd_20190326_20-F_EX-4.15_11584449_EX-4.15_Manufacturing Agreement,law,1,0,1,0.5,2,3.5259579999546986
+ohrbench_minilm_254_v1,clean,recursive,1cd0d3a8-ed65-4743-bf86-70c1b5976b34,law/KitovPharmaLtd_20190326_20-F_EX-4.15_11584449_EX-4.15_Manufacturing Agreement,law,0,1,1,1.0,1,3.35745800020959
+ohrbench_minilm_254_v1,clean,recursive,1cdea031-54cc-4ef2-93d8-f65576569652,law/EcoScienceSolutionsInc_20171117_8-K_EX-10.1_10956472_EX-10.1_Endorsement Agreement,law,1,0,0,0.16666666666666666,6,3.298958999948809
+ohrbench_minilm_254_v1,clean,recursive,1d010478-c110-412c-b843-1ed6258694b6,law/EcoScienceSolutionsInc_20171117_8-K_EX-10.1_10956472_EX-10.1_Endorsement Agreement,law,1,1,1,1.0,1,3.310374999728083
+ohrbench_minilm_254_v1,clean,recursive,1d0bac08-1951-4ef3-a0f6-a916b07ce4cb,law/EcoScienceSolutionsInc_20171117_8-K_EX-10.1_10956472_EX-10.1_Endorsement Agreement,law,1,0,0,0.06666666666666667,15,3.336834000037925
+ohrbench_minilm_254_v1,clean,recursive,1d0bc9bd-e9b5-45cf-9766-5cdafe049059,news/omnidocbench_newspaper_eb569707cf5621d4c71d5898216cdb17_1,news,0,0,0,0.0,,3.34675000021889
+ohrbench_minilm_254_v1,clean,recursive,1d0f64d2-3bba-405b-b77b-f1ce58fb4205,law/EcoScienceSolutionsInc_20171117_8-K_EX-10.1_10956472_EX-10.1_Endorsement Agreement,law,1,1,1,1.0,1,3.2680420003998734
+ohrbench_minilm_254_v1,clean,recursive,1d34d08e-7a4c-45d4-9c99-e04cf0e98b3b,news/omnidocbench_newspaper_35352f94db65d19e097395380498ec15_1,news,0,0,0,0.043478260869565216,23,3.326625000227068
+ohrbench_minilm_254_v1,clean,recursive,1d3cec2d-5d67-451a-b0f1-568ef154bf5f,law/EcoScienceSolutionsInc_20171117_8-K_EX-10.1_10956472_EX-10.1_Endorsement Agreement,law,1,1,1,1.0,1,3.041957999812439
+ohrbench_minilm_254_v1,clean,recursive,1d48a071-ab61-47b1-b93b-4c3220500494,news/omnidocbench_newspaper_e6083de4647ef28434cb6a598b073ae4_1,news,1,1,1,1.0,1,2.878207999856386
+ohrbench_minilm_254_v1,clean,recursive,1d4d1180-4c6e-4fbb-b7fe-f6b501fda698,"law/OPTIMIZEDTRANSPORTATIONMANAGEMENT,INC_07_26_2000-EX-6.6-DISTRIBUTOR AGREEMENT",law,1,0,1,0.25,4,2.901249999922584
+ohrbench_minilm_254_v1,clean,recursive,1d559bb4-0825-4849-ad64-2c83840c5628,"law/OPTIMIZEDTRANSPORTATIONMANAGEMENT,INC_07_26_2000-EX-6.6-DISTRIBUTOR AGREEMENT",law,1,1,1,1.0,1,2.8131250001024455
+ohrbench_minilm_254_v1,clean,recursive,1d638731-48cb-4f4c-aa99-e8641ee1ecba,"law/OPTIMIZEDTRANSPORTATIONMANAGEMENT,INC_07_26_2000-EX-6.6-DISTRIBUTOR AGREEMENT",law,1,1,1,1.0,1,2.881459000036557
+ohrbench_minilm_254_v1,clean,recursive,1d646311-d058-470d-876e-eeb28c96d735,"law/OPTIMIZEDTRANSPORTATIONMANAGEMENT,INC_07_26_2000-EX-6.6-DISTRIBUTOR AGREEMENT",law,1,1,1,1.0,1,2.9626249997818377
+ohrbench_minilm_254_v1,clean,recursive,1d668bc2-c3d7-455b-8c65-f5289169b5bb,"law/OPTIMIZEDTRANSPORTATIONMANAGEMENT,INC_07_26_2000-EX-6.6-DISTRIBUTOR AGREEMENT",law,0,1,1,1.0,1,2.8484160002335557
+ohrbench_minilm_254_v1,clean,recursive,1d69d9fc-4b1c-48bd-a130-260c8c69778f,"law/OPTIMIZEDTRANSPORTATIONMANAGEMENT,INC_07_26_2000-EX-6.6-DISTRIBUTOR AGREEMENT",law,1,1,1,1.0,1,2.8715829998873232
+ohrbench_minilm_254_v1,clean,recursive,1d7173e5-5bc7-4deb-b123-4efe6e648043,"law/OPTIMIZEDTRANSPORTATIONMANAGEMENT,INC_07_26_2000-EX-6.6-DISTRIBUTOR AGREEMENT",law,1,1,1,1.0,1,2.8589590001502074
+ohrbench_minilm_254_v1,clean,recursive,1d721ac3-dc76-4a47-b3ac-172978648cf9,"law/Array BioPharma Inc. - LICENSE, DEVELOPMENT AND COMMERCIALIZATION AGREEMENT",law,1,1,1,1.0,1,2.8673329998127883
+ohrbench_minilm_254_v1,clean,recursive,1d9af659-82ec-4f2d-bbf6-e16f9b3080d5,news/omnidocbench_newspaper_0cfb8a42b5d4194d8c73dba0cdf6256c_1,news,1,1,1,1.0,1,2.860458000213839
+ohrbench_minilm_254_v1,clean,recursive,1daf1a12-db19-49b5-94fa-fe77e9f9cbb4,"law/Array BioPharma Inc. - LICENSE, DEVELOPMENT AND COMMERCIALIZATION AGREEMENT",law,1,1,1,1.0,1,2.8655420001086895
+ohrbench_minilm_254_v1,clean,recursive,1dafc318-d82c-4825-9eb7-e4e373df18f6,"law/Array BioPharma Inc. - LICENSE, DEVELOPMENT AND COMMERCIALIZATION AGREEMENT",law,1,1,1,1.0,1,2.8540420003082545
+ohrbench_minilm_254_v1,clean,recursive,1db1da26-42e5-42da-b527-351219cc9acc,"law/Array BioPharma Inc. - LICENSE, DEVELOPMENT AND COMMERCIALIZATION AGREEMENT",law,0,1,1,1.0,1,2.856541999790352
+ohrbench_minilm_254_v1,clean,recursive,1db53334-fb03-43a1-9576-d4155ec17dbe,"law/Array BioPharma Inc. - LICENSE, DEVELOPMENT AND COMMERCIALIZATION AGREEMENT",law,1,0,1,0.5,2,2.8409999999894353
+ohrbench_minilm_254_v1,clean,recursive,1dc1d806-6dda-4c9e-a391-cffa15ae14f2,"law/Array BioPharma Inc. - LICENSE, DEVELOPMENT AND COMMERCIALIZATION AGREEMENT",law,1,1,1,1.0,1,2.878332999898703
+ohrbench_minilm_254_v1,clean,recursive,1dc96d0d-1393-4152-8acd-efbceb103fc3,"law/Array BioPharma Inc. - LICENSE, DEVELOPMENT AND COMMERCIALIZATION AGREEMENT",law,0,1,1,1.0,1,2.844125000137865
+ohrbench_minilm_254_v1,clean,recursive,1dda7a0f-4d56-48df-9620-fd879a156483,"law/Array BioPharma Inc. - LICENSE, DEVELOPMENT AND COMMERCIALIZATION AGREEMENT",law,1,1,1,1.0,1,2.883458999804134
+ohrbench_minilm_254_v1,clean,recursive,1e385e0d-59b5-4cf0-916b-babc4b580f58,"law/Array BioPharma Inc. - LICENSE, DEVELOPMENT AND COMMERCIALIZATION AGREEMENT",law,0,1,1,1.0,1,2.8705000004265457
+ohrbench_minilm_254_v1,clean,recursive,1e486763-ecc1-473a-b6da-8ea4104f6fa2,"law/Array BioPharma Inc. - LICENSE, DEVELOPMENT AND COMMERCIALIZATION AGREEMENT",law,1,0,0,0.08333333333333333,12,2.8559160000440897
+ohrbench_minilm_254_v1,clean,recursive,1e5d8549-6d49-493c-abb0-5e2e895b13fd,"law/Array BioPharma Inc. - LICENSE, DEVELOPMENT AND COMMERCIALIZATION AGREEMENT",law,1,0,1,0.3333333333333333,3,2.8444159997889074
+ohrbench_minilm_254_v1,clean,recursive,1e682c1f-f26b-459b-b85c-fc9ecf130e07,"law/Array BioPharma Inc. - LICENSE, DEVELOPMENT AND COMMERCIALIZATION AGREEMENT",law,1,0,1,0.3333333333333333,3,2.912292000019079
+ohrbench_minilm_254_v1,clean,recursive,1e6c7362-e6bc-4733-9af0-c914600d0f87,"law/Array BioPharma Inc. - LICENSE, DEVELOPMENT AND COMMERCIALIZATION AGREEMENT",law,1,0,1,0.3333333333333333,3,3.2752920001257735
+ohrbench_minilm_254_v1,clean,recursive,1e8e2d52-2ab9-4185-9af0-ed2850bea76b,"law/Array BioPharma Inc. - LICENSE, DEVELOPMENT AND COMMERCIALIZATION AGREEMENT",law,1,0,1,0.5,2,3.2625829999233247
+ohrbench_minilm_254_v1,clean,recursive,1ea70756-a1d5-47a4-a6b4-a0a71cf0589d,law/WOMENSGOLFUNLIMITEDINC_03_29_2000-EX-10.13-ENDORSEMENT AGREEMENT,law,1,1,1,1.0,1,3.2779160001155105
+ohrbench_minilm_254_v1,clean,recursive,1eb04cb7-0096-4ade-8757-2fa2ca6f301f,law/WOMENSGOLFUNLIMITEDINC_03_29_2000-EX-10.13-ENDORSEMENT AGREEMENT,law,1,1,1,1.0,1,3.0628750000687432
+ohrbench_minilm_254_v1,clean,recursive,1eb8142e-7dfd-4503-be72-1a184dddc0a4,law/WOMENSGOLFUNLIMITEDINC_03_29_2000-EX-10.13-ENDORSEMENT AGREEMENT,law,1,0,0,0.02,50,2.827374999924359
+ohrbench_minilm_254_v1,clean,recursive,1ececa76-bf30-485e-bed7-b066181b6e0e,law/WOMENSGOLFUNLIMITEDINC_03_29_2000-EX-10.13-ENDORSEMENT AGREEMENT,law,1,1,1,1.0,1,2.8725410002152785
+ohrbench_minilm_254_v1,clean,recursive,1ee29ac7-6031-4c76-9276-46905453e720,law/WOMENSGOLFUNLIMITEDINC_03_29_2000-EX-10.13-ENDORSEMENT AGREEMENT,law,1,1,1,1.0,1,2.883791999920504
+ohrbench_minilm_254_v1,clean,recursive,1eee405e-bd40-47b0-80b7-3b0679fffc76,law/WOMENSGOLFUNLIMITEDINC_03_29_2000-EX-10.13-ENDORSEMENT AGREEMENT,law,1,0,0,0.058823529411764705,17,3.065750000132539
+ohrbench_minilm_254_v1,clean,recursive,1efaab54-81ed-4659-b087-8e290b31389b,law/WOMENSGOLFUNLIMITEDINC_03_29_2000-EX-10.13-ENDORSEMENT AGREEMENT,law,0,1,1,1.0,1,3.2697910000933916
+ohrbench_minilm_254_v1,clean,recursive,1efb7ecb-8810-4944-8db3-42e121931fdd,law/WOMENSGOLFUNLIMITEDINC_03_29_2000-EX-10.13-ENDORSEMENT AGREEMENT,law,1,1,1,1.0,1,3.2933749998846906
+ohrbench_minilm_254_v1,clean,recursive,1f018c74-3df7-4e6a-90aa-de45858dee4a,law/WOMENSGOLFUNLIMITEDINC_03_29_2000-EX-10.13-ENDORSEMENT AGREEMENT,law,1,1,1,1.0,1,3.2550420000916347
+ohrbench_minilm_254_v1,clean,recursive,1f224a02-733a-439a-a6a1-43b5decc23a0,law/WOMENSGOLFUNLIMITEDINC_03_29_2000-EX-10.13-ENDORSEMENT AGREEMENT,law,0,1,1,1.0,1,2.9224579998299305
+ohrbench_minilm_254_v1,clean,recursive,1f2ae264-c8bb-41fe-bfb6-230d6057b5b7,law/WOMENSGOLFUNLIMITEDINC_03_29_2000-EX-10.13-ENDORSEMENT AGREEMENT,law,1,1,1,1.0,1,2.8364170002532774
+ohrbench_minilm_254_v1,clean,recursive,1f2de562-c909-407e-abc8-5b8e180727b6,law/WOMENSGOLFUNLIMITEDINC_03_29_2000-EX-10.13-ENDORSEMENT AGREEMENT,law,0,1,1,1.0,1,2.8386250000949076
+ohrbench_minilm_254_v1,clean,recursive,1f5947a5-78a6-4fc9-8b8d-55830ab97371,law/ParatekPharmaceuticalsInc_20170505_10-KA_EX-10.29_10323872_EX-10.29_Outsourcing Agreement,law,1,1,1,1.0,1,2.8222920000189333
+ohrbench_minilm_254_v1,clean,recursive,1f672088-17ef-4816-be6e-6845bc97d93a,law/ParatekPharmaceuticalsInc_20170505_10-KA_EX-10.29_10323872_EX-10.29_Outsourcing Agreement,law,0,0,1,0.3333333333333333,3,2.856333000181621
+ohrbench_minilm_254_v1,clean,recursive,1f69cd43-68bf-4f7e-94dc-2301882ab925,law/ParatekPharmaceuticalsInc_20170505_10-KA_EX-10.29_10323872_EX-10.29_Outsourcing Agreement,law,1,0,0,0.0,,2.8967919997739955
+ohrbench_minilm_254_v1,clean,recursive,1f8a8d4e-dec8-44da-bc8e-901e84151b73,law/ParatekPharmaceuticalsInc_20170505_10-KA_EX-10.29_10323872_EX-10.29_Outsourcing Agreement,law,1,1,1,1.0,1,2.8392910003276484
+ohrbench_minilm_254_v1,clean,recursive,1f8ac785-d43e-48e4-9973-4723138d495c,law/ParatekPharmaceuticalsInc_20170505_10-KA_EX-10.29_10323872_EX-10.29_Outsourcing Agreement,law,1,0,1,0.5,2,2.879582999867125
+ohrbench_minilm_254_v1,clean,recursive,1f9078d5-2835-4cdb-a347-b24fa0f9c074,law/ParatekPharmaceuticalsInc_20170505_10-KA_EX-10.29_10323872_EX-10.29_Outsourcing Agreement,law,1,1,1,1.0,1,2.8333750001365843
+ohrbench_minilm_254_v1,clean,recursive,1fae9d17-471d-4a2e-9f53-d03e90d96339,law/ParatekPharmaceuticalsInc_20170505_10-KA_EX-10.29_10323872_EX-10.29_Outsourcing Agreement,law,1,1,1,1.0,1,2.842000000327971
+ohrbench_minilm_254_v1,clean,recursive,1fc46c45-572d-43da-b1dd-f6866e7129aa,law/ParatekPharmaceuticalsInc_20170505_10-KA_EX-10.29_10323872_EX-10.29_Outsourcing Agreement,law,1,1,1,1.0,1,2.8376659997775278
+ohrbench_minilm_254_v1,clean,recursive,1fd8cda4-ac94-4efe-8e0e-b4823d13d837,law/ParatekPharmaceuticalsInc_20170505_10-KA_EX-10.29_10323872_EX-10.29_Outsourcing Agreement,law,1,1,1,1.0,1,2.8459170002861356
+ohrbench_minilm_254_v1,clean,recursive,1fdb217f-d9db-473c-9f24-7a0c2759eac9,law/ParatekPharmaceuticalsInc_20170505_10-KA_EX-10.29_10323872_EX-10.29_Outsourcing Agreement,law,1,0,0,0.14285714285714285,7,2.8519580000647693
+ohrbench_minilm_254_v1,clean,recursive,1fdbdbfa-b7bb-4adc-9d89-735200d906af,law/ParatekPharmaceuticalsInc_20170505_10-KA_EX-10.29_10323872_EX-10.29_Outsourcing Agreement,law,1,1,1,1.0,1,2.854792000107409
+ohrbench_minilm_254_v1,clean,recursive,1fe43d64-aace-4c9a-9c59-8fa1f543be48,law/ParatekPharmaceuticalsInc_20170505_10-KA_EX-10.29_10323872_EX-10.29_Outsourcing Agreement,law,1,1,1,1.0,1,2.839083000253595
+ohrbench_minilm_254_v1,clean,recursive,1fff421f-4762-4671-adea-4de235e38e0f,law/ParatekPharmaceuticalsInc_20170505_10-KA_EX-10.29_10323872_EX-10.29_Outsourcing Agreement,law,1,1,1,1.0,1,2.8417499997885898
+ohrbench_minilm_254_v1,clean,recursive,20025f82-d5d0-412d-97bc-d32324b44126,law/ParatekPharmaceuticalsInc_20170505_10-KA_EX-10.29_10323872_EX-10.29_Outsourcing Agreement,law,1,1,1,1.0,1,2.9022910002822755
+ohrbench_minilm_254_v1,clean,recursive,2008e092-5159-45b3-9db2-af288e546f96,law/ParatekPharmaceuticalsInc_20170505_10-KA_EX-10.29_10323872_EX-10.29_Outsourcing Agreement,law,1,1,1,1.0,1,4.2476660000829725
+ohrbench_minilm_254_v1,clean,recursive,200d56e9-a9bc-4d21-86d8-e8d2ead08f47,law/ParatekPharmaceuticalsInc_20170505_10-KA_EX-10.29_10323872_EX-10.29_Outsourcing Agreement,law,1,0,0,0.1111111111111111,9,3.3185829997819383
+ohrbench_minilm_254_v1,clean,recursive,200f7753-f217-4aac-a59c-ff81e5ce0ca6,law/MRSFIELDSORIGINALCOOKIESINC_01_29_1998-EX-10-FRANCHISE AGREEMENT,law,1,1,1,1.0,1,3.2487090002177865
+ohrbench_minilm_254_v1,clean,recursive,2030ff36-0362-40d2-a71e-e25830bbd427,law/MRSFIELDSORIGINALCOOKIESINC_01_29_1998-EX-10-FRANCHISE AGREEMENT,law,1,1,1,1.0,1,3.2036669999797596
+ohrbench_minilm_254_v1,clean,recursive,205bf9e7-c42b-43fa-ab4d-e9deec7b009c,law/MRSFIELDSORIGINALCOOKIESINC_01_29_1998-EX-10-FRANCHISE AGREEMENT,law,1,0,0,0.030303030303030304,33,2.8568750003614696
+ohrbench_minilm_254_v1,clean,recursive,20696919-ac87-4999-a79a-495f4fb70578,law/MRSFIELDSORIGINALCOOKIESINC_01_29_1998-EX-10-FRANCHISE AGREEMENT,law,1,0,1,0.25,4,2.825249999659718
+ohrbench_minilm_254_v1,clean,recursive,20875ddd-dd7e-4eef-bbdf-01a7135c9198,law/MRSFIELDSORIGINALCOOKIESINC_01_29_1998-EX-10-FRANCHISE AGREEMENT,law,1,0,1,0.3333333333333333,3,2.847957999620121
+ohrbench_minilm_254_v1,clean,recursive,209ae9d1-1744-4ed8-8c2f-ce640b31ec7e,law/MRSFIELDSORIGINALCOOKIESINC_01_29_1998-EX-10-FRANCHISE AGREEMENT,law,1,0,1,0.5,2,2.8451250000216532
+ohrbench_minilm_254_v1,clean,recursive,20a43d4b-6f44-480e-bcce-e7ad828b66a3,law/MRSFIELDSORIGINALCOOKIESINC_01_29_1998-EX-10-FRANCHISE AGREEMENT,law,1,0,0,0.16666666666666666,6,2.8235419999873557
+ohrbench_minilm_254_v1,clean,recursive,20b0f284-e386-45ac-a66e-4df354c9a02a,law/MRSFIELDSORIGINALCOOKIESINC_01_29_1998-EX-10-FRANCHISE AGREEMENT,law,1,1,1,1.0,1,2.8543749999698775
+ohrbench_minilm_254_v1,clean,recursive,20b93235-9c0c-4b1e-9230-16a1cca02f81,law/MRSFIELDSORIGINALCOOKIESINC_01_29_1998-EX-10-FRANCHISE AGREEMENT,law,1,1,1,1.0,1,2.84162500020102
+ohrbench_minilm_254_v1,clean,recursive,20c8a438-df8a-4c3f-af84-14d7f715bc74,law/MRSFIELDSORIGINALCOOKIESINC_01_29_1998-EX-10-FRANCHISE AGREEMENT,law,0,1,1,1.0,1,2.8451250000216532
+ohrbench_minilm_254_v1,clean,recursive,20cfce4e-bde2-47a4-8029-eb0b1fa62862,law/MRSFIELDSORIGINALCOOKIESINC_01_29_1998-EX-10-FRANCHISE AGREEMENT,law,1,1,1,1.0,1,2.8449579999687558
+ohrbench_minilm_254_v1,clean,recursive,211cff88-53d7-45aa-ae5c-4405bb8922a8,law/MRSFIELDSORIGINALCOOKIESINC_01_29_1998-EX-10-FRANCHISE AGREEMENT,law,1,1,1,1.0,1,2.841291000095225
+ohrbench_minilm_254_v1,clean,recursive,212193eb-d9f6-4946-83c4-52e19ce07e6d,law/MRSFIELDSORIGINALCOOKIESINC_01_29_1998-EX-10-FRANCHISE AGREEMENT,law,0,1,1,1.0,1,2.8174160001981363
+ohrbench_minilm_254_v1,clean,recursive,213a6ad8-12b3-4a24-a67f-ceeb8889832c,law/MRSFIELDSORIGINALCOOKIESINC_01_29_1998-EX-10-FRANCHISE AGREEMENT,law,0,1,1,1.0,1,2.8009590000692697
+ohrbench_minilm_254_v1,clean,recursive,2176f980-3258-4da3-b858-bd5ac500cf83,law/MRSFIELDSORIGINALCOOKIESINC_01_29_1998-EX-10-FRANCHISE AGREEMENT,law,1,0,1,0.5,2,2.812125000218657
+ohrbench_minilm_254_v1,clean,recursive,21813d25-6552-48a6-83ff-50113d1a85dd,news/omnidocbench_newspaper_2a6b4fa088699701a6fa9ccecfb5c25d_8,news,1,1,1,1.0,1,2.8244999998605635
+ohrbench_minilm_254_v1,clean,recursive,218a6b18-73ec-4ee9-8d00-f4288ec14f83,"law/WHITESMOKE,INC_11_08_2011-EX-10.26-PROMOTION AND DISTRIBUTION AGREEMENT",law,0,1,1,1.0,1,2.8353329998935806
+ohrbench_minilm_254_v1,clean,recursive,21929d49-fa67-4a2b-828f-e61e42a5b1ea,"law/WHITESMOKE,INC_11_08_2011-EX-10.26-PROMOTION AND DISTRIBUTION AGREEMENT",law,1,1,1,1.0,1,2.8360839996821596
+ohrbench_minilm_254_v1,clean,recursive,21a08c70-103d-41c3-98d6-9a543e664717,"law/WHITESMOKE,INC_11_08_2011-EX-10.26-PROMOTION AND DISTRIBUTION AGREEMENT",law,1,1,1,1.0,1,3.032166999673791
+ohrbench_minilm_254_v1,clean,recursive,21a5123f-38dd-43bd-bf97-f4f8814c8efb,"law/WHITESMOKE,INC_11_08_2011-EX-10.26-PROMOTION AND DISTRIBUTION AGREEMENT",law,0,1,1,1.0,1,3.251000000091153

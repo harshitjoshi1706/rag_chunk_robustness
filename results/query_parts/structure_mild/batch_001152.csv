@@ -1,0 +1,129 @@
+run_id,noise_level,chunker,query_id,doc_name,domain,context_verified,hit_at_1,hit_at_5,reciprocal_rank,first_relevant_rank,retrieval_latency_ms
+ohrbench_minilm_254_v1,mild,structure,359b05fa-3ed3-4fbf-a8cc-e369339bace8,law/SEPARATEACCOUNTIIOFAGL_05_02_2011-EX-99.(J)(4)-UNCONDITIONAL CAPITAL MAINTENANCE AGREEMENT,law,1,1,1,1.0,1,2.723999998124782
+ohrbench_minilm_254_v1,mild,structure,35bba6f5-9f03-406d-a19d-e20cf5a84782,law/MPLXLP_06_17_2015-EX-10.1-TRANSPORTATION SERVICES AGREEMENT,law,1,0,1,0.5,2,2.70829199871514
+ohrbench_minilm_254_v1,mild,structure,35c44ff7-9ea9-4fe1-89f3-5d6ba37df6b9,law/MPLXLP_06_17_2015-EX-10.1-TRANSPORTATION SERVICES AGREEMENT,law,0,1,1,1.0,1,2.6752499979920685
+ohrbench_minilm_254_v1,mild,structure,35cb60f2-6a75-4179-bd14-f9d493510969,law/MPLXLP_06_17_2015-EX-10.1-TRANSPORTATION SERVICES AGREEMENT,law,1,0,0,0.08333333333333333,12,2.7012919999833684
+ohrbench_minilm_254_v1,mild,structure,35d27b82-cec2-4b2c-abca-8e92a956bb55,law/MPLXLP_06_17_2015-EX-10.1-TRANSPORTATION SERVICES AGREEMENT,law,1,0,1,0.5,2,2.712707999307895
+ohrbench_minilm_254_v1,mild,structure,35d4cd35-a08c-4a00-85e7-425092f078b8,law/MPLXLP_06_17_2015-EX-10.1-TRANSPORTATION SERVICES AGREEMENT,law,1,1,1,1.0,1,2.8700840011879336
+ohrbench_minilm_254_v1,mild,structure,35da1e58-5d56-4c5e-b710-79e2107ec1d3,law/MPLXLP_06_17_2015-EX-10.1-TRANSPORTATION SERVICES AGREEMENT,law,1,0,0,0.041666666666666664,24,3.1285000004572794
+ohrbench_minilm_254_v1,mild,structure,35dd3e72-68fe-4bdb-8717-5f90ec3f421d,law/MPLXLP_06_17_2015-EX-10.1-TRANSPORTATION SERVICES AGREEMENT,law,1,1,1,1.0,1,3.0947499981266446
+ohrbench_minilm_254_v1,mild,structure,35e3c06b-68b1-46a2-9a7a-1d9141ed7ecd,law/MPLXLP_06_17_2015-EX-10.1-TRANSPORTATION SERVICES AGREEMENT,law,1,1,1,1.0,1,3.1176660013443325
+ohrbench_minilm_254_v1,mild,structure,35e70eef-4ee7-49b0-a6e8-80af11e58c08,law/MPLXLP_06_17_2015-EX-10.1-TRANSPORTATION SERVICES AGREEMENT,law,1,1,1,1.0,1,3.0965000005380716
+ohrbench_minilm_254_v1,mild,structure,35ea89b3-dc07-48eb-b475-0c52f9f602db,law/MPLXLP_06_17_2015-EX-10.1-TRANSPORTATION SERVICES AGREEMENT,law,0,1,1,1.0,1,3.1360419998236466
+ohrbench_minilm_254_v1,mild,structure,35f24653-8968-451e-992c-203767941a9d,law/MPLXLP_06_17_2015-EX-10.1-TRANSPORTATION SERVICES AGREEMENT,law,1,1,1,1.0,1,3.0928750020393636
+ohrbench_minilm_254_v1,mild,structure,360417d2-0edb-426b-af6d-44d808c72ec6,law/MPLXLP_06_17_2015-EX-10.1-TRANSPORTATION SERVICES AGREEMENT,law,1,1,1,1.0,1,3.116125000815373
+ohrbench_minilm_254_v1,mild,structure,360cdc9a-020c-4bc0-966e-e0a416a5b607,law/MPLXLP_06_17_2015-EX-10.1-TRANSPORTATION SERVICES AGREEMENT,law,1,1,1,1.0,1,2.813375002006069
+ohrbench_minilm_254_v1,mild,structure,36379ee5-56bf-4493-b0e1-8a3acae269d0,law/MPLXLP_06_17_2015-EX-10.1-TRANSPORTATION SERVICES AGREEMENT,law,1,1,1,1.0,1,2.702750000025844
+ohrbench_minilm_254_v1,mild,structure,3639a220-84a4-4694-b7dc-e29a9a607f54,law/MPLXLP_06_17_2015-EX-10.1-TRANSPORTATION SERVICES AGREEMENT,law,0,1,1,1.0,1,2.6882079982897267
+ohrbench_minilm_254_v1,mild,structure,3652e007-4002-4669-b7a2-b187758eff25,law/MPLXLP_06_17_2015-EX-10.1-TRANSPORTATION SERVICES AGREEMENT,law,1,1,1,1.0,1,2.7085420006187633
+ohrbench_minilm_254_v1,mild,structure,3660fc39-f55a-4e57-bc63-747aa71cbf0f,law/MPLXLP_06_17_2015-EX-10.1-TRANSPORTATION SERVICES AGREEMENT,law,1,0,0,0.0,,2.7224170007684734
+ohrbench_minilm_254_v1,mild,structure,366653f5-c98e-4ce8-9462-49f9d1cfcb3f,law/MPLXLP_06_17_2015-EX-10.1-TRANSPORTATION SERVICES AGREEMENT,law,1,0,1,0.2,5,2.7040000022680033
+ohrbench_minilm_254_v1,mild,structure,3668ca12-6319-4fb0-8e95-e99d718f9ac3,law/MPLXLP_06_17_2015-EX-10.1-TRANSPORTATION SERVICES AGREEMENT,law,1,1,1,1.0,1,2.710415999899851
+ohrbench_minilm_254_v1,mild,structure,366eb16f-508e-4ad7-b7c9-3acfe059a0ee,news/omnidocbench_newspaper_a105e3b0ddb10be6a596f76407c79180_1,news,0,0,0,0.14285714285714285,7,2.7443750004749745
+ohrbench_minilm_254_v1,mild,structure,367cf088-7f4a-41b5-a72f-abab25edfea9,law/MPLXLP_06_17_2015-EX-10.1-TRANSPORTATION SERVICES AGREEMENT,law,1,0,0,0.09090909090909091,11,2.710000000661239
+ohrbench_minilm_254_v1,mild,structure,36890df9-7bd3-4c4b-948c-52c8e0f24eb3,law/MPLXLP_06_17_2015-EX-10.1-TRANSPORTATION SERVICES AGREEMENT,law,1,0,0,0.1111111111111111,9,2.7641660017252434
+ohrbench_minilm_254_v1,mild,structure,36a24b17-56db-439d-a395-411a7eb22f65,law/MPLXLP_06_17_2015-EX-10.1-TRANSPORTATION SERVICES AGREEMENT,law,1,1,1,1.0,1,3.1033329978527036
+ohrbench_minilm_254_v1,mild,structure,36a3a660-809b-4565-9003-698a947ff677,law/MPLXLP_06_17_2015-EX-10.1-TRANSPORTATION SERVICES AGREEMENT,law,1,1,1,1.0,1,3.123709000647068
+ohrbench_minilm_254_v1,mild,structure,36a5be06-eb52-4e01-a25e-651269fcbef0,law/MPLXLP_06_17_2015-EX-10.1-TRANSPORTATION SERVICES AGREEMENT,law,1,1,1,1.0,1,3.095874999416992
+ohrbench_minilm_254_v1,mild,structure,36a7f383-4a84-4254-bfbf-affa67e98e94,law/MPLXLP_06_17_2015-EX-10.1-TRANSPORTATION SERVICES AGREEMENT,law,1,1,1,1.0,1,2.932291001343401
+ohrbench_minilm_254_v1,mild,structure,36aba819-8b3d-4eb0-9aeb-da58c535693e,law/MPLXLP_06_17_2015-EX-10.1-TRANSPORTATION SERVICES AGREEMENT,law,0,1,1,1.0,1,2.687582997168647
+ohrbench_minilm_254_v1,mild,structure,36bc6268-61af-473d-b106-892ba1fa46f3,law/MPLXLP_06_17_2015-EX-10.1-TRANSPORTATION SERVICES AGREEMENT,law,1,1,1,1.0,1,2.6788750001287553
+ohrbench_minilm_254_v1,mild,structure,36c83bb2-9a4a-43d9-a8e4-f627ab48e297,law/MPLXLP_06_17_2015-EX-10.1-TRANSPORTATION SERVICES AGREEMENT,law,1,0,0,0.1111111111111111,9,2.6832080002350267
+ohrbench_minilm_254_v1,mild,structure,36d3d862-dc8d-4843-9e3f-9eb026bcf48a,law/MPLXLP_06_17_2015-EX-10.1-TRANSPORTATION SERVICES AGREEMENT,law,0,1,1,1.0,1,2.666500000486849
+ohrbench_minilm_254_v1,mild,structure,36d6f496-7e01-4c36-84b8-f1f21847b6e7,law/MPLXLP_06_17_2015-EX-10.1-TRANSPORTATION SERVICES AGREEMENT,law,0,1,1,1.0,1,2.728874998865649
+ohrbench_minilm_254_v1,mild,structure,36de63ac-ffba-4243-9755-d54219cfde66,law/MPLXLP_06_17_2015-EX-10.1-TRANSPORTATION SERVICES AGREEMENT,law,1,0,1,0.3333333333333333,3,2.7063329980592243
+ohrbench_minilm_254_v1,mild,structure,36e11fc9-5642-40e6-8fc2-df16dad107d7,law/UnionDentalHoldingsInc_20050204_8-KA_EX-10_3345577_EX-10_Affiliate Agreement,law,1,0,1,0.5,2,2.7224170007684734
+ohrbench_minilm_254_v1,mild,structure,36ee6d3c-95ff-4c64-ac5d-cf0877ba4c3b,law/UnionDentalHoldingsInc_20050204_8-KA_EX-10_3345577_EX-10_Affiliate Agreement,law,1,1,1,1.0,1,2.7308339995215647
+ohrbench_minilm_254_v1,mild,structure,36fb8c42-55f9-4f50-92a2-703d03fde8fb,law/UnionDentalHoldingsInc_20050204_8-KA_EX-10_3345577_EX-10_Affiliate Agreement,law,1,0,1,0.3333333333333333,3,2.9635419996338896
+ohrbench_minilm_254_v1,mild,structure,37176e84-d977-4993-bc49-d76fcfc6e625,law/UnionDentalHoldingsInc_20050204_8-KA_EX-10_3345577_EX-10_Affiliate Agreement,law,1,0,1,0.5,2,3.1213330003083684
+ohrbench_minilm_254_v1,mild,structure,3719509c-5b78-4208-a047-77d10efa49d4,law/UnionDentalHoldingsInc_20050204_8-KA_EX-10_3345577_EX-10_Affiliate Agreement,law,1,1,1,1.0,1,3.1069169999682344
+ohrbench_minilm_254_v1,mild,structure,3733ccfc-f30d-44fd-bfdb-f61fbb4be51f,law/CnsPharmaceuticalsInc_20200326_8-K_EX-10.1_12079626_EX-10.1_Development Agreement,law,0,1,1,1.0,1,3.120666999166133
+ohrbench_minilm_254_v1,mild,structure,373def54-c256-4f5a-8cf5-f57bff0152c2,law/CnsPharmaceuticalsInc_20200326_8-K_EX-10.1_12079626_EX-10.1_Development Agreement,law,1,0,1,0.5,2,2.780165999865858
+ohrbench_minilm_254_v1,mild,structure,3752fb59-70d2-4444-a671-ea7e118d034a,law/CnsPharmaceuticalsInc_20200326_8-K_EX-10.1_12079626_EX-10.1_Development Agreement,law,1,1,1,1.0,1,2.722707999055274
+ohrbench_minilm_254_v1,mild,structure,37599b77-ce1b-4150-9154-17a8ee61157c,law/CnsPharmaceuticalsInc_20200326_8-K_EX-10.1_12079626_EX-10.1_Development Agreement,law,1,1,1,1.0,1,2.7336659986758605
+ohrbench_minilm_254_v1,mild,structure,3775bba9-2fe5-4822-8ad8-74e82faf32d4,law/CnsPharmaceuticalsInc_20200326_8-K_EX-10.1_12079626_EX-10.1_Development Agreement,law,1,1,1,1.0,1,3.6758750029548537
+ohrbench_minilm_254_v1,mild,structure,378d55f6-bedc-4e8f-a463-3abba322a153,law/CnsPharmaceuticalsInc_20200326_8-K_EX-10.1_12079626_EX-10.1_Development Agreement,law,1,1,1,1.0,1,2.704624999751104
+ohrbench_minilm_254_v1,mild,structure,378f48ec-92b8-41e1-8815-f8138802bd32,"law/MACY_S,INC_05_11_2020-EX-99.4-JOINT FILING AGREEMENT",law,0,0,0,0.14285714285714285,7,2.724416001001373
+ohrbench_minilm_254_v1,mild,structure,379187f7-a28e-4420-a31d-4f7ef69c05fd,"law/MACY_S,INC_05_11_2020-EX-99.4-JOINT FILING AGREEMENT",law,1,1,1,1.0,1,2.733000001171604
+ohrbench_minilm_254_v1,mild,structure,379e84d2-2764-40c2-bf6b-772a3127f05b,law/ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement,law,1,1,1,1.0,1,2.6607920008245856
+ohrbench_minilm_254_v1,mild,structure,37b84200-2207-48f5-a2ab-5123047286ac,law/ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement,law,0,1,1,1.0,1,2.6899170006799977
+ohrbench_minilm_254_v1,mild,structure,37bb3eec-4bf5-4b52-b09d-258c27a0c3d7,news/omnidocbench_newspaper_bd75af5f4791aa56ef05ce2443e8a7e0_1,news,1,0,0,0.0,,2.747292001004098
+ohrbench_minilm_254_v1,mild,structure,37c6fea2-6452-4b79-88ec-c7d52954e603,law/ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement,law,1,1,1,1.0,1,2.712792000238551
+ohrbench_minilm_254_v1,mild,structure,37c9f06d-fdc7-4b19-86f2-38d863a081a2,law/ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement,law,1,1,1,1.0,1,2.7119999977003317
+ohrbench_minilm_254_v1,mild,structure,37cf8025-6a44-4a90-be0a-5a5679009c61,law/ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement,law,0,0,1,0.5,2,2.746874997683335
+ohrbench_minilm_254_v1,mild,structure,37e209cc-4139-4c99-b803-4b816ac60780,law/ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement,law,0,1,1,1.0,1,3.143084002658725
+ohrbench_minilm_254_v1,mild,structure,37f8aade-4c5d-4fd1-9cac-a565c4041fd7,law/ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement,law,1,0,1,0.5,2,3.1500420009251684
+ohrbench_minilm_254_v1,mild,structure,37f90ba7-4ce8-4730-85b9-68f6155d4fed,law/FIBROGENINC_10_01_2014-EX-10.11-COLLABORATION AGREEMENT,law,1,1,1,1.0,1,3.1199160002870485
+ohrbench_minilm_254_v1,mild,structure,38018b47-b29a-4b06-9af6-6c5f2577bffa,law/FIBROGENINC_10_01_2014-EX-10.11-COLLABORATION AGREEMENT,law,1,1,1,1.0,1,3.1207909996737726
+ohrbench_minilm_254_v1,mild,structure,380320fc-f302-4be7-b864-45d74c6bf5b8,law/FIBROGENINC_10_01_2014-EX-10.11-COLLABORATION AGREEMENT,law,1,0,0,0.16666666666666666,6,3.1460829995921813
+ohrbench_minilm_254_v1,mild,structure,38145532-16a7-476e-8c9c-f3501af459df,law/FIBROGENINC_10_01_2014-EX-10.11-COLLABORATION AGREEMENT,law,1,1,1,1.0,1,3.1227919971570373
+ohrbench_minilm_254_v1,mild,structure,382af2fb-ab04-4f6b-aebc-2e292531c05e,law/FIBROGENINC_10_01_2014-EX-10.11-COLLABORATION AGREEMENT,law,1,1,1,1.0,1,3.1033749983180314
+ohrbench_minilm_254_v1,mild,structure,38305e4b-c3d4-440a-926a-ea432c337cee,law/FIBROGENINC_10_01_2014-EX-10.11-COLLABORATION AGREEMENT,law,1,0,1,0.3333333333333333,3,3.0925829996704124
+ohrbench_minilm_254_v1,mild,structure,3839db4d-a0b0-4ea7-960b-a7be6a2496d8,law/FIBROGENINC_10_01_2014-EX-10.11-COLLABORATION AGREEMENT,law,1,1,1,1.0,1,2.8085410012863576
+ohrbench_minilm_254_v1,mild,structure,38516f38-57de-43a2-a11c-8ae063e3ece8,law/FIBROGENINC_10_01_2014-EX-10.11-COLLABORATION AGREEMENT,law,0,1,1,1.0,1,2.69875000230968
+ohrbench_minilm_254_v1,mild,structure,38670250-5d2f-4f39-95d5-25d1e6851677,law/FIBROGENINC_10_01_2014-EX-10.11-COLLABORATION AGREEMENT,law,0,1,1,1.0,1,2.706791001401143
+ohrbench_minilm_254_v1,mild,structure,38883088-82e6-49c6-a4bb-3e8af6e30100,law/FIBROGENINC_10_01_2014-EX-10.11-COLLABORATION AGREEMENT,law,1,0,1,0.25,4,2.688541000679834
+ohrbench_minilm_254_v1,mild,structure,388a4e7b-4fa5-4a73-b4c0-d63940c125d7,law/FIBROGENINC_10_01_2014-EX-10.11-COLLABORATION AGREEMENT,law,1,1,1,1.0,1,2.693333000934217
+ohrbench_minilm_254_v1,mild,structure,38ac5de0-27ec-4840-b317-2c5357b48d16,law/FIBROGENINC_10_01_2014-EX-10.11-COLLABORATION AGREEMENT,law,1,0,1,0.25,4,2.662750001036329
+ohrbench_minilm_254_v1,mild,structure,38c1608a-e634-4141-b569-90df6e2a2b5e,law/FIBROGENINC_10_01_2014-EX-10.11-COLLABORATION AGREEMENT,law,1,1,1,1.0,1,2.7133749972563237
+ohrbench_minilm_254_v1,mild,structure,38c1962e-9148-424f-aac1-c14f30e9c5cc,law/FIBROGENINC_10_01_2014-EX-10.11-COLLABORATION AGREEMENT,law,1,1,1,1.0,1,2.692624999326654
+ohrbench_minilm_254_v1,mild,structure,38dfe76b-ae35-4290-ad80-ab08c963d148,law/FIBROGENINC_10_01_2014-EX-10.11-COLLABORATION AGREEMENT,law,1,1,1,1.0,1,2.687875003175577
+ohrbench_minilm_254_v1,mild,structure,38e54547-9c23-4b0a-bc15-c487f9fe518d,law/FIBROGENINC_10_01_2014-EX-10.11-COLLABORATION AGREEMENT,law,1,0,0,0.027777777777777776,36,2.684458002477186
+ohrbench_minilm_254_v1,mild,structure,38f71af9-4680-4561-a072-11ba7e0c3415,law/FIBROGENINC_10_01_2014-EX-10.11-COLLABORATION AGREEMENT,law,1,0,1,0.5,2,2.6995829975930974
+ohrbench_minilm_254_v1,mild,structure,3911ec3b-33fd-41eb-bdab-6e71d961edfa,law/FIBROGENINC_10_01_2014-EX-10.11-COLLABORATION AGREEMENT,law,1,1,1,1.0,1,2.6639999996405095
+ohrbench_minilm_254_v1,mild,structure,3915d56a-d57e-4e99-ba42-fb7acc82be2a,law/FIBROGENINC_10_01_2014-EX-10.11-COLLABORATION AGREEMENT,law,1,1,1,1.0,1,2.6977499983331654
+ohrbench_minilm_254_v1,mild,structure,39175ae8-c38e-4b8c-9536-2c1f90b359d9,law/FIBROGENINC_10_01_2014-EX-10.11-COLLABORATION AGREEMENT,law,1,1,1,1.0,1,2.9228329985926393
+ohrbench_minilm_254_v1,mild,structure,391c0603-45f9-424b-9225-c7bbc8dd01fa,law/FIBROGENINC_10_01_2014-EX-10.11-COLLABORATION AGREEMENT,law,0,0,1,0.5,2,3.104499999608379
+ohrbench_minilm_254_v1,mild,structure,391cf046-3d4a-4d51-a8fa-fd04559b5975,law/FIBROGENINC_10_01_2014-EX-10.11-COLLABORATION AGREEMENT,law,1,0,0,0.1,10,3.081834001932293
+ohrbench_minilm_254_v1,mild,structure,391f24aa-306d-4017-a9a7-cc55250b9621,law/FIBROGENINC_10_01_2014-EX-10.11-COLLABORATION AGREEMENT,law,1,1,1,1.0,1,3.1137090008996893
+ohrbench_minilm_254_v1,mild,structure,3934e03c-38df-407f-b14a-51398e924aa1,"law/VAXCYTE,INC_05_22_2020-EX-10.19-SUPPLY AGREEMENT",law,1,1,1,1.0,1,3.1464159983443096
+ohrbench_minilm_254_v1,mild,structure,3956fba9-7232-4dc9-8677-81b2c3a31607,"law/VAXCYTE,INC_05_22_2020-EX-10.19-SUPPLY AGREEMENT",law,1,1,1,1.0,1,3.1648750009480864
+ohrbench_minilm_254_v1,mild,structure,39698e16-0954-4224-aa5a-64c8ec5fc26c,"law/VAXCYTE,INC_05_22_2020-EX-10.19-SUPPLY AGREEMENT",law,1,1,1,1.0,1,3.11212499946123
+ohrbench_minilm_254_v1,mild,structure,399852a0-bd1b-4102-8d5c-141d6cf49ca8,"law/VAXCYTE,INC_05_22_2020-EX-10.19-SUPPLY AGREEMENT",law,1,0,1,0.5,2,3.1398329992953222
+ohrbench_minilm_254_v1,mild,structure,39a87c03-058f-4ff4-8818-5e5ac72e9c73,"law/VAXCYTE,INC_05_22_2020-EX-10.19-SUPPLY AGREEMENT",law,0,0,1,0.3333333333333333,3,2.6894580005318858
+ohrbench_minilm_254_v1,mild,structure,39b24ebb-6ca8-42e0-846f-ae5b7acbf932,"law/VAXCYTE,INC_05_22_2020-EX-10.19-SUPPLY AGREEMENT",law,0,1,1,1.0,1,2.728541996475542
+ohrbench_minilm_254_v1,mild,structure,39c185a6-c577-45be-8ad9-620c26a0bb36,"law/VAXCYTE,INC_05_22_2020-EX-10.19-SUPPLY AGREEMENT",law,1,0,1,0.5,2,2.7166250001755543
+ohrbench_minilm_254_v1,mild,structure,39da09d5-119b-488c-911d-e57619cefbfa,"law/VAXCYTE,INC_05_22_2020-EX-10.19-SUPPLY AGREEMENT",law,1,1,1,1.0,1,2.7245829987805337
+ohrbench_minilm_254_v1,mild,structure,39dbede7-dc93-4e55-8dcc-dc668a40c090,"law/VAXCYTE,INC_05_22_2020-EX-10.19-SUPPLY AGREEMENT",law,1,1,1,1.0,1,2.7148330009367783
+ohrbench_minilm_254_v1,mild,structure,39e72e2a-cabf-4d94-8bea-ce4de4f44028,"law/VAXCYTE,INC_05_22_2020-EX-10.19-SUPPLY AGREEMENT",law,1,1,1,1.0,1,2.732875000219792
+ohrbench_minilm_254_v1,mild,structure,39f983b4-414c-47c8-aff2-b72925b6d5a5,"law/VAXCYTE,INC_05_22_2020-EX-10.19-SUPPLY AGREEMENT",law,1,1,1,1.0,1,2.667417000338901
+ohrbench_minilm_254_v1,mild,structure,39fa33cd-035e-4eb9-be41-ca28a0c7bb90,"law/VAXCYTE,INC_05_22_2020-EX-10.19-SUPPLY AGREEMENT",law,1,0,1,0.3333333333333333,3,2.660124999238178
+ohrbench_minilm_254_v1,mild,structure,3a13f589-add8-4855-b059-78980e0e5651,"law/VAXCYTE,INC_05_22_2020-EX-10.19-SUPPLY AGREEMENT",law,1,1,1,1.0,1,2.712749999773223
+ohrbench_minilm_254_v1,mild,structure,3a3c6203-8520-4295-855d-36aa5f069f91,"law/VAXCYTE,INC_05_22_2020-EX-10.19-SUPPLY AGREEMENT",law,1,1,1,1.0,1,2.692458998353686
+ohrbench_minilm_254_v1,mild,structure,3a490417-b18b-46fc-b691-54054ad03ab2,manual/Guide-for-international-students-web,manual,1,0,1,0.5,2,2.6945829995383974
+ohrbench_minilm_254_v1,mild,structure,3a501b94-c6df-4619-b7aa-6ab245536296,manual/Guide-for-international-students-web,manual,1,1,1,1.0,1,2.691207999305334
+ohrbench_minilm_254_v1,mild,structure,3a540dc4-2c80-4fc6-a31e-b33011cf71ac,manual/Guide-for-international-students-web,manual,1,1,1,1.0,1,2.6702909999585245
+ohrbench_minilm_254_v1,mild,structure,3a555244-dd18-413f-8dd4-77808b6653de,manual/Guide-for-international-students-web,manual,1,0,1,0.3333333333333333,3,2.692499998374842
+ohrbench_minilm_254_v1,mild,structure,3a5bdc38-6c78-4197-aecb-810375f31bf4,manual/Guide-for-international-students-web,manual,1,0,1,0.5,2,2.7057080005761236
+ohrbench_minilm_254_v1,mild,structure,3a5e991b-9321-4e20-8583-530823f37f18,manual/Guide-for-international-students-web,manual,1,0,0,0.0,,2.693000002182089
+ohrbench_minilm_254_v1,mild,structure,3a724b9f-56fb-4c72-ad6a-1bfc81be81f4,manual/Guide-for-international-students-web,manual,1,0,0,0.16666666666666666,6,2.6642910015652888
+ohrbench_minilm_254_v1,mild,structure,3a771420-ee95-455b-8a9a-55983ee9ca9a,manual/Guide-for-international-students-web,manual,1,1,1,1.0,1,2.677125001355307
+ohrbench_minilm_254_v1,mild,structure,3a7f4ed9-4c7c-432b-9145-c99e8cfaf92a,manual/Guide-for-international-students-web,manual,0,1,1,1.0,1,2.9573749998235144
+ohrbench_minilm_254_v1,mild,structure,3a84b64a-0924-4960-abd6-9b414b2838a7,manual/Guide-for-international-students-web,manual,0,0,1,0.5,2,3.090165999310557
+ohrbench_minilm_254_v1,mild,structure,3a87f02f-9e05-4181-94fe-dd4737721be2,manual/Guide-for-international-students-web,manual,1,1,1,1.0,1,3.072583000175655
+ohrbench_minilm_254_v1,mild,structure,3a94f14b-0830-4ee6-9a9c-1d73f173d2fe,manual/Guide-for-international-students-web,manual,1,1,1,1.0,1,3.12412499988568
+ohrbench_minilm_254_v1,mild,structure,3a9f74ef-f468-4cdf-8988-89dc34fe120b,manual/Guide-for-international-students-web,manual,1,1,1,1.0,1,3.09733399990364
+ohrbench_minilm_254_v1,mild,structure,3aa6ad08-d134-404f-92bb-cf371e928b84,manual/Guide-for-international-students-web,manual,1,1,1,1.0,1,3.093208000791492
+ohrbench_minilm_254_v1,mild,structure,3ab6c743-6345-40bc-97f7-4a5e6cb7eb45,manual/Guide-for-international-students-web,manual,1,0,1,0.5,2,3.0867499990563374
+ohrbench_minilm_254_v1,mild,structure,3ac1781c-d29f-47d5-97e0-3c95aa6178a7,manual/Guide-for-international-students-web,manual,1,0,0,0.027777777777777776,36,3.117832999123493
+ohrbench_minilm_254_v1,mild,structure,3ac3ed0a-3050-4fd9-8333-00c0e526aac8,manual/Guide-for-international-students-web,manual,1,0,1,0.25,4,2.6985419972334057
+ohrbench_minilm_254_v1,mild,structure,3ad12632-c225-4484-8c44-5964acdb9ccc,manual/Guide-for-international-students-web,manual,1,0,1,0.25,4,2.693957998417318
+ohrbench_minilm_254_v1,mild,structure,3ad88a3c-befd-4012-8e0b-4dce5d20309b,manual/Guide-for-international-students-web,manual,1,1,1,1.0,1,2.6662919990485534
+ohrbench_minilm_254_v1,mild,structure,3b019fcb-f96d-4403-948c-93f3028d042b,manual/Guide-for-international-students-web,manual,1,1,1,1.0,1,2.672750000783708
+ohrbench_minilm_254_v1,mild,structure,3b14236a-4bdd-495c-8099-319c3fdd0411,manual/Guide-for-international-students-web,manual,0,0,0,0.09090909090909091,11,2.6788329996634275
+ohrbench_minilm_254_v1,mild,structure,3b193b0c-398a-406a-9b88-1f17d0af525e,manual/Guide-for-international-students-web,manual,1,0,0,0.045454545454545456,22,2.6972909981850535
+ohrbench_minilm_254_v1,mild,structure,3b27bd77-49d8-4dc4-8180-27d04333c0c3,manual/Guide-for-international-students-web,manual,1,0,0,0.125,8,2.6910419983323663
+ohrbench_minilm_254_v1,mild,structure,3b2d1fc9-eded-44e3-b9e6-f58f7fdf2229,manual/mi_phone,manual,1,1,1,1.0,1,2.6769169999170117
+ohrbench_minilm_254_v1,mild,structure,3b3a0aed-3d36-4779-8dfd-001027ce5dba,manual/mi_phone,manual,1,1,1,1.0,1,2.7384160021028947
+ohrbench_minilm_254_v1,mild,structure,3b3a3114-bd05-4094-8ca7-ccd892902d31,manual/mi_phone,manual,0,0,1,0.5,2,2.701416000491008
+ohrbench_minilm_254_v1,mild,structure,3b47d0cc-ee73-40ad-aa08-0f1a6213c727,manual/mi_phone,manual,1,0,0,0.16666666666666666,6,2.6796660022228025
+ohrbench_minilm_254_v1,mild,structure,3b49b6bb-c39f-4d89-9b04-ddeaa075547d,manual/mi_phone,manual,1,0,0,0.07692307692307693,13,2.665083000465529
+ohrbench_minilm_254_v1,mild,structure,3b4df68b-1807-4389-a6da-f3da3700ff21,manual/mi_phone,manual,1,1,1,1.0,1,2.6854589996219147
+ohrbench_minilm_254_v1,mild,structure,3b791bd1-18d4-436b-8bba-94e1949e3c09,manual/mi_phone,manual,1,1,1,1.0,1,2.925541000877274
+ohrbench_minilm_254_v1,mild,structure,3b7d72d1-a412-48e2-9eaf-15efa870607e,manual/mi_phone,manual,0,1,1,1.0,1,3.0879999976605177
+ohrbench_minilm_254_v1,mild,structure,3b813bac-b33d-4887-8bff-f1a54dfd1f09,manual/mi_phone,manual,0,1,1,1.0,1,3.0875420015945565
+ohrbench_minilm_254_v1,mild,structure,3b816204-184f-468d-af88-94833c73246d,manual/mi_phone,manual,0,0,1,0.3333333333333333,3,3.0911249996279366
+ohrbench_minilm_254_v1,mild,structure,3b8bb80d-572d-42ff-aaaa-5a3e31dbd1d5,manual/mi_phone,manual,0,1,1,1.0,1,2.7547089994186535
+ohrbench_minilm_254_v1,mild,structure,3b9a6173-95fc-4b15-a4d6-f5c8ea3e943a,manual/mi_phone,manual,1,1,1,1.0,1,2.66116599959787
+ohrbench_minilm_254_v1,mild,structure,3b9cea95-9ad7-458f-aecb-325b064f768d,manual/mi_phone,manual,0,1,1,1.0,1,2.6746660005301237
+ohrbench_minilm_254_v1,mild,structure,3ba6c185-5183-42ba-a526-8b072c8e97fe,manual/mi_phone,manual,1,0,1,0.25,4,2.9940829990664497

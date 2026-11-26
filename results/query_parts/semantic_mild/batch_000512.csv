@@ -1,0 +1,129 @@
+run_id,noise_level,chunker,query_id,doc_name,domain,context_verified,hit_at_1,hit_at_5,reciprocal_rank,first_relevant_rank,retrieval_latency_ms
+ohrbench_minilm_254_v1,mild,semantic,1493c30f-de9a-48b8-a40b-bb28c322b4ff,finance/AES_2022_10K,finance,0,1,1,1.0,1,2.5783340006455546
+ohrbench_minilm_254_v1,mild,semantic,1498ae4d-578c-4f3f-a359-2e06dbcc08e9,finance/AES_2022_10K,finance,1,0,0,0.029411764705882353,34,2.577707999080303
+ohrbench_minilm_254_v1,mild,semantic,14998517-6e5e-4126-9082-9e6189a14e1a,finance/AES_2022_10K,finance,1,0,0,0.05,20,2.5760829994396772
+ohrbench_minilm_254_v1,mild,semantic,149a0cef-0c6b-4940-bf13-abcd6b9e25fb,finance/AES_2022_10K,finance,0,0,0,0.0,,2.594124998722691
+ohrbench_minilm_254_v1,mild,semantic,14accba7-27c6-490f-b5e4-a3c8d11dcd8c,law/VnueInc_20150914_8-K_EX-10.1_9259571_EX-10.1_Promotion Agreement,law,1,1,1,1.0,1,2.624749999085907
+ohrbench_minilm_254_v1,mild,semantic,14b9c91c-a497-4483-b481-e6057d18cd7a,law/VnueInc_20150914_8-K_EX-10.1_9259571_EX-10.1_Promotion Agreement,law,1,1,1,1.0,1,2.6077499987877673
+ohrbench_minilm_254_v1,mild,semantic,14c20481-c397-4d84-b3e9-e4a3e6780b82,"law/VIVINT SOLAR, INC. - NON-COMPETITION AGREEMENT",law,1,1,1,1.0,1,2.589000001535169
+ohrbench_minilm_254_v1,mild,semantic,14dc01bc-0aa5-4583-a2a5-a421858da7da,"law/VIVINT SOLAR, INC. - NON-COMPETITION AGREEMENT",law,1,1,1,1.0,1,2.591000000393251
+ohrbench_minilm_254_v1,mild,semantic,14dddbc7-b388-4ab6-8df7-6120a4c866ba,law/BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT (1),law,0,1,1,1.0,1,2.5829169990174705
+ohrbench_minilm_254_v1,mild,semantic,14dfffd5-9d9f-4090-baf9-439753a34be0,law/BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT (1),law,0,1,1,1.0,1,2.5836669992713723
+ohrbench_minilm_254_v1,mild,semantic,14f1609c-1b0c-4574-aaf1-24955c52c615,law/BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT (1),law,1,1,1,1.0,1,2.7916250000998843
+ohrbench_minilm_254_v1,mild,semantic,1501a2e7-849b-495e-8d24-a4519358bf49,law/BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT (1),law,1,1,1,1.0,1,2.582208000603714
+ohrbench_minilm_254_v1,mild,semantic,150b0f76-43d7-49bf-be8a-b0d833c9a4b5,law/BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT (1),law,1,1,1,1.0,1,2.556791998358676
+ohrbench_minilm_254_v1,mild,semantic,1519401c-8b1f-4137-8ea2-55e08e50c79a,law/BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT (1),law,1,0,0,0.16666666666666666,6,2.5575830004527234
+ohrbench_minilm_254_v1,mild,semantic,153ec69a-09ef-4edc-a5ee-c1bc481f3a4c,law/BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT (1),law,1,1,1,1.0,1,2.617749998535146
+ohrbench_minilm_254_v1,mild,semantic,1543a58e-36ef-44d6-b597-486c7b39187e,law/BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT (1),law,0,1,1,1.0,1,2.5734999999258434
+ohrbench_minilm_254_v1,mild,semantic,1543d439-6682-488f-98a8-120f9eff7cb4,law/BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT (1),law,0,1,1,1.0,1,2.5720829999045236
+ohrbench_minilm_254_v1,mild,semantic,154b95b2-28e3-42b2-99eb-cf95f64de3c5,law/BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT (1),law,0,1,1,1.0,1,2.5521249990561046
+ohrbench_minilm_254_v1,mild,semantic,155efaef-8eb2-441b-aa0a-8f80acabd3b7,law/BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT (1),law,1,1,1,1.0,1,2.563374999226653
+ohrbench_minilm_254_v1,mild,semantic,155f8547-212d-41b3-aa02-ec752028332f,law/BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT (1),law,1,1,1,1.0,1,2.5668329999462003
+ohrbench_minilm_254_v1,mild,semantic,155ff8d3-5f11-4ca5-9a2a-4384b908267c,law/BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT (1),law,1,1,1,1.0,1,2.5862920010695234
+ohrbench_minilm_254_v1,mild,semantic,156af458-6c4c-4935-b79d-eda1ade6c5e9,law/BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT (1),law,1,1,1,1.0,1,2.588833998743212
+ohrbench_minilm_254_v1,mild,semantic,156cb7fa-fa7d-40b7-809b-282805e72a36,law/BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT (1),law,1,1,1,1.0,1,2.5727499996719416
+ohrbench_minilm_254_v1,mild,semantic,157245a6-50d2-498b-bdef-65bfa46d6bca,law/BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT (1),law,1,0,1,0.3333333333333333,3,2.5662079988251207
+ohrbench_minilm_254_v1,mild,semantic,1573c7e5-b1c5-4a0d-895d-014f7d0893d3,law/BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT (1),law,1,1,1,1.0,1,2.5401250004506437
+ohrbench_minilm_254_v1,mild,semantic,158988c5-e48d-47a5-bd14-287e1c77c677,law/BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT (1),law,0,1,1,1.0,1,2.82350000088627
+ohrbench_minilm_254_v1,mild,semantic,159101f7-a196-4415-997e-9b9bdfe9e732,law/BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT (1),law,1,0,1,0.5,2,2.9487920000974555
+ohrbench_minilm_254_v1,mild,semantic,15a9242b-435f-463c-a0b9-2d956ae4037c,law/BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT (1),law,1,0,1,0.5,2,2.9529580006055767
+ohrbench_minilm_254_v1,mild,semantic,15d0db43-80a1-4176-a2b3-4047ee4b0498,law/BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT (1),law,0,0,0,0.08333333333333333,12,2.949583000372513
+ohrbench_minilm_254_v1,mild,semantic,15e0d1f2-507f-48de-8fe8-b3f2df84a355,law/CYBERIANOUTPOSTINC_07_09_1998-EX-10.13-PROMOTION AGREEMENT,law,1,0,1,0.5,2,2.9622090005432256
+ohrbench_minilm_254_v1,mild,semantic,15e65881-2bae-4e56-8fa6-5a066a07a3b5,law/CYBERIANOUTPOSTINC_07_09_1998-EX-10.13-PROMOTION AGREEMENT,law,1,1,1,1.0,1,2.980208000735729
+ohrbench_minilm_254_v1,mild,semantic,15eea174-b971-45a0-9334-1b0a296e77d2,law/CYBERIANOUTPOSTINC_07_09_1998-EX-10.13-PROMOTION AGREEMENT,law,1,0,1,0.25,4,3.184166000210098
+ohrbench_minilm_254_v1,mild,semantic,15f0a2ae-6488-466f-820d-bcda5161a86b,law/CYBERIANOUTPOSTINC_07_09_1998-EX-10.13-PROMOTION AGREEMENT,law,0,1,1,1.0,1,2.9862499995942926
+ohrbench_minilm_254_v1,mild,semantic,16167a2f-57a4-4b99-9e0a-3abdc50613ab,law/CYBERIANOUTPOSTINC_07_09_1998-EX-10.13-PROMOTION AGREEMENT,law,0,1,1,1.0,1,2.945000000181608
+ohrbench_minilm_254_v1,mild,semantic,1618a9fe-79fe-4066-b9f8-f4c96db77b10,law/CYBERIANOUTPOSTINC_07_09_1998-EX-10.13-PROMOTION AGREEMENT,law,0,1,1,1.0,1,3.0025410014786758
+ohrbench_minilm_254_v1,mild,semantic,161c5902-90b4-4df3-a9d8-001df658111a,law/CYBERIANOUTPOSTINC_07_09_1998-EX-10.13-PROMOTION AGREEMENT,law,1,1,1,1.0,1,2.976708999995026
+ohrbench_minilm_254_v1,mild,semantic,1621f35d-931f-4ae8-be52-9b6d34d757c8,law/CYBERIANOUTPOSTINC_07_09_1998-EX-10.13-PROMOTION AGREEMENT,law,0,0,0,0.0,,2.943458001027466
+ohrbench_minilm_254_v1,mild,semantic,162cfb5e-e592-4880-876f-43b1fd64bfa1,law/ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement,law,1,1,1,1.0,1,2.963958000691491
+ohrbench_minilm_254_v1,mild,semantic,162d5c72-9ccd-4e1f-8c2a-bdaa9c5c11eb,law/ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement,law,1,0,0,0.16666666666666666,6,2.914000000600936
+ohrbench_minilm_254_v1,mild,semantic,1630e516-fc90-4415-a77c-da6a9cea2542,law/ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement,law,0,0,0,0.07692307692307693,13,2.9079999985697214
+ohrbench_minilm_254_v1,mild,semantic,16408169-a38d-4afc-bdd2-ed7af97ccc57,law/ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement,law,1,0,1,0.3333333333333333,3,2.9103750002832385
+ohrbench_minilm_254_v1,mild,semantic,1653a80b-b6c4-4e79-bc4e-dc006928362f,law/ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement,law,1,0,1,0.5,2,2.9168750006647315
+ohrbench_minilm_254_v1,mild,semantic,1654012d-5968-4841-8df5-d972076ef1af,law/ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement,law,0,0,1,0.3333333333333333,3,2.927208000983228
+ohrbench_minilm_254_v1,mild,semantic,16581c4c-eea5-4412-8b7c-be8b465f88c4,law/ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement,law,1,0,1,0.3333333333333333,3,2.8965410001546843
+ohrbench_minilm_254_v1,mild,semantic,165e91d9-abae-40c5-8a18-1db14f0d3e4e,law/ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement,law,0,1,1,1.0,1,2.967874999740161
+ohrbench_minilm_254_v1,mild,semantic,1662cd63-4b10-48e0-a10d-8698368f215b,law/ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement,law,1,0,0,0.125,8,2.9159580008126795
+ohrbench_minilm_254_v1,mild,semantic,1667b3f3-a1ac-4803-a4f2-8b8226801568,law/ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement,law,1,1,1,1.0,1,2.9291249993548263
+ohrbench_minilm_254_v1,mild,semantic,166c7896-c402-4136-8893-8bc288dd552d,law/ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement,law,1,0,1,0.2,5,2.935083000920713
+ohrbench_minilm_254_v1,mild,semantic,1675357f-c8f0-43ee-979a-24da0a326e5c,law/ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement,law,1,0,0,0.017857142857142856,56,2.937707999080885
+ohrbench_minilm_254_v1,mild,semantic,1679ddcc-fc88-47d2-9b06-7b1095862085,law/ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement,law,1,0,0,0.02857142857142857,35,2.9407910005829763
+ohrbench_minilm_254_v1,mild,semantic,1690677d-6007-452a-bd1a-a552969c3c13,law/ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement,law,1,1,1,1.0,1,2.9415829994832166
+ohrbench_minilm_254_v1,mild,semantic,169b1c5b-5707-435d-84b2-d266376407b6,law/ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement,law,1,0,1,0.5,2,2.917624999099644
+ohrbench_minilm_254_v1,mild,semantic,169be909-660a-4ddf-87bc-4a82204efbaa,law/ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement,law,0,0,0,0.16666666666666666,6,2.91720799941686
+ohrbench_minilm_254_v1,mild,semantic,16a5f201-2194-402f-896f-58d12bf2bae3,law/ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement,law,1,0,0,0.08333333333333333,12,6.931500000064261
+ohrbench_minilm_254_v1,mild,semantic,16c7f379-4132-42ac-8fb4-4a78c9193878,law/ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement,law,1,1,1,1.0,1,4.090999998879852
+ohrbench_minilm_254_v1,mild,semantic,16daf6a6-5945-4764-b07f-a381cd849403,law/ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement,law,1,0,0,0.0,,13.121500000124797
+ohrbench_minilm_254_v1,mild,semantic,16db36e4-d4ae-4486-ab19-4984f49eb5a6,law/ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement,law,1,0,1,0.5,2,5.735457998525817
+ohrbench_minilm_254_v1,mild,semantic,16e77920-5120-4f9c-b94b-a37c928b66d5,law/ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement,law,1,0,0,0.041666666666666664,24,4.2709999997896375
+ohrbench_minilm_254_v1,mild,semantic,16ea9d5d-3987-49a0-98d0-b8c8304ec17f,law/ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement,law,1,1,1,1.0,1,3.2248330007860204
+ohrbench_minilm_254_v1,mild,semantic,1704e146-312c-4940-a497-78e2194c955f,law/ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement,law,0,1,1,1.0,1,3.641709001385607
+ohrbench_minilm_254_v1,mild,semantic,17057f0d-4154-4915-9d62-c575048b34b2,law/ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement,law,1,1,1,1.0,1,3.001457998834667
+ohrbench_minilm_254_v1,mild,semantic,1712dd21-3cd5-4568-9f5c-335ff36240ff,law/ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement,law,1,0,1,0.3333333333333333,3,3.04991700068058
+ohrbench_minilm_254_v1,mild,semantic,171f379b-4fd1-4914-b170-5accd2309056,law/ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement,law,0,1,1,1.0,1,2.94841699906101
+ohrbench_minilm_254_v1,mild,semantic,1720b8b4-c12c-4c8d-999c-47458bd657c4,law/ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement,law,1,1,1,1.0,1,2.96166699990863
+ohrbench_minilm_254_v1,mild,semantic,1724d5d4-1a24-4dee-8e21-81ee475d264a,law/ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement,law,1,0,1,0.3333333333333333,3,2.9082500004733447
+ohrbench_minilm_254_v1,mild,semantic,17387378-2717-4825-b9d8-b181771791d5,law/ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement,law,1,1,1,1.0,1,2.992915999129764
+ohrbench_minilm_254_v1,mild,semantic,174074b1-1cc2-4e3e-a2c3-cf6d99d7103f,law/ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement,law,1,0,0,0.027777777777777776,36,2.9519579984480515
+ohrbench_minilm_254_v1,mild,semantic,17598ac5-0201-4df9-9417-342c41e9c5d6,law/ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement,law,1,0,0,0.0,,2.9787080002279254
+ohrbench_minilm_254_v1,mild,semantic,1759edc3-72ae-4244-8b01-63c1cd9d2b7d,law/IDREAMSKYTECHNOLOGYLTD_07_03_2014-EX-10.39-Cooperation Agreement on Mobile Game Business,law,1,1,1,1.0,1,2.935458000138169
+ohrbench_minilm_254_v1,mild,semantic,175e00ce-aa5a-4489-8529-48ca59db085d,law/IDREAMSKYTECHNOLOGYLTD_07_03_2014-EX-10.39-Cooperation Agreement on Mobile Game Business,law,1,0,0,0.034482758620689655,29,2.953541999886511
+ohrbench_minilm_254_v1,mild,semantic,176fb51c-7ec2-4b33-ad5c-684be273b612,law/IDREAMSKYTECHNOLOGYLTD_07_03_2014-EX-10.39-Cooperation Agreement on Mobile Game Business,law,1,0,1,0.25,4,2.9420419996313285
+ohrbench_minilm_254_v1,mild,semantic,1775336d-71ea-4d05-89a3-e80e966e1277,law/IDREAMSKYTECHNOLOGYLTD_07_03_2014-EX-10.39-Cooperation Agreement on Mobile Game Business,law,1,0,1,0.3333333333333333,3,3.0002910007169703
+ohrbench_minilm_254_v1,mild,semantic,177a776f-5136-4f65-a042-f2921f857232,law/IDREAMSKYTECHNOLOGYLTD_07_03_2014-EX-10.39-Cooperation Agreement on Mobile Game Business,law,1,1,1,1.0,1,2.958875000331318
+ohrbench_minilm_254_v1,mild,semantic,179abc83-6449-461d-abf3-9a7d2b6bd0f8,law/IDREAMSKYTECHNOLOGYLTD_07_03_2014-EX-10.39-Cooperation Agreement on Mobile Game Business,law,1,1,1,1.0,1,2.958125000077416
+ohrbench_minilm_254_v1,mild,semantic,17ae33ff-7930-479d-be66-d1f35f0b9207,law/IDREAMSKYTECHNOLOGYLTD_07_03_2014-EX-10.39-Cooperation Agreement on Mobile Game Business,law,1,0,1,0.3333333333333333,3,3.8870829994266387
+ohrbench_minilm_254_v1,mild,semantic,17b18e6e-78af-458e-8058-a332b4cfafa8,law/IDREAMSKYTECHNOLOGYLTD_07_03_2014-EX-10.39-Cooperation Agreement on Mobile Game Business,law,1,1,1,1.0,1,2.9572080002253642
+ohrbench_minilm_254_v1,mild,semantic,17bee0fb-6eb8-426a-aa27-f6844fb99d21,law/IDREAMSKYTECHNOLOGYLTD_07_03_2014-EX-10.39-Cooperation Agreement on Mobile Game Business,law,1,0,0,0.038461538461538464,26,2.9729170000791783
+ohrbench_minilm_254_v1,mild,semantic,17c1bb39-cd66-4b5d-9082-f73aa89a150d,law/IDREAMSKYTECHNOLOGYLTD_07_03_2014-EX-10.39-Cooperation Agreement on Mobile Game Business,law,0,1,1,1.0,1,2.9351670000323793
+ohrbench_minilm_254_v1,mild,semantic,17e0aa3c-0398-4ca8-aa7e-9d498c778ea6,law/IDREAMSKYTECHNOLOGYLTD_07_03_2014-EX-10.39-Cooperation Agreement on Mobile Game Business,law,1,1,1,1.0,1,2.9267499994602986
+ohrbench_minilm_254_v1,mild,semantic,17e8392a-55ce-45db-9e87-e04ca2086977,news/omnidocbench_newspaper_9bb9e05d38b370251a4b0a8d070d1d55_1,news,0,0,1,0.5,2,2.9347090003284393
+ohrbench_minilm_254_v1,mild,semantic,17f76b5c-0c09-46db-8f75-bc58fd7889ef,law/IDREAMSKYTECHNOLOGYLTD_07_03_2014-EX-10.39-Cooperation Agreement on Mobile Game Business,law,1,1,1,1.0,1,2.931040999101242
+ohrbench_minilm_254_v1,mild,semantic,17fafba0-9a4e-4610-9c5e-a35b866294bf,law/IDREAMSKYTECHNOLOGYLTD_07_03_2014-EX-10.39-Cooperation Agreement on Mobile Game Business,law,1,1,1,1.0,1,2.899832999901264
+ohrbench_minilm_254_v1,mild,semantic,17fc422c-9683-4b09-a8b1-74a4e039edb1,law/IDREAMSKYTECHNOLOGYLTD_07_03_2014-EX-10.39-Cooperation Agreement on Mobile Game Business,law,1,0,0,0.16666666666666666,6,2.937792000011541
+ohrbench_minilm_254_v1,mild,semantic,180f7232-79cb-46d2-8251-bdb2776adad8,law/IDREAMSKYTECHNOLOGYLTD_07_03_2014-EX-10.39-Cooperation Agreement on Mobile Game Business,law,1,1,1,1.0,1,2.925499999037129
+ohrbench_minilm_254_v1,mild,semantic,181a218e-cfd6-4560-9c05-c1f3241d3e27,law/IDREAMSKYTECHNOLOGYLTD_07_03_2014-EX-10.39-Cooperation Agreement on Mobile Game Business,law,1,1,1,1.0,1,2.9714169995713746
+ohrbench_minilm_254_v1,mild,semantic,182165fc-3f84-447c-8d94-3a55e11a4073,law/IDREAMSKYTECHNOLOGYLTD_07_03_2014-EX-10.39-Cooperation Agreement on Mobile Game Business,law,1,1,1,1.0,1,2.935125001386041
+ohrbench_minilm_254_v1,mild,semantic,1825bc54-30be-445f-a835-14f2ceb81f9d,news/omnidocbench_newspaper_f1de032fb6a25cf85c85c15cb2d2a63a_1,news,0,0,0,0.025,40,2.953707999040489
+ohrbench_minilm_254_v1,mild,semantic,18271de7-f929-4b27-be4a-c54078b5c1de,law/IDREAMSKYTECHNOLOGYLTD_07_03_2014-EX-10.39-Cooperation Agreement on Mobile Game Business,law,1,0,1,0.3333333333333333,3,2.9461250014719553
+ohrbench_minilm_254_v1,mild,semantic,183291be-6852-4a8b-94d0-e75789e5e7a9,law/IDREAMSKYTECHNOLOGYLTD_07_03_2014-EX-10.39-Cooperation Agreement on Mobile Game Business,law,1,1,1,1.0,1,2.906042000176967
+ohrbench_minilm_254_v1,mild,semantic,1836a8c6-de5d-4ef2-8945-291e265464db,law/IDREAMSKYTECHNOLOGYLTD_07_03_2014-EX-10.39-Cooperation Agreement on Mobile Game Business,law,1,1,1,1.0,1,2.9307080003491137
+ohrbench_minilm_254_v1,mild,semantic,183f4ba6-8406-4771-8ad5-9b66dc3c6bbb,law/IDREAMSKYTECHNOLOGYLTD_07_03_2014-EX-10.39-Cooperation Agreement on Mobile Game Business,law,1,1,1,1.0,1,2.940041998954257
+ohrbench_minilm_254_v1,mild,semantic,185414be-c131-4e69-a608-6f3694df91fd,"law/FIDELITYNATIONALINFORMATIONSERVICES,INC_08_05_2009-EX-10.3-INTELLECTUAL PROPERTY AGREEMENT",law,1,1,1,1.0,1,2.979917000629939
+ohrbench_minilm_254_v1,mild,semantic,186f4ef1-4977-4f5b-9a61-4ac871a953e2,"law/FIDELITYNATIONALINFORMATIONSERVICES,INC_08_05_2009-EX-10.3-INTELLECTUAL PROPERTY AGREEMENT",law,1,1,1,1.0,1,2.943375000540982
+ohrbench_minilm_254_v1,mild,semantic,187062f9-d7d9-4d2c-b52a-bdc0d492a3f9,"law/FIDELITYNATIONALINFORMATIONSERVICES,INC_08_05_2009-EX-10.3-INTELLECTUAL PROPERTY AGREEMENT",law,0,1,1,1.0,1,2.945915999589488
+ohrbench_minilm_254_v1,mild,semantic,18845c17-bd87-4a2d-bde9-0e5206885f43,"law/FIDELITYNATIONALINFORMATIONSERVICES,INC_08_05_2009-EX-10.3-INTELLECTUAL PROPERTY AGREEMENT",law,1,0,1,0.5,2,2.9584589992737165
+ohrbench_minilm_254_v1,mild,semantic,18a3f017-80f7-4648-8ea4-8d8f64323a3f,"law/FIDELITYNATIONALINFORMATIONSERVICES,INC_08_05_2009-EX-10.3-INTELLECTUAL PROPERTY AGREEMENT",law,1,0,1,0.5,2,3.2954170001175953
+ohrbench_minilm_254_v1,mild,semantic,18a8af2e-043a-49ea-9a6e-d48d0d100f2e,"law/FIDELITYNATIONALINFORMATIONSERVICES,INC_08_05_2009-EX-10.3-INTELLECTUAL PROPERTY AGREEMENT",law,1,1,1,1.0,1,2.9568329991889186
+ohrbench_minilm_254_v1,mild,semantic,18c300d3-514d-4162-b1b4-ad5d78c2043e,"law/FIDELITYNATIONALINFORMATIONSERVICES,INC_08_05_2009-EX-10.3-INTELLECTUAL PROPERTY AGREEMENT",law,0,0,1,0.3333333333333333,3,2.9443750008795178
+ohrbench_minilm_254_v1,mild,semantic,18ca93c2-7eb4-4683-8641-d7d2cc4b58ca,"law/FIDELITYNATIONALINFORMATIONSERVICES,INC_08_05_2009-EX-10.3-INTELLECTUAL PROPERTY AGREEMENT",law,0,1,1,1.0,1,2.896333999160561
+ohrbench_minilm_254_v1,mild,semantic,18cb4e11-abe0-4a61-89ca-574d20979829,"law/FIDELITYNATIONALINFORMATIONSERVICES,INC_08_05_2009-EX-10.3-INTELLECTUAL PROPERTY AGREEMENT",law,1,1,1,1.0,1,2.9603749990201322
+ohrbench_minilm_254_v1,mild,semantic,18e40ed3-ac09-46a2-bb35-3910d139a8be,"law/FIDELITYNATIONALINFORMATIONSERVICES,INC_08_05_2009-EX-10.3-INTELLECTUAL PROPERTY AGREEMENT",law,0,1,1,1.0,1,2.9365420014073607
+ohrbench_minilm_254_v1,mild,semantic,18f40db9-d6b1-4e90-ae75-e67b95af670e,"law/FIDELITYNATIONALINFORMATIONSERVICES,INC_08_05_2009-EX-10.3-INTELLECTUAL PROPERTY AGREEMENT",law,1,1,1,1.0,1,2.93045800026448
+ohrbench_minilm_254_v1,mild,semantic,18f619be-e17f-4abb-9f35-1b27e14c8a83,"law/FIDELITYNATIONALINFORMATIONSERVICES,INC_08_05_2009-EX-10.3-INTELLECTUAL PROPERTY AGREEMENT",law,1,1,1,1.0,1,2.939416999652167
+ohrbench_minilm_254_v1,mild,semantic,1903b45f-d01c-4935-a803-2f7efef06b04,"law/FIDELITYNATIONALINFORMATIONSERVICES,INC_08_05_2009-EX-10.3-INTELLECTUAL PROPERTY AGREEMENT",law,1,0,1,0.5,2,2.9210419997980352
+ohrbench_minilm_254_v1,mild,semantic,192728f6-059b-4583-bde2-7f934e6f1ca7,"law/FIDELITYNATIONALINFORMATIONSERVICES,INC_08_05_2009-EX-10.3-INTELLECTUAL PROPERTY AGREEMENT",law,1,1,1,1.0,1,2.9199999989941716
+ohrbench_minilm_254_v1,mild,semantic,194f7f0c-31ca-4154-9cc5-fab2b3d591d8,"law/FIDELITYNATIONALINFORMATIONSERVICES,INC_08_05_2009-EX-10.3-INTELLECTUAL PROPERTY AGREEMENT",law,1,1,1,1.0,1,2.9420419996313285
+ohrbench_minilm_254_v1,mild,semantic,196b3c22-bd0c-41b7-9cfb-3738c14bd472,"law/FIDELITYNATIONALINFORMATIONSERVICES,INC_08_05_2009-EX-10.3-INTELLECTUAL PROPERTY AGREEMENT",law,1,1,1,1.0,1,2.9704999997193227
+ohrbench_minilm_254_v1,mild,semantic,196fe97d-9e26-4ce0-8b49-69264ebe9744,"law/FIDELITYNATIONALINFORMATIONSERVICES,INC_08_05_2009-EX-10.3-INTELLECTUAL PROPERTY AGREEMENT",law,1,1,1,1.0,1,2.930124999693362
+ohrbench_minilm_254_v1,mild,semantic,19831cdd-1adb-4087-a0d9-ba7a7caf256d,"law/FIDELITYNATIONALINFORMATIONSERVICES,INC_08_05_2009-EX-10.3-INTELLECTUAL PROPERTY AGREEMENT",law,1,0,1,0.3333333333333333,3,2.9243340013636043
+ohrbench_minilm_254_v1,mild,semantic,1988a649-8389-4af3-9242-3002d2a19f2f,"law/FIDELITYNATIONALINFORMATIONSERVICES,INC_08_05_2009-EX-10.3-INTELLECTUAL PROPERTY AGREEMENT",law,1,0,1,0.3333333333333333,3,2.938874999017571
+ohrbench_minilm_254_v1,mild,semantic,19b3f5f7-ae83-43e8-9964-22812295a871,"law/FIDELITYNATIONALINFORMATIONSERVICES,INC_08_05_2009-EX-10.3-INTELLECTUAL PROPERTY AGREEMENT",law,1,0,0,0.05555555555555555,18,2.9519999989133794
+ohrbench_minilm_254_v1,mild,semantic,19b53b7f-b47a-4dce-8f70-9452ce8c037e,"law/FIDELITYNATIONALINFORMATIONSERVICES,INC_08_05_2009-EX-10.3-INTELLECTUAL PROPERTY AGREEMENT",law,1,1,1,1.0,1,2.937541999926907
+ohrbench_minilm_254_v1,mild,semantic,19b6b91b-1f69-4a01-b5f5-b0d2042e4fec,"law/FIDELITYNATIONALINFORMATIONSERVICES,INC_08_05_2009-EX-10.3-INTELLECTUAL PROPERTY AGREEMENT",law,1,1,1,1.0,1,2.9654999998456333
+ohrbench_minilm_254_v1,mild,semantic,19c2337d-9e05-46bc-b8fc-3b17b28f5ba2,"law/FIDELITYNATIONALINFORMATIONSERVICES,INC_08_05_2009-EX-10.3-INTELLECTUAL PROPERTY AGREEMENT",law,1,0,0,0.125,8,2.9481670007953653
+ohrbench_minilm_254_v1,mild,semantic,19c502db-1bad-42f5-90da-e03db25b8444,law/ASIANDRAGONGROUPINC_08_11_2005-EX-10.5-Reseller Agreement,law,0,1,1,1.0,1,2.9052919999230653
+ohrbench_minilm_254_v1,mild,semantic,19c87c07-4795-4f79-93f5-481769707573,law/ASIANDRAGONGROUPINC_08_11_2005-EX-10.5-Reseller Agreement,law,0,0,1,0.3333333333333333,3,2.9362919995037373
+ohrbench_minilm_254_v1,mild,semantic,19d1f99b-5da5-4314-9206-9033e2ff5ee7,law/ASIANDRAGONGROUPINC_08_11_2005-EX-10.5-Reseller Agreement,law,0,1,1,1.0,1,2.918082998803584
+ohrbench_minilm_254_v1,mild,semantic,19e14e1c-7d72-4b88-8b18-570b864364a8,law/ASIANDRAGONGROUPINC_08_11_2005-EX-10.5-Reseller Agreement,law,1,1,1,1.0,1,3.3000000003085006
+ohrbench_minilm_254_v1,mild,semantic,19faa06e-0c0a-4967-b579-501a62fda854,law/ASIANDRAGONGROUPINC_08_11_2005-EX-10.5-Reseller Agreement,law,1,0,0,0.14285714285714285,7,2.938207999250153
+ohrbench_minilm_254_v1,mild,semantic,1a00cb00-31f1-44f4-8c9d-c9a84da3ea8f,law/ASIANDRAGONGROUPINC_08_11_2005-EX-10.5-Reseller Agreement,law,1,1,1,1.0,1,2.9742079987045145
+ohrbench_minilm_254_v1,mild,semantic,1a13a2e2-5064-49fe-a6bd-df899e688137,law/ASIANDRAGONGROUPINC_08_11_2005-EX-10.5-Reseller Agreement,law,1,0,0,0.023809523809523808,42,2.9591669990622904
+ohrbench_minilm_254_v1,mild,semantic,1a1d81de-4b9c-4dfa-b751-07eb2cb7a2d2,law/ASIANDRAGONGROUPINC_08_11_2005-EX-10.5-Reseller Agreement,law,0,1,1,1.0,1,2.929624999524094
+ohrbench_minilm_254_v1,mild,semantic,1a1eddfe-f593-44be-a56f-87954551d132,law/ASIANDRAGONGROUPINC_08_11_2005-EX-10.5-Reseller Agreement,law,1,0,1,0.3333333333333333,3,2.95962500058522
+ohrbench_minilm_254_v1,mild,semantic,1a266e6c-0f03-4ad4-820d-8a8fe5c7120e,law/ASIANDRAGONGROUPINC_08_11_2005-EX-10.5-Reseller Agreement,law,1,1,1,1.0,1,2.9722500003117602
+ohrbench_minilm_254_v1,mild,semantic,1a34e471-f038-4e07-9d55-932c7f41f949,law/ASIANDRAGONGROUPINC_08_11_2005-EX-10.5-Reseller Agreement,law,1,1,1,1.0,1,2.9545830002462026
+ohrbench_minilm_254_v1,mild,semantic,1a432f0a-7daa-49f0-80b6-fce2de53790a,news/omnidocbench_newspaper_35352f94db65d19e097395380498ec15_1,news,1,0,0,0.02857142857142857,35,2.966959000332281
+ohrbench_minilm_254_v1,mild,semantic,1a47b4a9-ffb4-4662-944d-b1d2243974b8,law/ASIANDRAGONGROUPINC_08_11_2005-EX-10.5-Reseller Agreement,law,0,1,1,1.0,1,2.9434159987431485
+ohrbench_minilm_254_v1,mild,semantic,1a54acb2-265a-4190-95b1-f1c6059251e1,law/ASIANDRAGONGROUPINC_08_11_2005-EX-10.5-Reseller Agreement,law,1,1,1,1.0,1,3.040125000552507

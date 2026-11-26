@@ -1,0 +1,129 @@
+run_id,noise_level,chunker,query_id,doc_name,domain,context_verified,hit_at_1,hit_at_5,reciprocal_rank,first_relevant_rank,retrieval_latency_ms
+ohrbench_minilm_254_v1,mild,fixed,b703078a-0ae9-4e6e-b5d8-35818f444346,administration/DUDE_492c67738d0444d67cb75e13ee1a5716,administration,1,1,1,1.0,1,2.278333999129245
+ohrbench_minilm_254_v1,mild,fixed,b70417ff-c743-4e60-9ca3-854f037477c2,administration/DUDE_fdd3308efacddb88d4aa6e2073f481d4,administration,1,1,1,1.0,1,2.2894169997016434
+ohrbench_minilm_254_v1,mild,fixed,b7068b26-fef1-4ca9-b719-8e17d7523baf,administration/DUDE_a316f9cb668a61d1ed54668e176f6254,administration,1,1,1,1.0,1,2.240207999420818
+ohrbench_minilm_254_v1,mild,fixed,b707a017-ddcf-445e-9a7a-3da4b7077a32,administration/DUDE_a316f9cb668a61d1ed54668e176f6254,administration,1,1,1,1.0,1,2.256790998217184
+ohrbench_minilm_254_v1,mild,fixed,b7095e97-b5b8-4514-93dc-88277ba82698,administration/DUDE_a316f9cb668a61d1ed54668e176f6254,administration,1,0,0,0.1111111111111111,9,2.3047079994285014
+ohrbench_minilm_254_v1,mild,fixed,b70a5331-1840-4e51-ba39-35e7dab3bd89,administration/DUDE_a316f9cb668a61d1ed54668e176f6254,administration,1,0,1,0.25,4,2.247750002425164
+ohrbench_minilm_254_v1,mild,fixed,b70a7881-3a9b-4b02-9d4c-81dc7b9af48a,administration/DUDE_a316f9cb668a61d1ed54668e176f6254,administration,1,0,1,0.5,2,2.3226250013976824
+ohrbench_minilm_254_v1,mild,fixed,b70b27e9-413d-4a54-abf4-c8e91cf8d875,administration/DUDE_a316f9cb668a61d1ed54668e176f6254,administration,1,1,1,1.0,1,2.266625000629574
+ohrbench_minilm_254_v1,mild,fixed,b70b2faa-47e5-4571-94f1-e045f9a8ba64,administration/DUDE_a316f9cb668a61d1ed54668e176f6254,administration,1,1,1,1.0,1,2.2610420019191224
+ohrbench_minilm_254_v1,mild,fixed,b70c4094-9eed-48ff-b7d2-56e3a8470b94,administration/DUDE_af58e490d370b326100ed9df5caa6539,administration,0,1,1,1.0,1,2.2376249980879948
+ohrbench_minilm_254_v1,mild,fixed,b70c6e3d-01ec-40f5-a1c8-1ad0164bb68d,administration/DUDE_8e7c4cb542ad160f80fb3d795ada35d8,administration,1,1,1,1.0,1,2.2383339965017512
+ohrbench_minilm_254_v1,mild,fixed,b70ca652-7f66-4726-97bb-87f3f3372827,administration/DUDE_8e7c4cb542ad160f80fb3d795ada35d8,administration,1,1,1,1.0,1,2.318709000974195
+ohrbench_minilm_254_v1,mild,fixed,b70cad64-1a0d-4d6e-a5c1-43ab09cb2a44,administration/DUDE_8e7c4cb542ad160f80fb3d795ada35d8,administration,1,1,1,1.0,1,2.237874999991618
+ohrbench_minilm_254_v1,mild,fixed,b70d07c4-0e06-4281-bd96-d93c9d75eeef,administration/DUDE_f8e0ae0c4c43771e46aa01d89a3c8ce2,administration,0,1,1,1.0,1,2.2928340004000347
+ohrbench_minilm_254_v1,mild,fixed,b70dfd66-a70a-4b1a-9191-cfd99218df37,administration/DUDE_2b2b79bdd3b40f8cdb638363579f2b68,administration,0,0,0,0.0,,2.3005420007393695
+ohrbench_minilm_254_v1,mild,fixed,b70e4068-2514-44d1-8c5a-8d9ada59529c,administration/DUDE_2b2b79bdd3b40f8cdb638363579f2b68,administration,0,0,1,0.5,2,2.259000000776723
+ohrbench_minilm_254_v1,mild,fixed,b70f1350-306d-41a3-bced-29aaf0e8b486,administration/DUDE_63a7691bc22fb1581c768ad3704146fe,administration,1,0,1,0.3333333333333333,3,2.281084001879208
+ohrbench_minilm_254_v1,mild,fixed,b70f9370-e574-4045-8a88-3bc41a15671b,administration/DUDE_692ea5531c3fcf6b5af1b836787b2133,administration,1,1,1,1.0,1,2.240624999103602
+ohrbench_minilm_254_v1,mild,fixed,b7103494-0534-4346-9826-e80d4dab3397,administration/DUDE_692ea5531c3fcf6b5af1b836787b2133,administration,0,1,1,1.0,1,2.2440829998231493
+ohrbench_minilm_254_v1,mild,fixed,b710f000-6a22-40e3-8441-1d74c3dc20db,administration/DUDE_692ea5531c3fcf6b5af1b836787b2133,administration,1,1,1,1.0,1,2.238749999378342
+ohrbench_minilm_254_v1,mild,fixed,b711b399-30df-4872-9b65-1e2ab7924205,administration/DUDE_88a966d2bf227c5d366b9a50ca7c6e8e,administration,1,1,1,1.0,1,2.311084001121344
+ohrbench_minilm_254_v1,mild,fixed,b7123542-743e-4222-a1e9-304e26a09344,finance/DUDE_1c05e585ea1c0f394984e3fbe454779a,finance,0,1,1,1.0,1,2.44537500111619
+ohrbench_minilm_254_v1,mild,fixed,b712c71b-4fa9-4461-963d-e2eb6aaf737f,finance/DUDE_1c05e585ea1c0f394984e3fbe454779a,finance,0,0,1,0.5,2,2.2283329999481793
+ohrbench_minilm_254_v1,mild,fixed,b71498de-9ebc-42f4-9d34-b8a2157720d5,finance/DUDE_1c05e585ea1c0f394984e3fbe454779a,finance,0,1,1,1.0,1,2.2202090003702324
+ohrbench_minilm_254_v1,mild,fixed,b7155092-36ea-4c25-9f26-4edaf6935f8b,finance/DUDE_1c05e585ea1c0f394984e3fbe454779a,finance,0,0,1,0.2,5,2.214083000581013
+ohrbench_minilm_254_v1,mild,fixed,b7165bad-3b47-48b9-a161-2f75a230eba8,finance/DUDE_1c05e585ea1c0f394984e3fbe454779a,finance,0,0,0,0.1,10,2.2831249989394564
+ohrbench_minilm_254_v1,mild,fixed,b716e3cb-b0e3-48cb-830d-a31e6a15047c,finance/DUDE_fd3457ca7b6abd9158ad58656359cb67,finance,0,1,1,1.0,1,2.262207999592647
+ohrbench_minilm_254_v1,mild,fixed,b718bc9f-8132-47a5-9510-b12d6c11994b,finance/DUDE_fd3457ca7b6abd9158ad58656359cb67,finance,0,1,1,1.0,1,2.2232500014069956
+ohrbench_minilm_254_v1,mild,fixed,b71a9a4c-3a49-4ccd-8a86-1f05720bb166,finance/DUDE_fd3457ca7b6abd9158ad58656359cb67,finance,0,1,1,1.0,1,2.3289169985218905
+ohrbench_minilm_254_v1,mild,fixed,b71b5518-810c-415d-b1fd-cc43fd3b1021,finance/DUDE_ac009163f46e43e541395703cc76ade0,finance,0,0,1,0.5,2,2.22133400166058
+ohrbench_minilm_254_v1,mild,fixed,b71c0cbc-b983-4045-ac49-8f449ee46828,finance/DUDE_ac009163f46e43e541395703cc76ade0,finance,0,0,1,0.5,2,2.2099579982750583
+ohrbench_minilm_254_v1,mild,fixed,b71c4fd0-1e11-4f22-a41f-61de7a290d53,finance/DUDE_ac009163f46e43e541395703cc76ade0,finance,0,0,1,0.5,2,2.249666998977773
+ohrbench_minilm_254_v1,mild,fixed,b71c8ea0-e374-497c-9b63-8437261227bf,finance/DUDE_ac009163f46e43e541395703cc76ade0,finance,0,0,1,0.25,4,2.2182080028869677
+ohrbench_minilm_254_v1,mild,fixed,b71d6557-f885-4453-b915-6150e518840c,finance/DUDE_ac009163f46e43e541395703cc76ade0,finance,1,0,1,0.3333333333333333,3,2.316416001121979
+ohrbench_minilm_254_v1,mild,fixed,b71df25e-3756-4f51-83dc-01010b63983c,finance/DUDE_ac009163f46e43e541395703cc76ade0,finance,1,1,1,1.0,1,2.2200420025910717
+ohrbench_minilm_254_v1,mild,fixed,b71f0b70-d98d-4d5f-8cff-519b79dcde1e,finance/DUDE_ac009163f46e43e541395703cc76ade0,finance,1,0,1,0.3333333333333333,3,2.3050420022627804
+ohrbench_minilm_254_v1,mild,fixed,b71fad19-cf9e-4231-9073-1a2d104f82b3,finance/DUDE_76aacf03aaea6245d83ea8ebf498a296,finance,1,1,1,1.0,1,2.240749996417435
+ohrbench_minilm_254_v1,mild,fixed,b7205fd1-ae28-4f27-94e6-856a9eb11234,finance/DUDE_76aacf03aaea6245d83ea8ebf498a296,finance,1,0,1,0.5,2,2.218542002083268
+ohrbench_minilm_254_v1,mild,fixed,b7227bbe-c6d7-40f9-a605-f3404e3c46da,finance/AMD_2022_10K,finance,1,1,1,1.0,1,2.1860829983779695
+ohrbench_minilm_254_v1,mild,fixed,b7227e15-c9f9-4edb-8d78-9478516781a7,finance/AMD_2022_10K,finance,1,1,1,1.0,1,2.1739170006185304
+ohrbench_minilm_254_v1,mild,fixed,b7234c90-a23b-42b8-8c0a-affc387d4db7,finance/3M_2023Q2_10Q,finance,0,0,0,0.0,,2.34308300059638
+ohrbench_minilm_254_v1,mild,fixed,b723ac62-5dfa-4bf5-8c46-aec0811acc1d,"law/HALITRON,INC_03_01_2005-EX-10.15-SPONSORSHIP AND DEVELOPMENT AGREEMENT",law,1,1,1,1.0,1,2.2584170001209714
+ohrbench_minilm_254_v1,mild,fixed,b72488b5-214f-4d8d-befb-92d040c6a7d3,law/IntegrityFunds_20200121_485BPOS_EX-99.E UNDR CONTR_11948727_EX-99.E UNDR CONTR_Service Agreement,law,0,1,1,1.0,1,2.6190420030616224
+ohrbench_minilm_254_v1,mild,fixed,b725033b-c4db-4470-ba12-ce2e38a0bec1,law/IntegrityFunds_20200121_485BPOS_EX-99.E UNDR CONTR_11948727_EX-99.E UNDR CONTR_Service Agreement,law,1,1,1,1.0,1,2.253042002848815
+ohrbench_minilm_254_v1,mild,fixed,b728a0ac-e36a-48c2-ab1e-deb744107324,law/IntegrityFunds_20200121_485BPOS_EX-99.E UNDR CONTR_11948727_EX-99.E UNDR CONTR_Service Agreement,law,1,0,1,0.5,2,2.275207996717654
+ohrbench_minilm_254_v1,mild,fixed,b7299414-e54c-4f6a-ac16-0f3094c6b5de,"law/FIDELITYNATIONALINFORMATIONSERVICES,INC_08_05_2009-EX-10.3-INTELLECTUAL PROPERTY AGREEMENT",law,1,1,1,1.0,1,2.3423750026267953
+ohrbench_minilm_254_v1,mild,fixed,b72a1493-0b74-4c9e-aedc-daaa1fe98188,"law/FIDELITYNATIONALINFORMATIONSERVICES,INC_08_05_2009-EX-10.3-INTELLECTUAL PROPERTY AGREEMENT",law,1,1,1,1.0,1,2.227084001788171
+ohrbench_minilm_254_v1,mild,fixed,b730d2e1-6f76-4fbc-aedb-782c429ba630,law/KitovPharmaLtd_20190326_20-F_EX-4.15_11584449_EX-4.15_Manufacturing Agreement,law,1,0,1,0.5,2,2.3055829988152254
+ohrbench_minilm_254_v1,mild,fixed,b730f449-cbfc-468e-8a7a-bf4f12fbca96,law/KitovPharmaLtd_20190326_20-F_EX-4.15_11584449_EX-4.15_Manufacturing Agreement,law,1,1,1,1.0,1,2.261249999719439
+ohrbench_minilm_254_v1,mild,fixed,b731385b-d289-430c-9632-222b3367ea34,"law/OPTIMIZEDTRANSPORTATIONMANAGEMENT,INC_07_26_2000-EX-6.6-DISTRIBUTOR AGREEMENT",law,1,1,1,1.0,1,2.3136669988161884
+ohrbench_minilm_254_v1,mild,fixed,b731b1f5-b62d-46c7-8f32-1c4c533df8f8,law/DUDE_7c3f6204b3241f142f0f8eb8e1fefe7a,law,0,1,1,1.0,1,2.313791999768
+ohrbench_minilm_254_v1,mild,fixed,b735791f-f95f-4cc2-ba4c-fc7212797926,law/DUDE_7c3f6204b3241f142f0f8eb8e1fefe7a,law,0,1,1,1.0,1,2.2335829999065027
+ohrbench_minilm_254_v1,mild,fixed,b735b781-fbd5-4903-913b-c77d7e72919d,law/N2KINC_10_16_1997-EX-10.16-SPONSORSHIP AGREEMENT,law,1,1,1,1.0,1,2.408084001217503
+ohrbench_minilm_254_v1,mild,fixed,b736da7b-470f-4738-ae02-5cbdd796b64e,law/N2KINC_10_16_1997-EX-10.16-SPONSORSHIP AGREEMENT,law,1,0,1,0.2,5,2.263459002278978
+ohrbench_minilm_254_v1,mild,fixed,b739277e-6821-4ec8-b297-d39cb9285d6e,law/N2KINC_10_16_1997-EX-10.16-SPONSORSHIP AGREEMENT,law,0,0,1,0.5,2,2.320584000699455
+ohrbench_minilm_254_v1,mild,fixed,b7394112-d1b3-44ae-a54a-b48614e093e6,law/N2KINC_10_16_1997-EX-10.16-SPONSORSHIP AGREEMENT,law,1,1,1,1.0,1,2.3429169996234123
+ohrbench_minilm_254_v1,mild,fixed,b7399625-dc16-4677-8ffa-8239b5c1648f,law/N2KINC_10_16_1997-EX-10.16-SPONSORSHIP AGREEMENT,law,0,1,1,1.0,1,2.2685420008201618
+ohrbench_minilm_254_v1,mild,fixed,b739eaba-2ab5-4cfc-8c5f-db45d04b3086,law/N2KINC_10_16_1997-EX-10.16-SPONSORSHIP AGREEMENT,law,1,0,0,0.16666666666666666,6,2.3217080015456304
+ohrbench_minilm_254_v1,mild,fixed,b73c707c-0593-4941-a700-4df11dbfe247,law/GULFSOUTHMEDICALSUPPLYINC_12_24_1997-EX-4-AFFILIATE AGREEMENT,law,1,1,1,1.0,1,2.261749999888707
+ohrbench_minilm_254_v1,mild,fixed,b73cf3fa-07ce-4d2a-b63c-132d18871622,law/GULFSOUTHMEDICALSUPPLYINC_12_24_1997-EX-4-AFFILIATE AGREEMENT,law,0,1,1,1.0,1,2.424791000521509
+ohrbench_minilm_254_v1,mild,fixed,b73d360a-8d2d-41d9-b6bf-156e62e69120,law/GULFSOUTHMEDICALSUPPLYINC_12_24_1997-EX-4-AFFILIATE AGREEMENT,law,0,1,1,1.0,1,2.312417000212008
+ohrbench_minilm_254_v1,mild,fixed,b73d9625-e505-49e8-8d07-c04ff5e16909,law/GULFSOUTHMEDICALSUPPLYINC_12_24_1997-EX-4-AFFILIATE AGREEMENT,law,1,1,1,1.0,1,2.2525420026795473
+ohrbench_minilm_254_v1,mild,fixed,b73e7881-a2d6-4604-92e8-4d92aea2c4b5,law/GULFSOUTHMEDICALSUPPLYINC_12_24_1997-EX-4-AFFILIATE AGREEMENT,law,1,1,1,1.0,1,2.4559999983466696
+ohrbench_minilm_254_v1,mild,fixed,b74132c5-f1f4-4f3f-bacc-8007076579be,law/GULFSOUTHMEDICALSUPPLYINC_12_24_1997-EX-4-AFFILIATE AGREEMENT,law,1,1,1,1.0,1,2.5202500000887085
+ohrbench_minilm_254_v1,mild,fixed,b7416359-115c-4aa5-9893-3b8017d9d1f3,law/GULFSOUTHMEDICALSUPPLYINC_12_24_1997-EX-4-AFFILIATE AGREEMENT,law,0,0,1,0.5,2,2.291458000399871
+ohrbench_minilm_254_v1,mild,fixed,b741a73d-e407-43ac-ad2d-234ea3090d52,law/GULFSOUTHMEDICALSUPPLYINC_12_24_1997-EX-4-AFFILIATE AGREEMENT,law,0,1,1,1.0,1,2.2421659996325616
+ohrbench_minilm_254_v1,mild,fixed,b741bbf8-2da9-48e5-bd33-1b9251dfb0ff,law/GULFSOUTHMEDICALSUPPLYINC_12_24_1997-EX-4-AFFILIATE AGREEMENT,law,1,1,1,1.0,1,2.515457999834325
+ohrbench_minilm_254_v1,mild,fixed,b741defb-4b2e-40e9-a740-20d1a0fdb1a6,law/GULFSOUTHMEDICALSUPPLYINC_12_24_1997-EX-4-AFFILIATE AGREEMENT,law,1,1,1,1.0,1,2.279166001244448
+ohrbench_minilm_254_v1,mild,fixed,b742202b-f847-423c-8778-cef1d4675c28,law/GULFSOUTHMEDICALSUPPLYINC_12_24_1997-EX-4-AFFILIATE AGREEMENT,law,0,1,1,1.0,1,2.2503750005853362
+ohrbench_minilm_254_v1,mild,fixed,b7444c17-c1b2-40ff-bbe5-6bab30199cf6,law/GULFSOUTHMEDICALSUPPLYINC_12_24_1997-EX-4-AFFILIATE AGREEMENT,law,1,1,1,1.0,1,2.341667001019232
+ohrbench_minilm_254_v1,mild,fixed,b744ed49-3949-43a6-840e-05505dd1366e,law/GULFSOUTHMEDICALSUPPLYINC_12_24_1997-EX-4-AFFILIATE AGREEMENT,law,0,1,1,1.0,1,2.321874999324791
+ohrbench_minilm_254_v1,mild,fixed,b744f988-eb7a-498b-811e-ea198c6a7c55,law/GULFSOUTHMEDICALSUPPLYINC_12_24_1997-EX-4-AFFILIATE AGREEMENT,law,0,1,1,1.0,1,2.331833002244821
+ohrbench_minilm_254_v1,mild,fixed,b7458047-3d62-43a4-b45d-44270394bf15,law/GULFSOUTHMEDICALSUPPLYINC_12_24_1997-EX-4-AFFILIATE AGREEMENT,law,1,1,1,1.0,1,2.254041999549372
+ohrbench_minilm_254_v1,mild,fixed,b74618f5-4f15-4f1a-80e0-3a70ada90413,law/GULFSOUTHMEDICALSUPPLYINC_12_24_1997-EX-4-AFFILIATE AGREEMENT,law,1,1,1,1.0,1,2.3441670018655714
+ohrbench_minilm_254_v1,mild,fixed,b74a227a-e5a2-4fa1-83d5-978d924e9d90,academic/2305.14160v4,academic,1,0,1,0.3333333333333333,3,2.1806670010846574
+ohrbench_minilm_254_v1,mild,fixed,b74b697e-73f7-4c1b-8d24-99611c473ff1,academic/2310.11511v1,academic,0,0,1,0.5,2,2.1802500014018733
+ohrbench_minilm_254_v1,mild,fixed,b74ebbdf-d805-4f4e-829b-122f9dc45e6d,academic/2405.14831v1,academic,0,1,1,1.0,1,2.2615000016230624
+ohrbench_minilm_254_v1,mild,fixed,b74f39ff-340e-45ba-a8b1-c992b218e74e,academic/2405.14831v1,academic,1,1,1,1.0,1,2.318374998139916
+ohrbench_minilm_254_v1,mild,fixed,b750d034-f9a2-46c9-baae-8cd443fd7e0f,academic/2409.01704v1,academic,1,0,1,0.25,4,2.2476250014733523
+ohrbench_minilm_254_v1,mild,fixed,b7510971-70fe-4070-b160-35b9842672e8,finance/3M_2023Q2_10Q,finance,0,0,1,0.25,4,2.2354169996106066
+ohrbench_minilm_254_v1,mild,fixed,b752fdc2-b64c-4942-a1e4-5b6eb388a50c,"law/ADUROBIOTECH,INC_06_02_2020-EX-10.7-CONSULTING AGREEMENT",law,0,1,1,1.0,1,2.288749998115236
+ohrbench_minilm_254_v1,mild,fixed,b757a11b-7b32-4176-bc69-98bfc5f7a348,finance/AMD_2022_10K,finance,0,0,1,0.5,2,2.2508749971166253
+ohrbench_minilm_254_v1,mild,fixed,b75856de-ca0d-4c8c-8a43-879ea3d76ac1,finance/AMD_2022_10K,finance,0,0,1,0.2,5,2.2785420005675405
+ohrbench_minilm_254_v1,mild,fixed,b75b396e-21ac-4108-b6b4-b49e41dd137a,law/ASIANDRAGONGROUPINC_08_11_2005-EX-10.5-Reseller Agreement,law,0,1,1,1.0,1,2.2370840015355498
+ohrbench_minilm_254_v1,mild,fixed,b75ce865-2f3e-466a-a508-ce657a94033a,law/ArmstrongFlooringInc_20190107_8-K_EX-10.2_11471795_EX-10.2_Intellectual Property Agreement,law,1,0,0,0.14285714285714285,7,2.3150829983933363
+ohrbench_minilm_254_v1,mild,fixed,b75db71e-a453-4fe9-b48f-653e7b1bcb6b,"law/Array BioPharma Inc. - LICENSE, DEVELOPMENT AND COMMERCIALIZATION AGREEMENT",law,0,1,1,1.0,1,2.6045830018119887
+ohrbench_minilm_254_v1,mild,fixed,b75e40c8-af77-4361-871d-883ccb6af5a2,"law/Array BioPharma Inc. - LICENSE, DEVELOPMENT AND COMMERCIALIZATION AGREEMENT",law,0,0,0,0.05555555555555555,18,2.317375001439359
+ohrbench_minilm_254_v1,mild,fixed,b75e8314-dff8-4e56-b0f6-3b07624d6e2e,law/BIOAMBERINC_04_10_2013-EX-10.34-DEVELOPMENT AGREEMENT (1),law,1,1,1,1.0,1,2.2283750004135072
+ohrbench_minilm_254_v1,mild,fixed,b75eaa74-2708-483e-8a74-aa07f09ce093,law/CHERRYHILLMORTGAGEINVESTMENTCORP_09_26_2013-EX-10.1-Strategic Alliance Agreement,law,0,0,1,0.3333333333333333,3,2.2704160001012497
+ohrbench_minilm_254_v1,mild,fixed,b75f7ac7-4360-47f3-bf99-031a22859e56,law/CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_Maintenance Agreement1,law,0,0,1,0.5,2,2.288167001097463
+ohrbench_minilm_254_v1,mild,fixed,b75fac44-29d5-4445-9074-fe1e0ddfadad,law/CnsPharmaceuticalsInc_20200326_8-K_EX-10.1_12079626_EX-10.1_Development Agreement,law,1,0,1,0.3333333333333333,3,2.2263749997364357
+ohrbench_minilm_254_v1,mild,fixed,b75fc464-f72a-4149-bb6c-c9568d7232fb,manual/DSA-278777,manual,0,1,1,1.0,1,2.29849999959697
+ohrbench_minilm_254_v1,mild,fixed,b760903b-4b40-4eff-9755-73e5ca49c6ad,news/DUDE_01bf30fbfe375c21fc0dfb8726feb70b,news,0,1,1,1.0,1,2.3019580003165174
+ohrbench_minilm_254_v1,mild,fixed,b762a620-6c08-45fe-bb6e-4311b08185e8,administration/DUDE_022e426491cae00aa10f1ff2fe5fec1f,administration,0,1,1,1.0,1,2.3366249988612253
+ohrbench_minilm_254_v1,mild,fixed,b762da15-c075-4872-b33f-dd74082db67a,administration/DUDE_022e426491cae00aa10f1ff2fe5fec1f,administration,0,1,1,1.0,1,2.2596669987251516
+ohrbench_minilm_254_v1,mild,fixed,b76447f1-f0e8-45f5-a63d-d7464e15969f,news/DUDE_037c6f7c08d7988d71837bfafe17ee4c,news,1,0,1,0.5,2,2.2984169991104864
+ohrbench_minilm_254_v1,mild,fixed,b765c6a0-ec30-4a6b-9d92-fb66086ee630,news/DUDE_03cf82cf235f6f62313442913a08d111,news,0,1,1,1.0,1,2.2687919990858063
+ohrbench_minilm_254_v1,mild,fixed,b766f160-b5a8-4791-b30a-ce97ac6baa86,law/DUDE_05c32b8ef101e6b827ccc12b72fddd11,law,1,1,1,1.0,1,2.2614160006924067
+ohrbench_minilm_254_v1,mild,fixed,b766f63c-9212-4da9-8650-7f505124fe6f,administration/DUDE_06a099741b8a087d4731575b6360fb0d,administration,0,1,1,1.0,1,2.3024170004646294
+ohrbench_minilm_254_v1,mild,fixed,b76b510b-459b-4f60-a277-617a26587b07,administration/DUDE_06a099741b8a087d4731575b6360fb0d,administration,0,1,1,1.0,1,2.3298329979297705
+ohrbench_minilm_254_v1,mild,fixed,b76c354d-0c1a-4b82-b7dc-1d4377747493,finance/DUDE_073c5e237cfc190effc8ff2a3b0f7fe5,finance,0,0,1,0.5,2,2.297209000971634
+ohrbench_minilm_254_v1,mild,fixed,b76cedff-dfeb-4c45-b152-d0219a0777e2,manual/DUDE_074d888605a7db82a24dda46a4fb1cf6,manual,0,1,1,1.0,1,2.2336250003718305
+ohrbench_minilm_254_v1,mild,fixed,b76cfca2-5cf1-4f05-a927-2cd1c7639a9f,manual/DUDE_074d888605a7db82a24dda46a4fb1cf6,manual,0,0,0,0.16666666666666666,6,2.238332999695558
+ohrbench_minilm_254_v1,mild,fixed,b76e73e2-1686-4adb-ab20-f3dedd03b06e,academic/DUDE_07c35f799df1356724315b197d80dd0f,academic,0,0,1,0.25,4,2.2336670008371584
+ohrbench_minilm_254_v1,mild,fixed,b76ebfd4-889c-4c2b-ab0f-8a2c5220acd8,academic/DUDE_07c35f799df1356724315b197d80dd0f,academic,0,1,1,1.0,1,2.1993329974066
+ohrbench_minilm_254_v1,mild,fixed,b76fc5b2-acc5-42df-bac4-9efa5be12d09,textbook/DUDE_093d14dc9252bac119eaa0136c9ca6a7,textbook,1,0,1,0.3333333333333333,3,2.2884999998495914
+ohrbench_minilm_254_v1,mild,fixed,b771877e-141e-49e7-911f-493c450a0e69,news/DUDE_098bda18540fa5e097196c3f7898d4f1,news,1,1,1,1.0,1,2.4331249987881165
+ohrbench_minilm_254_v1,mild,fixed,b7720443-8a3d-4269-897a-cc79cedbf846,news/DUDE_098bda18540fa5e097196c3f7898d4f1,news,1,1,1,1.0,1,2.2394999978132546
+ohrbench_minilm_254_v1,mild,fixed,b7748526-6c5e-4664-a44a-fe8480a3803d,manual/DUDE_0a75e34902d940f917064d04c5b9200a,manual,0,1,1,1.0,1,2.2802919993409887
+ohrbench_minilm_254_v1,mild,fixed,b775c8fa-07a6-4ce7-b1d5-f5efbfa06936,manual/DUDE_0b53f868b09478e8f81218d1042a4ffd,manual,1,1,1,1.0,1,2.241834001324605
+ohrbench_minilm_254_v1,mild,fixed,b7782842-2a35-4d44-8863-be112b0db74c,administration/DUDE_0e255f0953fe55f0c1fe2f4152def74f,administration,0,1,1,1.0,1,2.2367080018739216
+ohrbench_minilm_254_v1,mild,fixed,b7784585-8463-47be-ac82-084d729d7809,academic/DUDE_0ec3ccac1365a4c23bd09bbdc23acc77,academic,0,0,1,0.3333333333333333,3,2.238874996692175
+ohrbench_minilm_254_v1,mild,fixed,b778b3a5-b6d1-42c1-9a60-68d1664b5f43,administration/DUDE_0efb341dfb77bee6be16348a534eb9db,administration,0,1,1,1.0,1,2.22633399971528
+ohrbench_minilm_254_v1,mild,fixed,b7790e04-ddea-4bfe-8a47-91b56aa968fb,administration/DUDE_0f99f130f4678d682cf3c0313644928b,administration,1,0,0,0.0,,2.375416999711888
+ohrbench_minilm_254_v1,mild,fixed,b7791163-7881-4347-8203-89c9787ae815,administration/DUDE_0f99f130f4678d682cf3c0313644928b,administration,1,0,1,0.3333333333333333,3,2.2551670008397195
+ohrbench_minilm_254_v1,mild,fixed,b77b4157-8f45-464a-ac62-30d4f7e63af5,law/DUDE_10b37e7fb16a67ac2ca19e47b27c8d3d,law,0,0,1,0.3333333333333333,3,2.3612920012965333
+ohrbench_minilm_254_v1,mild,fixed,b77ebbdb-6aad-40f7-803d-afe4dc4c17cb,textbook/DUDE_1336a75489216265c7c450faa3c3fac6,textbook,0,0,1,0.5,2,2.2139159991638735
+ohrbench_minilm_254_v1,mild,fixed,b77f5b90-7337-4a0b-b589-6779dc2b70ab,academic/DUDE_158bfc97cd496d509a0ced89c07cb9f9,academic,1,1,1,1.0,1,2.2062089992687106
+ohrbench_minilm_254_v1,mild,fixed,b78002f4-cc70-4382-8994-b845d43c8723,finance/DUDE_17bf090664516bca69bc6e6ddc0835ca,finance,0,0,1,0.5,2,2.2472499986179173
+ohrbench_minilm_254_v1,mild,fixed,b7820af4-84cf-407e-9eb6-5894ff2051cb,finance/DUDE_17bf090664516bca69bc6e6ddc0835ca,finance,0,0,0,0.14285714285714285,7,2.226250002422603
+ohrbench_minilm_254_v1,mild,fixed,b784154c-a6b3-4116-8659-45893f0436f7,manual/DUDE_18d9d3b04edbc34b40537e62f5c9cac2,manual,1,0,0,0.034482758620689655,29,2.298958999745082
+ohrbench_minilm_254_v1,mild,fixed,b784a050-1e26-40bc-958d-f7138757aed1,administration/DUDE_1991a329dc9557ff6aebf3a77354cc06,administration,1,1,1,1.0,1,2.2306249993562233
+ohrbench_minilm_254_v1,mild,fixed,b785dc37-09bd-4534-8c99-725b04a5b41d,finance/DUDE_19e2c7749fef1e5925397dccd70a709d,finance,1,1,1,1.0,1,2.2888340026838705
+ohrbench_minilm_254_v1,mild,fixed,b787f84c-52fd-4f39-bb3e-27b57f395b4e,administration/DUDE_1b9552b7f5cb4a8552bf30498cf06d11,administration,1,1,1,1.0,1,2.2125420000520535
+ohrbench_minilm_254_v1,mild,fixed,b78a140f-f850-499e-a146-d504dd48f46f,finance/DUDE_1c05e585ea1c0f394984e3fbe454779a,finance,1,1,1,1.0,1,2.2467500020866282
+ohrbench_minilm_254_v1,mild,fixed,b78a94e2-60f1-4628-8484-3d4ea258e65a,academic/DUDE_1c6061aa2d4c3167592fff8e35e5100a,academic,0,0,1,0.25,4,2.1650000016961712
+ohrbench_minilm_254_v1,mild,fixed,b78b1afb-03f6-4c7d-a1fe-df0e3d685df5,administration/DUDE_1cfbe42dec72fffe1ef2df4f9d5bf077,administration,0,1,1,1.0,1,2.2394580009859055
+ohrbench_minilm_254_v1,mild,fixed,b78bcddb-e4eb-4424-8595-c188467513b4,administration/DUDE_1f31d620634896d8c87d7665e8ca1e13,administration,0,1,1,1.0,1,2.405040999292396

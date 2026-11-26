@@ -1,0 +1,129 @@
+run_id,noise_level,chunker,query_id,doc_name,domain,context_verified,hit_at_1,hit_at_5,reciprocal_rank,first_relevant_rank,retrieval_latency_ms
+ohrbench_minilm_254_v1,severe,fixed,b8046929-73b0-4aab-916b-853bf63493a6,finance/DUDE_ac009163f46e43e541395703cc76ade0,finance,0,0,1,0.5,2,4.406083000503713
+ohrbench_minilm_254_v1,severe,fixed,b804a3e6-ad77-443c-8948-439e0bb0c91f,finance/DUDE_ac009163f46e43e541395703cc76ade0,finance,0,0,1,0.5,2,3.848374999506632
+ohrbench_minilm_254_v1,severe,fixed,b8051bba-602d-4ace-aa6c-d937c92fbb30,academic/DUDE_ac6d76e6d04f11182c46e91a56109484,academic,0,1,1,1.0,1,3.8089170011517126
+ohrbench_minilm_254_v1,severe,fixed,b808a30c-343f-4480-8f1f-2303a90c6d0b,academic/DUDE_afe620b9beac86c1027b96d31d396407,academic,0,1,1,1.0,1,3.8548750017071143
+ohrbench_minilm_254_v1,severe,fixed,b80b99a3-e55c-4c7c-82f0-d85a29236cba,administration/DUDE_b1dee171f8ee0534db9edb6950dfdc54,administration,0,0,1,0.3333333333333333,3,3.8113330010673963
+ohrbench_minilm_254_v1,severe,fixed,b80bb4a4-d8bd-496c-9baa-c0de63dc3d19,administration/DUDE_b3bdb82180ad8c84aa023f705bb6a173,administration,1,1,1,1.0,1,4.008500000054482
+ohrbench_minilm_254_v1,severe,fixed,b80c036f-61e1-4685-8c13-cfb27dd627a7,administration/DUDE_b61162dab5aab3768fc40003b2556fb0,administration,0,1,1,1.0,1,3.851540997857228
+ohrbench_minilm_254_v1,severe,fixed,b80c2467-101c-41f9-9f65-d75c11927ed2,law/DUDE_b62dc913e04e2bbea95d608f9943868b,law,1,0,1,0.25,4,3.779541999392677
+ohrbench_minilm_254_v1,severe,fixed,b80c4afc-0666-4549-b2e8-e139a9a00d98,administration/DUDE_ba24cf0007338f4101c5a2a94eb415e2,administration,1,1,1,1.0,1,3.8650829992548097
+ohrbench_minilm_254_v1,severe,fixed,b80d95fe-97d1-4b15-b998-4537cd503903,administration/DUDE_c820376a9e6a7f81477a85e39be05322,administration,1,1,1,1.0,1,3.9810839989513624
+ohrbench_minilm_254_v1,severe,fixed,b80d9758-57ae-45e0-864b-16295dbaf5fd,administration/DUDE_c820376a9e6a7f81477a85e39be05322,administration,1,1,1,1.0,1,3.7999580017640255
+ohrbench_minilm_254_v1,severe,fixed,b80dfb76-258c-48b4-971c-2b80ccfa76e2,manual/DUDE_c9c1d919023acc0fe4e48751df45cb5e,manual,1,1,1,1.0,1,3.7512079979933333
+ohrbench_minilm_254_v1,severe,fixed,b80e256c-9d00-497a-bd66-1eaacc52e546,administration/DUDE_cadfcf3a02971e2f4b733c408a93f9fe,administration,0,1,1,1.0,1,3.8636250028503127
+ohrbench_minilm_254_v1,severe,fixed,b8103153-12cd-47a6-a492-27fbde8a5b9b,news/DUDE_cb5424f75f9d6fdc1d49ff58dffa709f,news,1,0,1,0.5,2,3.927750000002561
+ohrbench_minilm_254_v1,severe,fixed,b8126c49-2b86-4733-8df0-e239e1becb20,administration/DUDE_cf9b8795625f242210ebf295a4ed39f6,administration,1,0,1,0.5,2,3.7793750016135164
+ohrbench_minilm_254_v1,severe,fixed,b815d520-c3f4-4cf7-ad8f-c05dedb58ab5,academic/DUDE_d1e61f85b2dc6a50309cd4d38259c8ed,academic,0,1,1,1.0,1,3.74645899864845
+ohrbench_minilm_254_v1,severe,fixed,b8167edd-cae6-4b31-baba-322c819fa328,academic/DUDE_d4ca21a956d0ddce721dfd72eb089fea,academic,0,0,1,0.5,2,3.7951250014884863
+ohrbench_minilm_254_v1,severe,fixed,b817bbb7-8f8e-4bde-8d23-4509ef85acba,academic/DUDE_d4ca21a956d0ddce721dfd72eb089fea,academic,1,0,1,0.5,2,3.7771249990328215
+ohrbench_minilm_254_v1,severe,fixed,b818da7d-5720-4928-9a9e-f6b1360b88e3,academic/DUDE_d9ec56e4efde119e3957cdd4589b248c,academic,0,1,1,1.0,1,3.9025410005706362
+ohrbench_minilm_254_v1,severe,fixed,b8198d7a-7d08-4e31-b726-52e4b4b3db91,academic/DUDE_d9ec56e4efde119e3957cdd4589b248c,academic,1,1,1,1.0,1,3.865792001306545
+ohrbench_minilm_254_v1,severe,fixed,b81a5231-62a8-43ac-b21b-1940fefc6260,administration/DUDE_e11d7c3d965e62a3f3d50664b52df2f3,administration,1,1,1,1.0,1,4.159332998824539
+ohrbench_minilm_254_v1,severe,fixed,b81b7f03-fb0a-4705-8e9a-a076faac8f76,manual/DUDE_e3da4ec33b853c7078243375728ba545,manual,0,0,1,0.3333333333333333,3,4.2192089968011715
+ohrbench_minilm_254_v1,severe,fixed,b81c2013-2e2d-4c23-b71e-487723986b41,manual/DUDE_e3da4ec33b853c7078243375728ba545,manual,0,0,1,0.5,2,3.9285420025407802
+ohrbench_minilm_254_v1,severe,fixed,b81dc7c1-e6fa-4267-87ca-13335f4e9b0e,news/DUDE_e3de17e096a22529da1572168737fbec,news,1,0,1,0.5,2,3.7767909998365212
+ohrbench_minilm_254_v1,severe,fixed,b81ecf78-53c2-4969-bb45-82ae22be8109,news/DUDE_e5ea142a211f647dc2175ae7a2e40ede,news,0,1,1,1.0,1,3.746250000403961
+ohrbench_minilm_254_v1,severe,fixed,b81f57f7-df15-4365-b4ad-ea83d72a0c0e,administration/DUDE_e6d91c551d367127c11fffd7f077c210,administration,1,1,1,1.0,1,3.800292000960326
+ohrbench_minilm_254_v1,severe,fixed,b81f9891-daea-425a-99bd-24bafd1343d9,academic/DUDE_e6f3855472231a7ca6aada2f8e85fe5a,academic,0,1,1,1.0,1,3.908082999259932
+ohrbench_minilm_254_v1,severe,fixed,b822a53d-052a-4d51-8dff-0398840a2acc,administration/DUDE_e7e2ad0494eca77f132b0c4b772e8c2d,administration,1,1,1,1.0,1,3.9486249988840427
+ohrbench_minilm_254_v1,severe,fixed,b8231ec8-e4cc-4cfd-8307-cc4d29a86d2b,administration/DUDE_e7e2ad0494eca77f132b0c4b772e8c2d,administration,1,1,1,1.0,1,3.8129580025270116
+ohrbench_minilm_254_v1,severe,fixed,b82327e9-67cd-4c04-922e-b4661dd83401,administration/DUDE_ef121be44a0987f5eb7b8664b14ef7ee,administration,0,1,1,1.0,1,3.8471250009024516
+ohrbench_minilm_254_v1,severe,fixed,b8234b9e-73c1-4a23-87e3-2cfc0ac3c91a,administration/DUDE_ef121be44a0987f5eb7b8664b14ef7ee,administration,0,1,1,1.0,1,3.8610829979006667
+ohrbench_minilm_254_v1,severe,fixed,b823feb1-6a1d-4b17-b140-db0c106f4e7f,administration/DUDE_f09483101a6018918e1994421c9c5b24,administration,1,1,1,1.0,1,3.8117499971122015
+ohrbench_minilm_254_v1,severe,fixed,b824af96-7169-42db-b15a-ca1ae676b228,manual/DUDE_f0fe4fbad1fcedc2fcaa74491a33c998,manual,1,1,1,1.0,1,3.7586670005111955
+ohrbench_minilm_254_v1,severe,fixed,b825afe6-a6eb-4d23-b58e-39abfa6c1aba,textbook/DUDE_f1efdd6aa8441a8fd29ebddcc1945fa3,textbook,1,1,1,1.0,1,3.8081669990788214
+ohrbench_minilm_254_v1,severe,fixed,b8265758-1f3c-470f-91ff-9ec459e64684,law/DUDE_f4ae53cfb28429bf8508dc90d812c458,law,0,0,0,0.14285714285714285,7,3.853750000416767
+ohrbench_minilm_254_v1,severe,fixed,b826b59c-0d9e-47b6-aa5e-8c025358a38f,law/DUDE_f4ae53cfb28429bf8508dc90d812c458,law,0,0,1,0.5,2,4.198082999209873
+ohrbench_minilm_254_v1,severe,fixed,b8294e9f-e36c-49f1-9d8f-5b98044b9b1f,manual/DUDE_f4b94a357468f4c857fd0ea38b1f55bc,manual,1,0,1,0.3333333333333333,3,4.018125000584405
+ohrbench_minilm_254_v1,severe,fixed,b829c1ca-591f-4719-a203-4fa9b44fc263,news/DUDE_f596b1f18a67617cff6c4035b4b72b55,news,0,1,1,1.0,1,4.264832998160273
+ohrbench_minilm_254_v1,severe,fixed,b82bc834-6236-4f4c-a368-a6b403ae98bf,news/DUDE_f596b1f18a67617cff6c4035b4b72b55,news,0,0,1,0.5,2,3.8346660003298894
+ohrbench_minilm_254_v1,severe,fixed,b82d1659-2e69-432e-ad19-8aa397bf238e,administration/DUDE_f6214a28700c524cdacfa0b4548e69d2,administration,0,0,1,0.25,4,4.5259159996930975
+ohrbench_minilm_254_v1,severe,fixed,b82d4fa7-cebc-4b33-8e7a-bb1f11babe42,news/DUDE_f629c50642ae2181001c952308a3e5b9,news,0,1,1,1.0,1,3.8044579996494576
+ohrbench_minilm_254_v1,severe,fixed,b82d5399-aa1e-4657-a5be-a308cd9070bb,news/DUDE_f629c50642ae2181001c952308a3e5b9,news,0,1,1,1.0,1,3.771916999539826
+ohrbench_minilm_254_v1,severe,fixed,b82ed1d8-b8bd-4a96-a497-b0f16ebabca3,administration/DUDE_f74c7053a991c1cb08307b87678046bd,administration,0,1,1,1.0,1,3.895041001669597
+ohrbench_minilm_254_v1,severe,fixed,b830f72b-373e-4ace-8789-493e67a49f34,administration/DUDE_fdac8d1e9ef56519371df7e6532df27d,administration,0,1,1,1.0,1,4.466875001526205
+ohrbench_minilm_254_v1,severe,fixed,b83174d1-fe3b-4951-86f5-fb86595605bf,administration/DUDE_fdac8d1e9ef56519371df7e6532df27d,administration,0,1,1,1.0,1,3.8085409978521056
+ohrbench_minilm_254_v1,severe,fixed,b831a3f6-4cb1-4788-8a8d-9913a1ae844d,administration/DUDE_fdd3308efacddb88d4aa6e2073f481d4,administration,1,0,1,0.25,4,3.822165999736171
+ohrbench_minilm_254_v1,severe,fixed,b831eb03-3467-4d84-97d6-62f61b2d5cc9,academic/DUDE_ff137dd365601fad6b0cd963947bd17f,academic,0,1,1,1.0,1,3.78587500017602
+ohrbench_minilm_254_v1,severe,fixed,b8327126-63d3-4efa-bbc4-ae28731385cc,academic/DUDE_ff137dd365601fad6b0cd963947bd17f,academic,1,1,1,1.0,1,3.3398750019841827
+ohrbench_minilm_254_v1,severe,fixed,b833a28a-acd1-4bb4-8ce5-cb230944a136,law/ENERGYXXILTD_05_08_2015-EX-10.13-Transportation AGREEMENT,law,0,1,1,1.0,1,3.4298749997105915
+ohrbench_minilm_254_v1,severe,fixed,b8343368-5930-44de-827b-688e8986ac29,law/GULFSOUTHMEDICALSUPPLYINC_12_24_1997-EX-4-AFFILIATE AGREEMENT,law,0,0,1,0.2,5,3.404084000067087
+ohrbench_minilm_254_v1,severe,fixed,b835faf4-7a25-4999-bf7e-da170da8255b,law/HealthcareIntegratedTechnologiesInc_20190812_8-K_EX-10.1_11776966_EX-10.1_Reseller Agreement,law,0,0,1,0.3333333333333333,3,3.7766250025015324
+ohrbench_minilm_254_v1,severe,fixed,b83746bf-d040-40e0-85e5-402199b0264d,law/IDREAMSKYTECHNOLOGYLTD_07_03_2014-EX-10.39-Cooperation Agreement on Mobile Game Business,law,0,0,1,0.3333333333333333,3,3.5241250006947666
+ohrbench_minilm_254_v1,severe,fixed,b8385e66-0a7b-482e-8dd2-ad3271ccaebe,law/IDREAMSKYTECHNOLOGYLTD_07_03_2014-EX-10.39-Cooperation Agreement on Mobile Game Business,law,0,0,1,0.5,2,3.596750000724569
+ohrbench_minilm_254_v1,severe,fixed,b839af51-a618-411f-8eb4-51b948d2339f,"law/KNOWLABS,INC_08_15_2005-EX-10-INTELLECTUAL PROPERTY AGREEMENT",law,0,1,1,1.0,1,3.523499999573687
+ohrbench_minilm_254_v1,severe,fixed,b83ae7d7-0bb8-429c-a88c-45be13ac783d,law/N2KINC_10_16_1997-EX-10.16-SPONSORSHIP AGREEMENT,law,0,1,1,1.0,1,3.305374997580657
+ohrbench_minilm_254_v1,severe,fixed,b83bf71d-d376-4388-b4e0-1cfe7adcdc8b,law/NEXSTARFINANCEHOLDINGSINC_03_27_2002-EX-10.26-OUTSOURCING AGREEMENT,law,1,1,1,1.0,1,3.239707999455277
+ohrbench_minilm_254_v1,severe,fixed,b83c0691-6332-47cf-9559-acb898613345,law/NEXSTARFINANCEHOLDINGSINC_03_27_2002-EX-10.26-OUTSOURCING AGREEMENT,law,1,1,1,1.0,1,3.3558750001247972
+ohrbench_minilm_254_v1,severe,fixed,b83e3160-ab9c-4d1d-b460-0d09690d1b8f,"law/OPTIMIZEDTRANSPORTATIONMANAGEMENT,INC_07_26_2000-EX-6.6-DISTRIBUTOR AGREEMENT",law,0,1,1,1.0,1,3.2499579974683
+ohrbench_minilm_254_v1,severe,fixed,b8407f25-1c0b-43e7-804c-473858e74806,law/TRICITYBANKSHARESCORP_05_15_1998-EX-10-OUTSOURCING AGREEMENT,law,1,1,1,1.0,1,3.1908329983707517
+ohrbench_minilm_254_v1,severe,fixed,b840d5df-dd47-4019-b656-73e21efbd928,law/TRICITYBANKSHARESCORP_05_15_1998-EX-10-OUTSOURCING AGREEMENT,law,0,1,1,1.0,1,3.1927919990266673
+ohrbench_minilm_254_v1,severe,fixed,b8411bde-e0e2-4172-9798-2f34d12e3119,law/TheglobeComInc_19990503_S-1A_EX-10.20_5416126_EX-10.20_Co-Branding Agreement,law,0,1,1,1.0,1,3.2500830020580906
+ohrbench_minilm_254_v1,severe,fixed,b8443ca5-b7b9-4c66-a9f3-67b27b27d153,"law/VAXCYTE,INC_05_22_2020-EX-10.19-SUPPLY AGREEMENT",law,0,1,1,1.0,1,3.2485419978911523
+ohrbench_minilm_254_v1,severe,fixed,b84675e5-0753-4e03-99bb-bbf1fad3f133,law/VnueInc_20150914_8-K_EX-10.1_9259571_EX-10.1_Promotion Agreement,law,0,1,1,1.0,1,3.2439170026918873
+ohrbench_minilm_254_v1,severe,fixed,b8468b94-800a-43a4-805a-a232867ac33f,law/VnueInc_20150914_8-K_EX-10.1_9259571_EX-10.1_Promotion Agreement,law,1,1,1,1.0,1,3.219499998522224
+ohrbench_minilm_254_v1,severe,fixed,b846ba16-5c90-4718-a129-a97fa60c8704,"law/WHITESMOKE,INC_11_08_2011-EX-10.26-PROMOTION AND DISTRIBUTION AGREEMENT",law,1,1,1,1.0,1,3.2762500013632234
+ohrbench_minilm_254_v1,severe,fixed,b84807cd-3365-4d28-89f0-b079031f5ace,"law/WHITESMOKE,INC_11_08_2011-EX-10.26-PROMOTION AND DISTRIBUTION AGREEMENT",law,0,0,1,0.2,5,3.8102500002423767
+ohrbench_minilm_254_v1,severe,fixed,b848139c-56b3-4a2f-ad6e-ab6386df8961,"law/XACCT Technologies, Inc.SUPPORT AND MAINTENANCE AGREEMENT",law,0,1,1,1.0,1,3.817916996922577
+ohrbench_minilm_254_v1,severe,fixed,b848fd8d-5f49-4735-8d59-786018b838ec,manual/guojixueshengshenghuozhinanyingwen9.1,manual,0,0,1,0.5,2,3.7091250014782418
+ohrbench_minilm_254_v1,severe,fixed,b84aaa0f-9327-4bb2-9495-6d0107068482,manual/honor_watch_gs_pro,manual,0,1,1,1.0,1,3.8097920005384367
+ohrbench_minilm_254_v1,severe,fixed,b84c17aa-6cf9-4a9d-a1e8-cdc7b6dc46e0,manual/nova_y70,manual,1,1,1,1.0,1,3.7202079984126613
+ohrbench_minilm_254_v1,severe,fixed,b84e8c34-0e94-4b67-a32e-3e13932c1662,manual/watch_d,manual,0,0,1,0.3333333333333333,3,3.744875000847969
+ohrbench_minilm_254_v1,severe,fixed,b84eed2d-d8e8-4ae0-a25a-537b7c5c82e1,academic/2305.14160v4,academic,0,0,0,0.038461538461538464,26,4.011083001387306
+ohrbench_minilm_254_v1,severe,fixed,b84f3ace-0e4c-4637-b0d1-be6bb17a3c09,academic/2305.14160v4,academic,0,1,1,1.0,1,3.779041999223409
+ohrbench_minilm_254_v1,severe,fixed,b850754f-401f-410f-ade7-83c32703be1d,academic/2310.11511v1,academic,0,1,1,1.0,1,3.703583999595139
+ohrbench_minilm_254_v1,severe,fixed,b8529a8c-19ee-4ac8-8a6a-fd40c76761dc,academic/2409.01704v1,academic,1,1,1,1.0,1,3.651999999419786
+ohrbench_minilm_254_v1,severe,fixed,b8531f12-8427-439d-978e-7f3056b1aa27,academic/2409.16145v1,academic,1,1,1,1.0,1,3.692417001730064
+ohrbench_minilm_254_v1,severe,fixed,b853286b-cf55-429d-badc-0cb132cdc93b,finance/3M_2023Q2_10Q,finance,0,1,1,1.0,1,4.262499998731073
+ohrbench_minilm_254_v1,severe,fixed,b8538951-2327-45f5-b44b-e22f4f77f94c,manual/8dfc21ec151fb9d3578fc32d5c4e5df9,manual,1,1,1,1.0,1,3.8032909978937823
+ohrbench_minilm_254_v1,severe,fixed,b853b01b-e867-404c-a686-2d1d78d95c51,"law/ADMA BioManufacturing, LLC -  Amendment #3 to Manufacturing Agreement ",law,0,1,1,1.0,1,3.7707080009568017
+ohrbench_minilm_254_v1,severe,fixed,b854869f-ebc5-457d-9a5b-b3aed0872b51,"law/ADMA BioManufacturing, LLC -  Amendment #3 to Manufacturing Agreement ",law,0,1,1,1.0,1,3.9060420021996833
+ohrbench_minilm_254_v1,severe,fixed,b858af32-f6db-41b4-a4a9-6fb506bda203,law/AMERICASSHOPPINGMALLINC_12_10_1999-EX-10.2-SITE DEVELOPMENT AND HOSTING AGREEMENT,law,0,0,1,0.2,5,3.8008750016160775
+ohrbench_minilm_254_v1,severe,fixed,b858d4d8-e685-44a1-9086-18162ea79e43,law/AMERICASSHOPPINGMALLINC_12_10_1999-EX-10.2-SITE DEVELOPMENT AND HOSTING AGREEMENT,law,0,0,1,0.5,2,3.737333998287795
+ohrbench_minilm_254_v1,severe,fixed,b858fd1e-94e0-46b5-b6c8-c5e3cdbc7064,law/ArcGroupInc_20171211_8-K_EX-10.1_10976103_EX-10.1_Sponsorship Agreement,law,0,1,1,1.0,1,3.7862079989281483
+ohrbench_minilm_254_v1,severe,fixed,b85b4fdb-ef7a-4ed9-8eb4-c6da3e44ee1c,"law/Array BioPharma Inc. - LICENSE, DEVELOPMENT AND COMMERCIALIZATION AGREEMENT",law,0,0,0,0.03125,32,3.903500000888016
+ohrbench_minilm_254_v1,severe,fixed,b85c3ed8-4a5d-4d3a-af60-c8dcb5713167,law/BANUESTRAFINANCIALCORP_09_08_2006-EX-10.16-AGENCY AGREEMENT,law,0,1,1,1.0,1,3.889249997882871
+ohrbench_minilm_254_v1,severe,fixed,b85ef953-c162-4f0b-a7df-dbe37c4177d5,law/CHERRYHILLMORTGAGEINVESTMENTCORP_09_26_2013-EX-10.1-Strategic Alliance Agreement,law,1,1,1,1.0,1,3.7740829975518864
+ohrbench_minilm_254_v1,severe,fixed,b862d0af-98e3-4686-bc75-a131da15e3b3,news/DUDE_03cf82cf235f6f62313442913a08d111,news,1,1,1,1.0,1,3.769208000448998
+ohrbench_minilm_254_v1,severe,fixed,b86309b6-0215-47ea-a2d0-d530d53062d4,news/DUDE_03cf82cf235f6f62313442913a08d111,news,0,0,1,0.5,2,3.8234589992498513
+ohrbench_minilm_254_v1,severe,fixed,b8656ef8-d0e3-43c8-bfe2-9e83a3d1f5e1,law/DUDE_05c32b8ef101e6b827ccc12b72fddd11,law,1,1,1,1.0,1,3.798082998400787
+ohrbench_minilm_254_v1,severe,fixed,b8666fd5-bc62-4942-8ee5-bad4400afd93,law/DUDE_05c32b8ef101e6b827ccc12b72fddd11,law,1,0,1,0.5,2,3.8459159986814484
+ohrbench_minilm_254_v1,severe,fixed,b86695fa-c2bb-4af1-a27e-69c36f0ba53c,administration/DUDE_06a099741b8a087d4731575b6360fb0d,administration,1,1,1,1.0,1,3.8574579994019587
+ohrbench_minilm_254_v1,severe,fixed,b868a614-a0a7-43e5-9549-59891b3905bf,news/DUDE_06cc755612621483103dd1752c3927f7,news,1,1,1,1.0,1,4.01462499939953
+ohrbench_minilm_254_v1,severe,fixed,b869e166-33bd-4548-8cdb-bca5ea40a809,news/DUDE_06cc755612621483103dd1752c3927f7,news,1,0,1,0.5,2,3.7693750018661376
+ohrbench_minilm_254_v1,severe,fixed,b86a1e90-4010-4810-b0d5-41a130c67b46,finance/DUDE_073c5e237cfc190effc8ff2a3b0f7fe5,finance,0,1,1,1.0,1,3.9109999997890554
+ohrbench_minilm_254_v1,severe,fixed,b86a685d-159f-40df-89ed-109eeae1a562,manual/DUDE_074d888605a7db82a24dda46a4fb1cf6,manual,0,1,1,1.0,1,3.8100419988040812
+ohrbench_minilm_254_v1,severe,fixed,b86ba07b-b54f-4223-88bb-1b21a9df2569,administration/DUDE_0b426b73b6a4057c17c9090308118364,administration,1,0,1,0.2,5,3.752167001948692
+ohrbench_minilm_254_v1,severe,fixed,b86bd5f4-bf08-4579-8e66-57dd38b90425,news/DUDE_0b85477387a9d0cc33fca0f4becaa0e5,news,0,1,1,1.0,1,3.729291001945967
+ohrbench_minilm_254_v1,severe,fixed,b86bf93f-d2a2-43ab-8454-327ab32584da,news/DUDE_0b85477387a9d0cc33fca0f4becaa0e5,news,0,1,1,1.0,1,3.9881669981696177
+ohrbench_minilm_254_v1,severe,fixed,b86c6315-be38-4d43-9be7-52e16646ca28,news/DUDE_0e2585cdde53701a0fbaf1fc6b31a045,news,1,1,1,1.0,1,3.8089580011728685
+ohrbench_minilm_254_v1,severe,fixed,b86cbbd3-2bcd-4c53-bcf6-4253b9a0505d,news/DUDE_0e2585cdde53701a0fbaf1fc6b31a045,news,0,1,1,1.0,1,3.8054579999879934
+ohrbench_minilm_254_v1,severe,fixed,b86dbb5d-7650-4755-a06c-28e5ad8c71a6,academic/DUDE_0ec3ccac1365a4c23bd09bbdc23acc77,academic,0,0,1,0.5,2,3.7253749978845008
+ohrbench_minilm_254_v1,severe,fixed,b86ff5f4-4296-4099-9b75-53679a7f1477,administration/DUDE_0efb341dfb77bee6be16348a534eb9db,administration,1,1,1,1.0,1,3.9124169998103753
+ohrbench_minilm_254_v1,severe,fixed,b87140f7-ac7e-4df5-8b34-d40e7c91c912,law/DUDE_0f649220ea1397b3f4d0fb272b4427d2,law,1,1,1,1.0,1,3.9532500013592653
+ohrbench_minilm_254_v1,severe,fixed,b8745029-8bab-4860-859d-ca2ba829e219,administration/DUDE_0f99f130f4678d682cf3c0313644928b,administration,0,0,1,0.3333333333333333,3,3.821040998445824
+ohrbench_minilm_254_v1,severe,fixed,b8748dbc-09e6-4fb8-8992-4e3e3762d429,law/DUDE_0fd01e9cac08043b447c0a0477160308,law,0,0,1,0.5,2,3.858583000692306
+ohrbench_minilm_254_v1,severe,fixed,b875be78-568b-48a2-9408-7d5c7f1282b6,law/DUDE_10b37e7fb16a67ac2ca19e47b27c8d3d,law,1,1,1,1.0,1,3.8651249997201376
+ohrbench_minilm_254_v1,severe,fixed,b8761d6a-0a35-4181-aac3-9bea0360b771,law/DUDE_10b37e7fb16a67ac2ca19e47b27c8d3d,law,0,0,1,0.5,2,3.95395799932885
+ohrbench_minilm_254_v1,severe,fixed,b877308a-a997-4e05-98a5-bc8a2f27c707,law/DUDE_128ea53b9421b04ccae7a482c0d3bbda,law,1,1,1,1.0,1,3.5486249980749562
+ohrbench_minilm_254_v1,severe,fixed,b8787682-a725-451a-8969-6f9acf7e9cbf,textbook/DUDE_1336a75489216265c7c450faa3c3fac6,textbook,1,0,1,0.5,2,3.381083999556722
+ohrbench_minilm_254_v1,severe,fixed,b879153e-de95-4107-b2a4-e611cdc0b16a,academic/DUDE_158bfc97cd496d509a0ced89c07cb9f9,academic,0,1,1,1.0,1,3.501040999253746
+ohrbench_minilm_254_v1,severe,fixed,b879bf06-d93c-41bd-b48e-f75dfc721cd3,academic/DUDE_1778332e22e9d09b0a51c90d12e23a0f,academic,1,0,1,0.3333333333333333,3,3.198292000888614
+ohrbench_minilm_254_v1,severe,fixed,b87cf1e2-4d0b-4806-a8af-ca6fd5ee9788,finance/DUDE_1b8ee1c5da9c5c5e79a6233b3a190bd4,finance,1,0,0,0.07142857142857142,14,3.230042002542177
+ohrbench_minilm_254_v1,severe,fixed,b87d3561-84ba-4ba7-b867-7f7fb3dbc021,finance/DUDE_1b8ee1c5da9c5c5e79a6233b3a190bd4,finance,1,1,1,1.0,1,3.214458000002196
+ohrbench_minilm_254_v1,severe,fixed,b87da19c-9cbe-4eaf-9251-e71575b1b844,administration/DUDE_1cfbe42dec72fffe1ef2df4f9d5bf077,administration,0,0,1,0.5,2,3.1285829973057844
+ohrbench_minilm_254_v1,severe,fixed,b8808190-7def-4b35-848d-86d218ac92b7,administration/DUDE_1f31d620634896d8c87d7665e8ca1e13,administration,0,1,1,1.0,1,3.1589999998686835
+ohrbench_minilm_254_v1,severe,fixed,b880edb8-3278-4210-81dd-dc4c5ef21a9c,administration/DUDE_1fdfa288d7d2309d5d9c6c72d460eb52,administration,0,1,1,1.0,1,3.2600000013189856
+ohrbench_minilm_254_v1,severe,fixed,b888cb65-97b1-4d4f-96d2-4a67c6b1b41f,finance/DUDE_23f3a1d986afd381a1afa31fb2c909ea,finance,1,1,1,1.0,1,3.267416999733541
+ohrbench_minilm_254_v1,severe,fixed,b88a1a69-4b0e-43f4-9d1e-f1ed726f4e1f,manual/DUDE_2418cfbfb0f4130c72da92b065bb1645,manual,1,1,1,1.0,1,3.146666997054126
+ohrbench_minilm_254_v1,severe,fixed,b88b2b66-9bb2-4459-b7f1-59c4a084d7b7,manual/DUDE_2418cfbfb0f4130c72da92b065bb1645,manual,1,1,1,1.0,1,3.1685419999121223
+ohrbench_minilm_254_v1,severe,fixed,b88c07b3-c50d-4cb6-bdbe-7a97ad2b1e78,law/DUDE_25ab1502f316011a4971ea47888bf6c4,law,0,1,1,1.0,1,3.1957909995981026
+ohrbench_minilm_254_v1,severe,fixed,b8904da9-da09-47ed-b750-ad02d5565200,finance/DUDE_2a4f630b97930d237501424020291801,finance,1,0,1,0.5,2,3.237458000512561
+ohrbench_minilm_254_v1,severe,fixed,b891b8ae-d6e7-4207-8124-f70cc897a233,finance/DUDE_2a4f630b97930d237501424020291801,finance,0,1,1,1.0,1,3.1828339997446164
+ohrbench_minilm_254_v1,severe,fixed,b8928cb2-7f9a-46a9-a138-a1e7e8e07d17,administration/DUDE_2b2b79bdd3b40f8cdb638363579f2b68,administration,0,0,1,0.5,2,3.1806660008442122
+ohrbench_minilm_254_v1,severe,fixed,b89395df-3f26-438f-8449-9508c9f720d2,news/DUDE_2c2dac658e7bc1662e5c02a7e03d5664,news,0,1,1,1.0,1,3.168582999933278
+ohrbench_minilm_254_v1,severe,fixed,b8943fe2-faef-4dd1-a4c4-2d5a110a58a9,textbook/DUDE_30b32e2105907052a37238fc8d7a4d08,textbook,1,1,1,1.0,1,3.2209579985646997
+ohrbench_minilm_254_v1,severe,fixed,b894cf22-c2dc-4456-9b84-7a843ffd9bf2,textbook/DUDE_30c2837b193cfe2934eb0cbe2e4c4dfa,textbook,0,1,1,1.0,1,3.2228340023721103
+ohrbench_minilm_254_v1,severe,fixed,b8953176-96d9-4444-8c43-f6cdeef7b18a,academic/DUDE_312b4819aea13abc1a3c0218b5c68bff,academic,1,0,1,0.3333333333333333,3,3.21674999941024
+ohrbench_minilm_254_v1,severe,fixed,b895aaf3-2bb6-4944-8f56-8e3fe6364972,administration/DUDE_32ce4220381a83d67c1876c51c3107b1,administration,1,0,1,0.5,2,3.2064590013760608

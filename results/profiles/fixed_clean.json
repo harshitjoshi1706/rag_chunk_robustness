@@ -1,0 +1,23 @@
+{
+  "run_id": "ohrbench_minilm_254_v1",
+  "noise_level": "clean",
+  "chunker": "fixed",
+  "num_documents": 1261,
+  "num_pages": 8561,
+  "num_chunks": 39508,
+  "mean_chunk_tokens": 250.09909057617188,
+  "median_chunk_tokens": 254.0,
+  "std_chunk_tokens": 24.61835289001465,
+  "min_chunk_tokens": 8,
+  "max_chunk_tokens": 254,
+  "chunking_time_sec": 62.858231639987935,
+  "embedding_time_sec": 1203.4331227479634,
+  "index_build_time_sec": 0.3686969940426934,
+  "query_embedding_time_sec": 0.0,
+  "index_size_bytes": 60684333,
+  "total_retrieval_time_sec": 17.79294103702705,
+  "mean_query_latency_ms": 2.1041794036219312,
+  "median_query_latency_ms": 2.046083001914667,
+  "peak_memory_mb": 1439.96875,
+  "status": "complete"
+}

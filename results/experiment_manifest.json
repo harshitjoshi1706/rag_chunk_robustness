@@ -1,0 +1,56 @@
+{
+  "run_id": "ohrbench_minilm_254_v1",
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "device": "cpu",
+  "embedding_dimension": 384,
+  "model_max_seq_length": 256,
+  "required_special_tokens": 2,
+  "content_token_budget": 254,
+  "token_budget_correction": "Uniform 256 to 254 content-token maximum before retrieval",
+  "query_embedding_time_sec_this_invocation": 40.52405016699777,
+  "qa_sha256": "2446db28741fa9f392067ee7aae7f3b05e0d85c584069a50ddd5b1b5bc783f58",
+  "official_qas": 8498,
+  "primary_qas": 8456,
+  "excluded_absent_document": 42,
+  "context_verified_qas": 5277,
+  "top_k": 100,
+  "mrr_definition": "MRR@100",
+  "chunker_parameters": {
+    "fixed": {
+      "size": 254,
+      "overlap": 32
+    },
+    "recursive": {
+      "maximum": 254,
+      "overlap": 32
+    },
+    "semantic": {
+      "threshold": 0.15,
+      "minimum": 64,
+      "maximum": 254
+    },
+    "structure": {
+      "maximum": 254
+    }
+  },
+  "started_at_epoch_sec": 1789301756.654806,
+  "configurations": {
+    "fixed_clean": "complete",
+    "fixed_mild": "complete",
+    "fixed_moderate": "complete",
+    "fixed_severe": "complete",
+    "recursive_clean": "complete",
+    "recursive_mild": "complete",
+    "recursive_moderate": "complete",
+    "recursive_severe": "complete",
+    "semantic_clean": "complete",
+    "semantic_mild": "complete",
+    "semantic_moderate": "complete",
+    "semantic_severe": "complete",
+    "structure_clean": "complete",
+    "structure_mild": "complete",
+    "structure_moderate": "complete",
+    "structure_severe": "complete"
+  },
+  "completed_at_epoch_sec": 1789405076.6616268
+}

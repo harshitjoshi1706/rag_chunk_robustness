@@ -1,0 +1,129 @@
+run_id,noise_level,chunker,query_id,doc_name,domain,context_verified,hit_at_1,hit_at_5,reciprocal_rank,first_relevant_rank,retrieval_latency_ms
+ohrbench_minilm_254_v1,mild,recursive,28906ecc-8a63-4c7e-a62d-ab338a428595,law/HealthcareIntegratedTechnologiesInc_20190812_8-K_EX-10.1_11776966_EX-10.1_Reseller Agreement,law,1,0,0,0.14285714285714285,7,3.447166000114521
+ohrbench_minilm_254_v1,mild,recursive,289a8ea6-642e-4b99-8fd3-3636bcfff1d5,law/HealthcareIntegratedTechnologiesInc_20190812_8-K_EX-10.1_11776966_EX-10.1_Reseller Agreement,law,1,0,0,0.021739130434782608,46,3.2858329996088287
+ohrbench_minilm_254_v1,mild,recursive,289cd17d-9c0c-4dda-bdff-c6cc0eb96dcb,law/HealthcareIntegratedTechnologiesInc_20190812_8-K_EX-10.1_11776966_EX-10.1_Reseller Agreement,law,0,1,1,1.0,1,2.951458000097773
+ohrbench_minilm_254_v1,mild,recursive,28a3938c-4ba4-45e2-8718-e12c32a564ff,law/HealthcareIntegratedTechnologiesInc_20190812_8-K_EX-10.1_11776966_EX-10.1_Reseller Agreement,law,1,0,1,0.5,2,2.9725419999522273
+ohrbench_minilm_254_v1,mild,recursive,28c432ff-ccbc-4cbc-8743-9bed4529f10d,law/HealthcareIntegratedTechnologiesInc_20190812_8-K_EX-10.1_11776966_EX-10.1_Reseller Agreement,law,1,1,1,1.0,1,2.9482919999281876
+ohrbench_minilm_254_v1,mild,recursive,28cc9682-41da-4cf8-8cbc-2705fe4ccd1f,law/PareteumCorp_20081001_8-K_EX-99.1_2654808_EX-99.1_Hosting Agreement,law,1,1,1,1.0,1,2.9109999995853286
+ohrbench_minilm_254_v1,mild,recursive,28d4f9bf-8df6-47d9-8de4-f1f4e22020d0,law/PareteumCorp_20081001_8-K_EX-99.1_2654808_EX-99.1_Hosting Agreement,law,1,1,1,1.0,1,2.9333330003282754
+ohrbench_minilm_254_v1,mild,recursive,28dff27a-30c6-4647-ba5d-92dc6db8b178,law/PareteumCorp_20081001_8-K_EX-99.1_2654808_EX-99.1_Hosting Agreement,law,1,0,1,0.25,4,2.9404999995676917
+ohrbench_minilm_254_v1,mild,recursive,28eb7deb-6767-4789-964c-6cd6c61925b0,law/PareteumCorp_20081001_8-K_EX-99.1_2654808_EX-99.1_Hosting Agreement,law,1,1,1,1.0,1,2.9340000000956934
+ohrbench_minilm_254_v1,mild,recursive,28ef1f7c-347c-4539-95ea-9628ee845e1d,law/PareteumCorp_20081001_8-K_EX-99.1_2654808_EX-99.1_Hosting Agreement,law,1,0,1,0.3333333333333333,3,2.9490829992937506
+ohrbench_minilm_254_v1,mild,recursive,28f49481-a0a0-4dc4-a720-9bdf1c11f735,news/omnidocbench_newspaper_a105e3b0ddb10be6a596f76407c79180_1,news,1,0,0,0.019230769230769232,52,2.9649580001205322
+ohrbench_minilm_254_v1,mild,recursive,29055c9a-b63b-4ac4-8671-e41d48d9b7ff,law/PareteumCorp_20081001_8-K_EX-99.1_2654808_EX-99.1_Hosting Agreement,law,1,1,1,1.0,1,2.9230839991214452
+ohrbench_minilm_254_v1,mild,recursive,290819c1-4b4c-4406-ad21-e2abaac37d22,law/PareteumCorp_20081001_8-K_EX-99.1_2654808_EX-99.1_Hosting Agreement,law,1,0,0,0.07692307692307693,13,2.9352089995882125
+ohrbench_minilm_254_v1,mild,recursive,291597a9-34a1-47ad-8812-14bdc14f163a,law/PareteumCorp_20081001_8-K_EX-99.1_2654808_EX-99.1_Hosting Agreement,law,1,1,1,1.0,1,2.9767500000161817
+ohrbench_minilm_254_v1,mild,recursive,291cd586-f725-41ff-98b6-91a79af3e06d,law/PareteumCorp_20081001_8-K_EX-99.1_2654808_EX-99.1_Hosting Agreement,law,0,0,0,0.024390243902439025,41,3.38679200012848
+ohrbench_minilm_254_v1,mild,recursive,292b6d89-f3f0-4037-b09a-ea3f232fd99b,law/PareteumCorp_20081001_8-K_EX-99.1_2654808_EX-99.1_Hosting Agreement,law,1,1,1,1.0,1,3.3773750001273584
+ohrbench_minilm_254_v1,mild,recursive,293d0b14-c254-4151-bf9a-75dc5317ccb3,law/PareteumCorp_20081001_8-K_EX-99.1_2654808_EX-99.1_Hosting Agreement,law,1,1,1,1.0,1,3.349708999849099
+ohrbench_minilm_254_v1,mild,recursive,2955c716-ab48-4d11-9cd8-17ccbb56af29,law/PareteumCorp_20081001_8-K_EX-99.1_2654808_EX-99.1_Hosting Agreement,law,1,0,1,0.5,2,3.3544580001034774
+ohrbench_minilm_254_v1,mild,recursive,2956cfbf-424e-4e9d-bf9d-e0145e303ca4,law/PareteumCorp_20081001_8-K_EX-99.1_2654808_EX-99.1_Hosting Agreement,law,1,0,0,0.037037037037037035,27,3.372250000211352
+ohrbench_minilm_254_v1,mild,recursive,295d6fbf-430f-401d-bad4-09e2a319dcb4,news/omnidocbench_newspaper_6d2b5f833fe20785bc395f757524cb05_1,news,1,1,1,1.0,1,3.379707999556558
+ohrbench_minilm_254_v1,mild,recursive,2977d9fc-ea24-44d9-8e5a-45d53b01f386,law/PareteumCorp_20081001_8-K_EX-99.1_2654808_EX-99.1_Hosting Agreement,law,1,0,1,0.5,2,3.388166999684472
+ohrbench_minilm_254_v1,mild,recursive,2985c817-a937-4c86-9f40-ec4712d527a0,law/PareteumCorp_20081001_8-K_EX-99.1_2654808_EX-99.1_Hosting Agreement,law,1,1,1,1.0,1,3.6478749998423154
+ohrbench_minilm_254_v1,mild,recursive,298cf53d-7f68-45b3-aaf9-de49db8386fb,law/PareteumCorp_20081001_8-K_EX-99.1_2654808_EX-99.1_Hosting Agreement,law,1,0,0,0.0,,3.38566600021295
+ohrbench_minilm_254_v1,mild,recursive,29a20bc4-ef59-4502-88a6-966ccb6053bd,law/PareteumCorp_20081001_8-K_EX-99.1_2654808_EX-99.1_Hosting Agreement,law,1,1,1,1.0,1,3.365042000041285
+ohrbench_minilm_254_v1,mild,recursive,29b2fa46-b179-41ea-b4d5-42f848781447,law/PareteumCorp_20081001_8-K_EX-99.1_2654808_EX-99.1_Hosting Agreement,law,1,1,1,1.0,1,3.383083999324299
+ohrbench_minilm_254_v1,mild,recursive,29bfce74-4531-4f00-8f21-9ce31a8f1af0,law/PareteumCorp_20081001_8-K_EX-99.1_2654808_EX-99.1_Hosting Agreement,law,1,1,1,1.0,1,3.344291999383131
+ohrbench_minilm_254_v1,mild,recursive,29c12932-3fd6-49ba-bb9e-b015c88898f0,law/PareteumCorp_20081001_8-K_EX-99.1_2654808_EX-99.1_Hosting Agreement,law,1,0,1,0.3333333333333333,3,3.3702919999996084
+ohrbench_minilm_254_v1,mild,recursive,29d122e5-e368-4c63-894d-1b107a6d363b,law/IntegrityFunds_20200121_485BPOS_EX-99.E UNDR CONTR_11948727_EX-99.E UNDR CONTR_Service Agreement,law,1,1,1,1.0,1,3.679125000417116
+ohrbench_minilm_254_v1,mild,recursive,29e316ad-39dd-4477-9a22-0eb23cf9d1fe,law/IntegrityFunds_20200121_485BPOS_EX-99.E UNDR CONTR_11948727_EX-99.E UNDR CONTR_Service Agreement,law,1,1,1,1.0,1,3.507709000587056
+ohrbench_minilm_254_v1,mild,recursive,29e36d71-5f1e-4cb7-8af1-d4e748cf1902,law/IntegrityFunds_20200121_485BPOS_EX-99.E UNDR CONTR_11948727_EX-99.E UNDR CONTR_Service Agreement,law,1,1,1,1.0,1,3.3998330000031274
+ohrbench_minilm_254_v1,mild,recursive,29f25341-2a92-477c-8d6c-ec24ff059fba,law/IntegrityFunds_20200121_485BPOS_EX-99.E UNDR CONTR_11948727_EX-99.E UNDR CONTR_Service Agreement,law,1,1,1,1.0,1,3.4073750002789893
+ohrbench_minilm_254_v1,mild,recursive,2a05004a-271f-44e5-9d67-ed180be3fdd4,law/IntegrityFunds_20200121_485BPOS_EX-99.E UNDR CONTR_11948727_EX-99.E UNDR CONTR_Service Agreement,law,1,1,1,1.0,1,3.4272920001967577
+ohrbench_minilm_254_v1,mild,recursive,2a1926e5-274e-4c9a-bcbb-b96c18edf59e,law/IntegrityFunds_20200121_485BPOS_EX-99.E UNDR CONTR_11948727_EX-99.E UNDR CONTR_Service Agreement,law,0,0,1,0.5,2,3.405458999623079
+ohrbench_minilm_254_v1,mild,recursive,2a242810-77ca-4875-aa37-6232057141b1,law/IntegrityFunds_20200121_485BPOS_EX-99.E UNDR CONTR_11948727_EX-99.E UNDR CONTR_Service Agreement,law,1,0,0,0.04,25,3.381083000022045
+ohrbench_minilm_254_v1,mild,recursive,2a45c2ab-8cbf-4db0-b264-accc79ac1b1e,news/omnidocbench_newspaper_a9c9e3816aa5cb6866d02c10273dc665_1,news,0,0,0,0.014925373134328358,67,3.404333999242226
+ohrbench_minilm_254_v1,mild,recursive,2a4e54c4-3e2d-4e5c-bc3a-1e63dae9e562,law/IntegrityFunds_20200121_485BPOS_EX-99.E UNDR CONTR_11948727_EX-99.E UNDR CONTR_Service Agreement,law,0,0,1,0.5,2,3.4043750001728768
+ohrbench_minilm_254_v1,mild,recursive,2a519d7e-79c4-417b-a787-d94c6a2f845d,law/IntegrityFunds_20200121_485BPOS_EX-99.E UNDR CONTR_11948727_EX-99.E UNDR CONTR_Service Agreement,law,1,1,1,1.0,1,3.4292500004085014
+ohrbench_minilm_254_v1,mild,recursive,2a6096e9-1f87-4447-bebb-e0c0f6f94606,law/IntegrityFunds_20200121_485BPOS_EX-99.E UNDR CONTR_11948727_EX-99.E UNDR CONTR_Service Agreement,law,1,0,1,0.5,2,3.4523750000516884
+ohrbench_minilm_254_v1,mild,recursive,2a68a671-e9df-4835-9871-7fe53edccce0,law/IntegrityFunds_20200121_485BPOS_EX-99.E UNDR CONTR_11948727_EX-99.E UNDR CONTR_Service Agreement,law,1,0,1,0.5,2,3.4157079999204143
+ohrbench_minilm_254_v1,mild,recursive,2a69acc7-0bf9-40ef-b581-6b74a985ab61,law/DYNTEKINC_07_30_1999-EX-10-ONLINE HOSTING AGREEMENT,law,1,0,1,0.5,2,3.403249999792024
+ohrbench_minilm_254_v1,mild,recursive,2a6c0aa2-7d08-4b15-b574-76f9734262c2,law/DYNTEKINC_07_30_1999-EX-10-ONLINE HOSTING AGREEMENT,law,1,1,1,1.0,1,3.396833999431692
+ohrbench_minilm_254_v1,mild,recursive,2a8a24c0-7ecf-4da5-a332-3af3bb65687c,law/DYNTEKINC_07_30_1999-EX-10-ONLINE HOSTING AGREEMENT,law,0,1,1,1.0,1,3.3993339993685368
+ohrbench_minilm_254_v1,mild,recursive,2a8a9952-8344-4662-84a4-211a40e1a768,law/DYNTEKINC_07_30_1999-EX-10-ONLINE HOSTING AGREEMENT,law,1,1,1,1.0,1,3.6993749999965075
+ohrbench_minilm_254_v1,mild,recursive,2aa36cf7-eb70-4a65-a7d9-9a23e4f7625e,law/DYNTEKINC_07_30_1999-EX-10-ONLINE HOSTING AGREEMENT,law,0,0,1,0.5,2,3.4504579998611007
+ohrbench_minilm_254_v1,mild,recursive,2ac98394-09d9-4f3b-aafe-babba6f33d64,law/ReynoldsConsumerProductsInc_20191115_S-1_EX-10.18_11896469_EX-10.18_Supply Agreement,law,1,0,0,0.06666666666666667,15,3.6547919999065925
+ohrbench_minilm_254_v1,mild,recursive,2ae7439c-c218-469a-acf9-857628f7c21c,law/ReynoldsConsumerProductsInc_20191115_S-1_EX-10.18_11896469_EX-10.18_Supply Agreement,law,1,0,0,0.0625,16,3.446624999924097
+ohrbench_minilm_254_v1,mild,recursive,2b058a0e-e353-4771-ba25-4533805c7d25,law/ReynoldsConsumerProductsInc_20191115_S-1_EX-10.18_11896469_EX-10.18_Supply Agreement,law,0,0,1,0.3333333333333333,3,3.396874999452848
+ohrbench_minilm_254_v1,mild,recursive,2b0d0b28-0a17-4eb6-8efc-bd02f517467f,law/ReynoldsConsumerProductsInc_20191115_S-1_EX-10.18_11896469_EX-10.18_Supply Agreement,law,1,0,0,0.014925373134328358,67,3.442790999542922
+ohrbench_minilm_254_v1,mild,recursive,2b15149e-82de-4dbf-bab2-d94947bd881c,law/ReynoldsConsumerProductsInc_20191115_S-1_EX-10.18_11896469_EX-10.18_Supply Agreement,law,1,1,1,1.0,1,3.396790999431687
+ohrbench_minilm_254_v1,mild,recursive,2b168ae6-ca3f-4823-8394-d576a0756402,law/ReynoldsConsumerProductsInc_20191115_S-1_EX-10.18_11896469_EX-10.18_Supply Agreement,law,1,1,1,1.0,1,3.396624999368214
+ohrbench_minilm_254_v1,mild,recursive,2b2209a9-486f-43d9-9980-da38d8cc46b1,law/ReynoldsConsumerProductsInc_20191115_S-1_EX-10.18_11896469_EX-10.18_Supply Agreement,law,1,1,1,1.0,1,3.3911669997905847
+ohrbench_minilm_254_v1,mild,recursive,2b2e6826-8d17-4524-a6f6-10f1fc74fda6,law/ReynoldsConsumerProductsInc_20191115_S-1_EX-10.18_11896469_EX-10.18_Supply Agreement,law,0,0,0,0.125,8,3.396332999727747
+ohrbench_minilm_254_v1,mild,recursive,2b4f425e-335a-4391-9fa7-d303663257fc,law/ReynoldsConsumerProductsInc_20191115_S-1_EX-10.18_11896469_EX-10.18_Supply Agreement,law,1,0,0,0.043478260869565216,23,3.4075840003424673
+ohrbench_minilm_254_v1,mild,recursive,2b65e81a-75a0-4dcb-9366-3b23031d604b,law/ReynoldsConsumerProductsInc_20191115_S-1_EX-10.18_11896469_EX-10.18_Supply Agreement,law,1,0,0,0.14285714285714285,7,3.4752090004985803
+ohrbench_minilm_254_v1,mild,recursive,2b66b1c0-5fdd-4329-ac74-9cf41f7550bc,law/ReynoldsConsumerProductsInc_20191115_S-1_EX-10.18_11896469_EX-10.18_Supply Agreement,law,1,0,0,0.1111111111111111,9,3.4085409997715033
+ohrbench_minilm_254_v1,mild,recursive,2b6e3e7a-d141-4eb1-8d43-a04e94882dec,law/ReynoldsConsumerProductsInc_20191115_S-1_EX-10.18_11896469_EX-10.18_Supply Agreement,law,1,0,1,0.3333333333333333,3,3.3903749999808497
+ohrbench_minilm_254_v1,mild,recursive,2b74389d-3d38-4859-b810-cd78a75a7cfe,law/ReynoldsConsumerProductsInc_20191115_S-1_EX-10.18_11896469_EX-10.18_Supply Agreement,law,0,0,1,0.5,2,3.395708000425657
+ohrbench_minilm_254_v1,mild,recursive,2bb8a003-e99b-4143-9718-249b5130bd58,law/ReynoldsConsumerProductsInc_20191115_S-1_EX-10.18_11896469_EX-10.18_Supply Agreement,law,0,1,1,1.0,1,3.401625000151398
+ohrbench_minilm_254_v1,mild,recursive,2bbdea79-70dd-4ccf-bd4e-5a2047d2eaba,law/ReynoldsConsumerProductsInc_20191115_S-1_EX-10.18_11896469_EX-10.18_Supply Agreement,law,0,0,0,0.0,,3.4305419994780095
+ohrbench_minilm_254_v1,mild,recursive,2bbeb100-2162-413f-8285-b5e801f33f11,law/ReynoldsConsumerProductsInc_20191115_S-1_EX-10.18_11896469_EX-10.18_Supply Agreement,law,0,1,1,1.0,1,3.3617919998505386
+ohrbench_minilm_254_v1,mild,recursive,2bd3cd8f-2d85-4227-a9fb-608cd1143e87,"law/ADMA BioManufacturing, LLC -  Amendment #3 to Manufacturing Agreement ",law,0,1,1,1.0,1,3.3992500002568704
+ohrbench_minilm_254_v1,mild,recursive,2bdccad0-3027-4dbd-981f-25ed0c7c9761,"law/ADMA BioManufacturing, LLC -  Amendment #3 to Manufacturing Agreement ",law,1,0,1,0.3333333333333333,3,3.3768329994927626
+ohrbench_minilm_254_v1,mild,recursive,2bec0b51-6d3b-41b3-99e0-cba212531d5b,"law/ADMA BioManufacturing, LLC -  Amendment #3 to Manufacturing Agreement ",law,0,1,1,1.0,1,3.377792000719637
+ohrbench_minilm_254_v1,mild,recursive,2bedcda1-972f-4943-ae18-1dca104993c7,"law/ADMA BioManufacturing, LLC -  Amendment #3 to Manufacturing Agreement ",law,1,1,1,1.0,1,3.4065410000039265
+ohrbench_minilm_254_v1,mild,recursive,2bef7682-a992-4bb0-93d8-8615e2cf1e9e,"law/ADMA BioManufacturing, LLC -  Amendment #3 to Manufacturing Agreement ",law,1,0,1,0.5,2,3.3861249994515674
+ohrbench_minilm_254_v1,mild,recursive,2bf9da1e-fc2e-4c12-9e69-8cbd517f6437,"law/ADMA BioManufacturing, LLC -  Amendment #3 to Manufacturing Agreement ",law,0,1,1,1.0,1,3.358999999363732
+ohrbench_minilm_254_v1,mild,recursive,2c05b870-cd34-4cd7-b7ed-75b463d0fccd,"law/ADMA BioManufacturing, LLC -  Amendment #3 to Manufacturing Agreement ",law,1,1,1,1.0,1,3.4352920001765597
+ohrbench_minilm_254_v1,mild,recursive,2c29e2c5-9c6a-458e-a83c-e69ce463f3a0,"law/ADMA BioManufacturing, LLC -  Amendment #3 to Manufacturing Agreement ",law,1,0,0,0.1,10,3.4065840000039316
+ohrbench_minilm_254_v1,mild,recursive,2c2df3c2-1951-4f87-b63f-83c6c89309e9,"law/ADMA BioManufacturing, LLC -  Amendment #3 to Manufacturing Agreement ",law,1,0,0,0.0,,3.4353749997535488
+ohrbench_minilm_254_v1,mild,recursive,2c39222f-52ce-4c28-a32b-c098aa7c1ea3,"law/SIBANNAC,INC_12_04_2017-EX-2.1-Strategic Alliance Agreement",law,1,0,0,0.0,,3.3843330002127914
+ohrbench_minilm_254_v1,mild,recursive,2c3f2a11-9505-4bf6-9494-bdea5b9861b4,"law/SIBANNAC,INC_12_04_2017-EX-2.1-Strategic Alliance Agreement",law,0,1,1,1.0,1,3.417999999328458
+ohrbench_minilm_254_v1,mild,recursive,2c48d008-d10d-4862-b320-132af73a57dd,"law/SIBANNAC,INC_12_04_2017-EX-2.1-Strategic Alliance Agreement",law,1,1,1,1.0,1,3.39762499970675
+ohrbench_minilm_254_v1,mild,recursive,2c513f50-b821-4896-a959-c195678dea4f,"law/SIBANNAC,INC_12_04_2017-EX-2.1-Strategic Alliance Agreement",law,1,1,1,1.0,1,3.410166000321624
+ohrbench_minilm_254_v1,mild,recursive,2c70bbff-290d-4971-afc5-017d796323de,"law/SIBANNAC,INC_12_04_2017-EX-2.1-Strategic Alliance Agreement",law,1,1,1,1.0,1,3.4380419992885436
+ohrbench_minilm_254_v1,mild,recursive,2c8941bd-4b71-48ac-8241-1753bd3a98bd,"law/SIBANNAC,INC_12_04_2017-EX-2.1-Strategic Alliance Agreement",law,0,1,1,1.0,1,3.393792000679241
+ohrbench_minilm_254_v1,mild,recursive,2c8de1d5-eafa-4b45-863f-2d8ccf80ac17,"law/SIBANNAC,INC_12_04_2017-EX-2.1-Strategic Alliance Agreement",law,1,1,1,1.0,1,3.3999999996012775
+ohrbench_minilm_254_v1,mild,recursive,2c9091ad-8225-48ee-9627-5abbe795de1d,"law/SIBANNAC,INC_12_04_2017-EX-2.1-Strategic Alliance Agreement",law,0,1,1,1.0,1,3.3769170004234184
+ohrbench_minilm_254_v1,mild,recursive,2c9ed814-35c9-4d95-b286-58301ce06fbc,"law/SIBANNAC,INC_12_04_2017-EX-2.1-Strategic Alliance Agreement",law,0,1,1,1.0,1,3.4456659996067174
+ohrbench_minilm_254_v1,mild,recursive,2cb16080-a06d-4653-9674-94dfc399daf6,law/ScansourceInc_20190822_10-K_EX-10.38_11793958_EX-10.38_Distributor Agreement2,law,1,1,1,1.0,1,3.448499999649357
+ohrbench_minilm_254_v1,mild,recursive,2cb4fe96-e989-42c9-be2b-668237b1b3c4,law/ScansourceInc_20190822_10-K_EX-10.38_11793958_EX-10.38_Distributor Agreement2,law,1,1,1,1.0,1,3.4138339997298317
+ohrbench_minilm_254_v1,mild,recursive,2cb92788-a71c-416d-8775-01bbc8fb72aa,law/ScansourceInc_20190822_10-K_EX-10.38_11793958_EX-10.38_Distributor Agreement2,law,1,1,1,1.0,1,3.4185410004283767
+ohrbench_minilm_254_v1,mild,recursive,2ccc9e95-c087-4cf7-a1bf-ed334f15de88,law/ScansourceInc_20190822_10-K_EX-10.38_11793958_EX-10.38_Distributor Agreement2,law,0,1,1,1.0,1,3.4050840004056226
+ohrbench_minilm_254_v1,mild,recursive,2ccfef51-dc34-45ad-a88e-3a48417db697,law/ScansourceInc_20190822_10-K_EX-10.38_11793958_EX-10.38_Distributor Agreement2,law,1,1,1,1.0,1,3.440250000494416
+ohrbench_minilm_254_v1,mild,recursive,2cd395eb-c290-4413-9cb2-c15cf5232a0c,law/ScansourceInc_20190822_10-K_EX-10.38_11793958_EX-10.38_Distributor Agreement2,law,1,1,1,1.0,1,3.3986250000452856
+ohrbench_minilm_254_v1,mild,recursive,2cd94cbb-c19a-458c-835b-1c8c0a4c9f7f,news/omnidocbench_newspaper_35bdaa11dec104ccbdc9e19ac8527d21_1,news,0,0,0,0.013333333333333334,75,3.412624999327818
+ohrbench_minilm_254_v1,mild,recursive,2cd9f51a-10c3-43bd-a478-a3998d682a61,law/ScansourceInc_20190822_10-K_EX-10.38_11793958_EX-10.38_Distributor Agreement2,law,1,1,1,1.0,1,3.450958999565046
+ohrbench_minilm_254_v1,mild,recursive,2cdd9303-9906-4e5b-a237-e31e64b57def,law/DIVERSINETCORP_03_01_2012-EX-4-RESELLER AGREEMENT,law,1,1,1,1.0,1,3.328124999825377
+ohrbench_minilm_254_v1,mild,recursive,2ce1f5ef-637a-44d9-bf3b-5db1859d4173,law/DIVERSINETCORP_03_01_2012-EX-4-RESELLER AGREEMENT,law,0,1,1,1.0,1,3.3461250004620524
+ohrbench_minilm_254_v1,mild,recursive,2ce42e41-5961-4401-a3d8-c4800e67287c,law/DIVERSINETCORP_03_01_2012-EX-4-RESELLER AGREEMENT,law,1,1,1,1.0,1,3.425333000450337
+ohrbench_minilm_254_v1,mild,recursive,2cf496eb-eb6d-4c31-af0d-d85c397c11f6,law/DIVERSINETCORP_03_01_2012-EX-4-RESELLER AGREEMENT,law,1,1,1,1.0,1,3.386833000149636
+ohrbench_minilm_254_v1,mild,recursive,2d0942a2-88dd-4338-b2a9-68d9e58b63a9,law/DIVERSINETCORP_03_01_2012-EX-4-RESELLER AGREEMENT,law,0,1,1,1.0,1,3.3842920001916355
+ohrbench_minilm_254_v1,mild,recursive,2d174fc9-6f7c-45ea-a72a-6d8eb5122df8,news/omnidocbench_newspaper_028a1dd5500fbd774e4d85df3c460c4d_1,news,0,0,0,0.027777777777777776,36,3.3621669999774895
+ohrbench_minilm_254_v1,mild,recursive,2d1d134f-91ee-4f41-b7f4-c64ceff9c794,law/DIVERSINETCORP_03_01_2012-EX-4-RESELLER AGREEMENT,law,1,0,1,0.3333333333333333,3,3.0235419999371516
+ohrbench_minilm_254_v1,mild,recursive,2d2d06c9-7115-45f4-bbf2-363d7f5ba46e,law/DIVERSINETCORP_03_01_2012-EX-4-RESELLER AGREEMENT,law,1,1,1,1.0,1,2.975124999466061
+ohrbench_minilm_254_v1,mild,recursive,2d314527-3eb8-43b5-b2ae-050e17c7e855,law/DIVERSINETCORP_03_01_2012-EX-4-RESELLER AGREEMENT,law,1,1,1,1.0,1,2.967874999740161
+ohrbench_minilm_254_v1,mild,recursive,2d37eef0-37ab-42a9-b885-1428834160b2,law/DIVERSINETCORP_03_01_2012-EX-4-RESELLER AGREEMENT,law,1,1,1,1.0,1,2.98120800016477
+ohrbench_minilm_254_v1,mild,recursive,2d43ac7d-4fc6-4972-ac48-62a4bd66a210,law/DIVERSINETCORP_03_01_2012-EX-4-RESELLER AGREEMENT,law,1,1,1,1.0,1,2.9547080002885195
+ohrbench_minilm_254_v1,mild,recursive,2d47a26d-3ba9-4c99-ae51-643e9444b514,law/DIVERSINETCORP_03_01_2012-EX-4-RESELLER AGREEMENT,law,1,1,1,1.0,1,2.9645000004165922
+ohrbench_minilm_254_v1,mild,recursive,2d49ec80-65ba-4571-9603-641927bace69,law/DIVERSINETCORP_03_01_2012-EX-4-RESELLER AGREEMENT,law,1,0,0,0.02127659574468085,47,2.952667000499787
+ohrbench_minilm_254_v1,mild,recursive,2d53f13c-29a9-464b-8d02-4ec04b2bac3c,law/DIVERSINETCORP_03_01_2012-EX-4-RESELLER AGREEMENT,law,1,1,1,1.0,1,2.905791000557656
+ohrbench_minilm_254_v1,mild,recursive,2d5b029b-197e-45a0-8696-ebab11b2332e,law/DIVERSINETCORP_03_01_2012-EX-4-RESELLER AGREEMENT,law,0,1,1,1.0,1,2.908874999775435
+ohrbench_minilm_254_v1,mild,recursive,2d5df04a-14c2-46f3-a7e5-963c493b1112,law/DIVERSINETCORP_03_01_2012-EX-4-RESELLER AGREEMENT,law,1,1,1,1.0,1,2.9571249997388804
+ohrbench_minilm_254_v1,mild,recursive,2d70b34e-e0d0-489b-bab1-a5e3dcfe2264,law/DIVERSINETCORP_03_01_2012-EX-4-RESELLER AGREEMENT,law,1,1,1,1.0,1,2.9201669995018165
+ohrbench_minilm_254_v1,mild,recursive,2d716023-97ec-4a40-b6ad-98ba10fb5581,law/DIVERSINETCORP_03_01_2012-EX-4-RESELLER AGREEMENT,law,1,1,1,1.0,1,2.95158300014009
+ohrbench_minilm_254_v1,mild,recursive,2d8cf7e1-2158-4621-b79f-3b37f0c0dc32,law/DIVERSINETCORP_03_01_2012-EX-4-RESELLER AGREEMENT,law,1,1,1,1.0,1,2.9872079994675005
+ohrbench_minilm_254_v1,mild,recursive,2d9a5462-9b7f-4e35-96fb-588cde44ea1c,law/DIVERSINETCORP_03_01_2012-EX-4-RESELLER AGREEMENT,law,1,0,0,0.1111111111111111,9,2.945541999906709
+ohrbench_minilm_254_v1,mild,recursive,2da44da1-89b5-4368-9f14-c6125f58d5b5,law/DIVERSINETCORP_03_01_2012-EX-4-RESELLER AGREEMENT,law,1,0,1,0.25,4,2.981125000587781
+ohrbench_minilm_254_v1,mild,recursive,2db6db1d-a33f-4754-bc26-1b43eef72d97,law/DIVERSINETCORP_03_01_2012-EX-4-RESELLER AGREEMENT,law,0,1,1,1.0,1,2.9427499994199025
+ohrbench_minilm_254_v1,mild,recursive,2dc36d21-6ca6-4a54-a8db-b95aff248000,law/DIVERSINETCORP_03_01_2012-EX-4-RESELLER AGREEMENT,law,1,1,1,1.0,1,2.9492499998013955
+ohrbench_minilm_254_v1,mild,recursive,2dcbb10e-f7a1-4f3b-ab5d-c17d213b37ea,law/DIVERSINETCORP_03_01_2012-EX-4-RESELLER AGREEMENT,law,0,0,1,0.25,4,2.9395830006251344
+ohrbench_minilm_254_v1,mild,recursive,2dce3b0b-81ee-4582-a737-460b7a5829c1,law/DIVERSINETCORP_03_01_2012-EX-4-RESELLER AGREEMENT,law,1,0,1,0.2,5,2.9013330004090676
+ohrbench_minilm_254_v1,mild,recursive,2dd0fdd8-ee9c-4a17-a3bf-0b99b6bde95c,law/DIVERSINETCORP_03_01_2012-EX-4-RESELLER AGREEMENT,law,1,1,1,1.0,1,2.9132499994375394
+ohrbench_minilm_254_v1,mild,recursive,2e03e952-905c-4b07-befa-37e75e142c4f,law/ACCELERATEDTECHNOLOGIESHOLDINGCORP_04_24_2003-EX-10.13-JOINT VENTURE AGREEMENT,law,0,1,1,1.0,1,2.9087080001772847
+ohrbench_minilm_254_v1,mild,recursive,2e101fa7-8689-43e1-a530-57199f67df3d,law/ACCELERATEDTECHNOLOGIESHOLDINGCORP_04_24_2003-EX-10.13-JOINT VENTURE AGREEMENT,law,1,1,1,1.0,1,2.9434999996738043
+ohrbench_minilm_254_v1,mild,recursive,2e1d2a05-09fc-4040-b2e1-73abe89af364,law/CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_Maintenance Agreement1,law,1,0,1,0.5,2,2.9708339998251176
+ohrbench_minilm_254_v1,mild,recursive,2e22fd39-f31e-4448-a323-c57fa197b954,law/CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_Maintenance Agreement1,law,1,1,1,1.0,1,2.9485830000339774
+ohrbench_minilm_254_v1,mild,recursive,2e29523c-4e77-4b99-bb7b-82d77c309c05,law/CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_Maintenance Agreement1,law,1,1,1,1.0,1,2.952959000140254
+ohrbench_minilm_254_v1,mild,recursive,2e3a2360-76bd-4324-b128-6452bebb6115,law/CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_Maintenance Agreement1,law,1,0,1,0.5,2,2.9605830004584277
+ohrbench_minilm_254_v1,mild,recursive,2e567afc-c3e6-403c-a0c5-716a876a516f,law/CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_Maintenance Agreement1,law,0,1,1,1.0,1,2.9635419996338896
+ohrbench_minilm_254_v1,mild,recursive,2e603069-b0a5-434e-abc7-b4955451e5b4,law/CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_Maintenance Agreement1,law,1,0,0,0.1111111111111111,9,2.900292000049376
+ohrbench_minilm_254_v1,mild,recursive,2e66214d-a36c-46ad-b78e-847300e27a43,law/CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_Maintenance Agreement1,law,0,0,0,0.0,,3.0037500000617
+ohrbench_minilm_254_v1,mild,recursive,2e85cb21-7631-4e9d-9de9-f86322bd3388,news/omnidocbench_newspaper_9729b78cbf9f2820b9f257fff7e3171b_1,news,1,0,0,0.06666666666666667,15,2.9571669992947136
+ohrbench_minilm_254_v1,mild,recursive,2e95f5b6-74bd-4f67-b5ed-c7eb35d327e0,law/CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_Maintenance Agreement1,law,1,1,1,1.0,1,2.9713339999943855
+ohrbench_minilm_254_v1,mild,recursive,2e99dffa-903e-46cf-98f2-05bb2254aa07,law/CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_Maintenance Agreement1,law,1,1,1,1.0,1,2.959708000162209
+ohrbench_minilm_254_v1,mild,recursive,2e9db14b-67b8-4585-95ce-fe1c1d91796c,law/CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_Maintenance Agreement1,law,1,0,1,0.5,2,3.153667000333371
+ohrbench_minilm_254_v1,mild,recursive,2ea7cfd5-ffa5-42ff-80e9-8baa5c51eaff,law/CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_Maintenance Agreement1,law,1,1,1,1.0,1,3.385875000276428
+ohrbench_minilm_254_v1,mild,recursive,2ebed37d-05d1-46b6-acee-c38d511fcda9,law/CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_Maintenance Agreement1,law,0,0,0,0.1111111111111111,9,3.4062909999192925
+ohrbench_minilm_254_v1,mild,recursive,2ed3dea2-f3f9-4d86-b11f-02ace9052731,law/CardlyticsInc_20180112_S-1_EX-10.16_11002987_EX-10.16_Maintenance Agreement1,law,1,0,1,0.3333333333333333,3,3.739624999980151

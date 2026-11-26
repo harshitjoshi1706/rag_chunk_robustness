@@ -1,0 +1,9 @@
+run_id,noise_level,chunker,query_id,doc_name,domain,context_verified,hit_at_1,hit_at_5,reciprocal_rank,first_relevant_rank,retrieval_latency_ms
+ohrbench_minilm_254_v1,moderate,semantic,f1578470-0182-47c4-ba1b-58066160a6b4,news/omnidocbench_newspaper_4790b51e8fa793743699647c09a93ccb_1,news,1,0,0,0.023255813953488372,43,3.4364590028417297
+ohrbench_minilm_254_v1,moderate,semantic,f2e9702d-11e9-4daa-ae69-81a35d3d9e56,news/omnidocbench_newspaper_0cfb8a42b5d4194d8c73dba0cdf6256c_1,news,0,0,1,0.3333333333333333,3,3.4245419992657844
+ohrbench_minilm_254_v1,moderate,semantic,f4188f3f-8a14-4e62-a95b-4715c333e861,news/omnidocbench_newspaper_2140e879cd0d3c1b5ba2ea1e3a75aab6_1,news,0,1,1,1.0,1,3.443500001594657
+ohrbench_minilm_254_v1,moderate,semantic,f5b78cc7-e6b3-4944-8b32-3e357922bac2,news/omnidocbench_newspaper_74fc3b01b2cc4a7e6ca0f1af2b998187_1,news,1,0,0,0.014084507042253521,71,3.4019580016320106
+ohrbench_minilm_254_v1,moderate,semantic,f6b751f7-9b74-4245-9b1b-c8952af43ab7,news/omnidocbench_newspaper_e6083de4647ef28434cb6a598b073ae4_1,news,0,0,1,0.5,2,3.3873329994094092
+ohrbench_minilm_254_v1,moderate,semantic,fb10987f-20ac-4703-ab67-146a77a6e17c,news/omnidocbench_newspaper_9729b78cbf9f2820b9f257fff7e3171b_1,news,0,0,0,0.08333333333333333,12,3.4186670018243603
+ohrbench_minilm_254_v1,moderate,semantic,fc377a4c-4a15-444d-85e7-ce8a3a578a8e,news/omnidocbench_newspaper_5d4b8e73eacbc6ecac0d7b1396fd01d7_1,news,0,0,0,0.08333333333333333,12,3.4205409974674694
+ohrbench_minilm_254_v1,moderate,semantic,ff37d19c-2e76-428b-8735-44f9ea83bf00,news/omnidocbench_newspaper_35bdaa11dec104ccbdc9e19ac8527d21_1,news,1,0,0,0.047619047619047616,21,3.4144580022257287

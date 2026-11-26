@@ -25,14 +25,6 @@ __pycache__/
 indexes/*
 !indexes/.gitkeep
 
-# Generated experiment results
-results/*
-!results/.gitkeep
-
-# Generated plots
-plots/*
-!plots/.gitkeep
-
 # Temporary files
 *.tmp
 *.log
